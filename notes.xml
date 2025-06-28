@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Muhammad Azani Hasibuan</title>
+<link>https://muhammadazani.github.io/notes.html</link>
+<atom:link href="https://muhammadazani.github.io/notes.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.433</generator>
+<lastBuildDate>Fri, 27 Jun 2025 17:00:00 GMT</lastBuildDate>
+<item>
+  <title>Learning Analytics in the Age of AI: Reflections from a Computing Educator</title>
+  <dc:creator>Muhammad Azani hasibuan</dc:creator>
+  <link>https://muhammadazani.github.io/notes/learningAnalytics.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>When I first started teaching programming over a decade ago, my biggest concern was how to keep students engaged beyond the syntax. Why did some students thrive while others got lost after the second loop? How could I identify students struggling with core concepts <em>before</em> they failed their exams?</p>
+<p>Fast forward to today — we’re living in an era where data from every keystroke, click, submission, and discussion thread is logged. Our classrooms, especially in computer science, are rich with digital traces of learning. The challenge now is not <em>collecting</em> data, but <em>making sense of it</em>. This is where <strong>Learning Analytics (LA)</strong> comes in — and in the age of Artificial Intelligence, it’s becoming a game changer.</p>
+<hr>
+<section id="so-what-is-learning-analytics" class="level2">
+<h2 class="anchored" data-anchor-id="so-what-is-learning-analytics"><strong>🎯 So, What Is Learning Analytics?</strong></h2>
+<p>In simple terms, learning analytics is about measuring and analyzing student data to understand and improve learning. It’s not a new idea, but the capabilities have grown exponentially. Today, we can track not just whether a student submitted an assignment, but how they coded it, how long they spent on debugging, which resources they consulted, and whether they learned <em>deeply</em> or just <em>barely enough</em> to get by.</p>
+<p>In my classes, especially those involving Java, GitHub, or Moodle-based labs, I can now access a full behavioral footprint. It’s like having a mirror that shows how my students <em>actually</em> learn — not just what they score.</p>
+<hr>
+</section>
+<section id="why-the-ai-era-changes-everything" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-ai-era-changes-everything"><strong>🤖 Why the AI Era Changes Everything</strong></h2>
+<p>The hype around AI often centers on large language models (LLMs) like ChatGPT or tools like GitHub Copilot. But for educators, the real transformation is in how AI enables new layers of <strong>interpretation</strong> and <strong>prediction</strong> in learning analytics.</p>
+<p>Here’s what AI makes possible:</p>
+<ul>
+<li><p><strong>Pattern detection</strong>: Algorithms can identify students who are silently disengaging long before it becomes visible to a lecturer.</p></li>
+<li><p><strong>Personalized feedback</strong>: AI systems can provide individualized nudges based on how a student learns, not just what they got wrong.</p></li>
+<li><p><strong>Cognitive modeling</strong>: We’re getting closer to modeling students’ self-regulated learning — things like planning, monitoring, and reflecting — by interpreting multimodal data (LMS logs, GitHub commits, Slack messages, etc.).</p></li>
+</ul>
+<p>For those of us in <strong>Computing Education</strong>, where the learning process is as important as the output (i.e., code), this is gold.</p>
+<hr>
+</section>
+<section id="the-higher-ed-reality-promise-and-pitfalls" class="level2">
+<h2 class="anchored" data-anchor-id="the-higher-ed-reality-promise-and-pitfalls"><strong>🎓 The Higher Ed Reality: Promise and Pitfalls</strong></h2>
+<p>Let’s be honest: most universities are still catching up. Sure, we have LMS dashboards and performance reports, but they’re mostly <em>descriptive</em>. Very few institutions use LA proactively — to intervene, to mentor, to redesign.</p>
+<p>I’ve seen three common pitfalls:</p>
+<ol type="1">
+<li><p><strong>Data without pedagogy</strong>: Just because we can measure doesn’t mean we’re asking the right questions.</p></li>
+<li><p><strong>Surveillance over support</strong>: Students are more likely to accept analytics if it helps them <em>grow</em>, not just <em>monitor</em> them.</p></li>
+<li><p><strong>Lack of faculty training</strong>: Many educators are still wary or unaware of what LA (and AI) can offer.</p></li>
+</ol>
+<p>We need a cultural shift where <em>learning analytics becomes part of the instructional design</em>, not just an admin add-on.</p>
+<hr>
+</section>
+<section id="case-in-point-my-current-research" class="level2">
+<h2 class="anchored" data-anchor-id="case-in-point-my-current-research"><strong>🧠 Case in Point: My Current Research</strong></h2>
+<p>My own PhD journey is centered around this question: <strong>Can we transform raw log data into meaningful indicators of student learning behavior?</strong> I’m working on a framework that abstracts low-level events — like assignment-view, quiz-start, code-push — into high-level <em>learning actions</em> using domain knowledge and context (e.g., early planning, deadline-driven cramming, iterative coding).</p>
+<p>One of the most exciting directions? Using <strong>supervised learning and expert validation</strong> to map these behaviors to dimensions of <em>self-regulated learning</em>. The end goal is to give students a mirror — not to shame them, but to guide them.</p>
+<hr>
+</section>
+<section id="what-can-we-do-as-educators" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-we-do-as-educators"><strong>🌱 What Can We Do as Educators?</strong></h2>
+<p>If you’re a fellow CS educator, here are a few humble suggestions:</p>
+<ul>
+<li><p><strong>Start small</strong>: Use your LMS logs to identify common drop-off points. When do students stop engaging?</p></li>
+<li><p><strong>Visualize</strong>: Plot timelines of activity — are students coding steadily or all in the last 24 hours?</p></li>
+<li><p><strong>Reflect</strong>: Share anonymized patterns with your students. Ask: <em>What kind of learner are you becoming?</em></p></li>
+<li><p><strong>Collaborate</strong>: Work with learning scientists or data analysts at your institution. You don’t have to do it alone.</p></li>
+</ul>
+<hr>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="final-thoughts"><strong>✨ Final Thoughts</strong></h2>
+<p>Learning Analytics in the AI era isn’t about replacing educators. It’s about augmenting our ability to care, support, and design better learning experiences. As computing educators, we are uniquely positioned — not only to teach about AI but to use it to transform how our students <em>learn to learn</em>.</p>
+<p>In the end, the best analytics system is not the one that predicts grades. It’s the one that helps a struggling student find their way back into the joy of learning.</p>
+<p>Let’s build that future — mindfully, ethically, and with our students at the center.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>learning analytics</category>
+  <category>essay</category>
+  <guid>https://muhammadazani.github.io/notes/learningAnalytics.html</guid>
+  <pubDate>Fri, 27 Jun 2025 17:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
