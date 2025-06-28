@@ -11,20 +11,41 @@
     "href": "index.html",
     "title": "Muhammad Azani Hasibuan",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
+    "text": "Hi, I’m Azan — a lecturer in Information Systems and a PhD candidate in Computer Science, with a passion for learning analytics, educational technology, and intelligent systems that empower learners.\nOver the past few years, I’ve dedicated myself to exploring how data can enhance education. My current research focuses on developing a framework to transform low-level student activity logs into meaningful behavioral insights, helping educators better understand and support self-regulated learning in digital environments. I combine expertise in process mining, machine learning, and behavioral analytics to bridge the gap between raw educational data and impactful learning decisions.\nAs a lecturer, I love designing student-centered learning experiences using real-world case studies, mastery-based learning models, and active learning strategies. I’ve taught courses in Object-Oriented Programming, Databases, and Information Systems Strategy, and I always aim to make abstract concepts more approachable and applicable.\nBeyond academia, I enjoy building personal productivity systems that integrate Islamic values with modern frameworks like OKR and the 12-Week Year. I also have hands-on experience with cloud computing (Azure, AWS), data visualization, and educational software development."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Muhammad Azani Hasibuan",
+    "section": "",
+    "text": "Hi, I’m Azan — a lecturer in Information Systems and a PhD candidate in Computer Science, with a passion for learning analytics, educational technology, and intelligent systems that empower learners.\nOver the past few years, I’ve dedicated myself to exploring how data can enhance education. My current research focuses on developing a framework to transform low-level student activity logs into meaningful behavioral insights, helping educators better understand and support self-regulated learning in digital environments. I combine expertise in process mining, machine learning, and behavioral analytics to bridge the gap between raw educational data and impactful learning decisions.\nAs a lecturer, I love designing student-centered learning experiences using real-world case studies, mastery-based learning models, and active learning strategies. I’ve taught courses in Object-Oriented Programming, Databases, and Information Systems Strategy, and I always aim to make abstract concepts more approachable and applicable.\nBeyond academia, I enjoy building personal productivity systems that integrate Islamic values with modern frameworks like OKR and the 12-Week Year. I also have hands-on experience with cloud computing (Azure, AWS), data visualization, and educational software development."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Muhammad Azani Hasibuan",
-    "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nPhD in Computer Science (2025)\n\nUniversity of Western Australia (UWA), Perth\nFocus: Learning Analytics, Self-Regulated Learning, Event Abstraction, Process Mining\n\nMaster of Information Systems (2011)\n\nUniversitas Indonesia , Indonesia\n\nBachelor of Informatics Engineering (2008)\n\nUniversitas Indonesia, Indonesia"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
     "title": "Muhammad Azani Hasibuan",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+    "section": "🔍 Research Interests",
+    "text": "🔍 Research Interests\n\nLearning Analytics & Educational Data Mining\nSelf-Regulated Learning (SRL) & Behavior Modeling\nEvent Abstraction & Process Mining\nAI-based Feedback & Digital Nudging in Education\nProductivity Systems for Lifelong Learning"
+  },
+  {
+    "objectID": "index.html#current-project",
+    "href": "index.html#current-project",
+    "title": "Muhammad Azani Hasibuan",
+    "section": "📘 Current Project",
+    "text": "📘 Current Project\nDissertation Title:\nA Systematic Framework for Context and Domain-Driven Event Abstraction in Multi-modal Data within Online Collaborative Learning Environments\nGoal:\nTo measure and improve students’ self-regulation strategies by transforming raw learning events into high-level, interpretable learning actions — validated through expert judgment and process analysis."
+  },
+  {
+    "objectID": "index.html#get-in-touch",
+    "href": "index.html#get-in-touch",
+    "title": "Muhammad Azani Hasibuan",
+    "section": "📬 Get in Touch",
+    "text": "📬 Get in Touch\nWhether you’re interested in learning analytics, education technology, productivity systems, or just want to say hi — feel free to contact me or connect on LinkedIn."
   }
 ]
