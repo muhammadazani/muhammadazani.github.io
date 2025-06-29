@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Muhammad Azani Hasibuan">
+<meta name="dcterms.date" content="2025-06-29">
 
-<title>Muhammad Azani Hasibuan - Notes</title>
+<title>Muhammad Azani Hasibuan - The Syntax Trap: Re-evaluating Programming Pedagogy in Higher Education</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,40 +61,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -104,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Muhammad Azani Hasibuan</span>
     </a>
   </div>
@@ -115,19 +84,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./notes.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../notes.html" rel="" target="">
  <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html" rel="" target="">
+    <a class="nav-link" href="../papers.html" rel="" target="">
  <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
+    <a class="nav-link" href="../teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -143,20 +112,37 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="computational thinking">computational thinking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="essay">essay <span class="quarto-category-count">(2)</span></div><div class="category" data-category="learning analytics">learning analytics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="teaching">teaching <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Notes</h1>
-</div>
+<h1 class="title">The Syntax Trap: Re-evaluating Programming Pedagogy in Higher Education</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">computational thinking</div>
+    <div class="quarto-category">teaching</div>
+    <div class="quarto-category">essay</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Muhammad Azani Hasibuan </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 29, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -164,121 +150,17 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>The pervasive challenge of programming education in higher institutions, despite its critical role in equipping future innovators, remains a significant concern. Having dedicated over a decade to teaching programming, my observations and experiences as a Computer Science Education PhD student compel me to critique the prevailing pedagogical approach: an overemphasis on programming language syntax at the expense of cultivating computational thinking. This deeply ingrained flaw in our curriculum frequently leads to a disheartening paradox: students who are fluent in syntax yet struggle profoundly with solving genuine computational problems.</p>
+<p>The current paradigm, unfortunately, often treats programming as a linguistic exercise rather than a problem-solving discipline. Syllabi are frequently structured around an exhaustive tour of language constructs – variables, data types, control flow, functions, objects, and so forth. While undeniably foundational, this atomistic approach dissects the “how” of coding without adequately addressing the “why” or, crucially, the “what next.” Students diligently memorize keywords, understand operator precedence, and even master complex library functions. They can flawlessly write code that compiles and runs, yet when confronted with a novel problem requiring a decomposition into smaller, manageable parts, pattern recognition, abstraction, or algorithmic design, they often hit an insurmountable wall. Their mental toolkit is replete with hammers and screwdrivers, but they lack the blueprint or the architect’s vision to construct a building.</p>
+<p>Computational thinking, in essence, is the cognitive process involved in formulating problems and their solutions in a way that is amenable to execution by a computer. It encompasses decomposition, breaking down complex problems into smaller, more manageable ones; pattern recognition, identifying similarities among and within problems; abstraction, focusing on the important information while ignoring irrelevant details; and algorithmic thinking, developing step-by-step solutions. These are the intellectual muscles that empower a programmer to translate a real-world challenge into an efficient and elegant computational solution. However, current teaching methodologies often sideline these crucial cognitive skills, implicitly assuming they will magically emerge from mere exposure to syntax.</p>
+<p>This pedagogical oversight manifests in several critical ways. Students become reliant on rote memorization and pattern matching to previously seen examples, rather than developing the ability to analyze and synthesize. When faced with an unfamiliar problem, they lack the conceptual frameworks to approach it systematically. Debugging, a vital aspect of programming, becomes an exercise in trial and error rather than logical deduction, as they struggle to trace the flow of execution or reason about the underlying logic. Furthermore, this syntax-heavy approach often stifles creativity and intrinsic motivation. Programming transforms from an exciting endeavor of creation and problem-solving into a tedious task of adhering to rigid rules, leading to disengagement and a higher attrition rate in advanced courses.</p>
+<p>The consequences of this imbalance are far-reaching. Graduates, despite holding degrees in Computer Science, may struggle in industry roles that demand adaptive problem-solving, innovative design, and the ability to work with ill-defined problems. They might possess the technical vocabulary but lack the fluency to converse in the language of solutions. This gap between academic training and industry demands creates a significant hurdle for both individuals and the broader technological landscape.</p>
+<p>To rectify this imbalance, a fundamental shift in our educational philosophy is imperative. We must re-center our programming curricula around computational thinking, integrating it explicitly and implicitly throughout all levels of instruction. This means moving beyond merely demonstrating syntax and instead prioritizing activities that foster decomposition, abstraction, and algorithmic design. Early courses should introduce problem-solving strategies, perhaps through unplugged activities or visual programming environments, before diving headfirst into complex syntactical structures. Projects should be designed not just to test syntax mastery but to challenge students to apply computational thinking principles to solve real-world problems, even if simplified. Emphasis should be placed on code readability, logical correctness, and efficiency, rather than just functional output. Debugging should be taught as a systematic process of hypothesis testing and logical reasoning.</p>
+<p>In conclusion, while programming language syntax is the vehicle, computational thinking is the engine that drives true problem-solving in computer science. Our current educational approach, with its undue focus on the former, is inadvertently producing a generation of skilled typists rather than adept problem solvers. It is time for a paradigm shift, one that prioritizes the cultivation of robust computational thinking skills alongside syntactical proficiency, ensuring that our graduates are not merely fluent in the language of computers, but are truly capable of harnessing their power to innovate and address the complex challenges of the 21st century.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1751184098210" data-listing-reading-time-sort="36">
-<div class="thumbnail">
-<p><a href="./notes/AIinHigherEducation.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./notes/AIinHigherEducation.html">
-<h3 class="no-anchor listing-title">
-Academic Policy Framework for Ethical AI Use in Higher Eudcation: Case in Telkom University
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Telkom University…<strong></strong><strong></strong>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./notes/AIinHigherEducation.html">
-<div class="listing-author">
-Muhammad Azani Hasibuan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="learning analytics,essay" data-listing-date-sort="1751043600000" data-listing-file-modified-sort="1751123686545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<div class="thumbnail">
-<p><a href="./notes/learningAnalytics.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./notes/learningAnalytics.html">
-<h3 class="no-anchor listing-title">
-Learning Analytics in the Age of AI: Reflections from a Computing Educator
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('learning analytics'); return false;">
-learning analytics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('essay'); return false;">
-essay
-</div>
-</div>
-<a href="./notes/learningAnalytics.html">
-<div class="listing-description">
-When I first started teaching programming over a decade ago, my biggest concern was how…<em></em>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./notes/learningAnalytics.html">
-<div class="listing-date">
-Jun 28, 2025
-</div>
-<div class="listing-author">
-Muhammad Azani hasibuan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="computational thinking,teaching,essay" data-listing-date-sort="1751130000000" data-listing-file-modified-sort="1751206400456" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<div class="thumbnail">
-<p><a href="./notes/sytnaxtTrap.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./notes/sytnaxtTrap.html">
-<h3 class="no-anchor listing-title">
-The Syntax Trap: Re-evaluating Programming Pedagogy in Higher Education
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('computational thinking'); return false;">
-computational thinking
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('teaching'); return false;">
-teaching
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('essay'); return false;">
-essay
-</div>
-</div>
-<a href="./notes/sytnaxtTrap.html">
-<div class="listing-description">
-The pervasive challenge of programming education in higher institutions, despite its critical role in equipping future innovators, remains a significant concern. Having…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./notes/sytnaxtTrap.html">
-<div class="listing-date">
-Jun 29, 2025
-</div>
-<div class="listing-author">
-Muhammad Azani Hasibuan
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
