@@ -1,0 +1,7 @@
+---
+title: Notes
+listing:
+  contents: notes
+  categories: true
+  type: default
+---

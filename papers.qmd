@@ -1,0 +1,53 @@
+---
+title: "Papers"
+---
+
+## 2023
+
+-   Hasibuan, M. A., Reynolds, M., Male, S., & Hassan, G. M. (2023). Role of theory in analysing the dynamic of self-regulated learning process based on students’ event logs data: A scoping review. ASCILITE 2023: People, Partnerships and Pedagogies, 126–136.
+
+-   Hasibuan, M. A., Andreswari, R., Lubis, M., Perdana, F., & Fakhrurroja, H. (2023). Classification algorithm for predicting the graduation level: Case study of e-learning in Telkom University. In Intelligent Sustainable Systems: Selected Papers of WorldS4 2022 (Vol. 1). Springer.
+
+## 2022
+
+-   Lubis, M., Hasibuan, M. A., & Andreswari, R. (2022). Satisfaction measurement in the blended learning system of the university: The Literacy Mediated-Discourses (LM-D) framework. Sustainability, 14(19), 12929. https://doi.org/10.3390/su141912929
+
+## 2021
+
+-   Hasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F. (2021). Assessing a measurement model of self-regulated learning in an online collaborative learning environment. In REES AAEE 2021 Conference: Engineering Education Research Capability.
+
+## 2020
+
+-   Azzahra, Z. F., Andreswari, R., & Hasibuan, M. A. (2020). Sentiment analysis website of online hotel booking application reviews using the Naive Bayes algorithm. In 2020 6th International Conference on Science and Technology (ICST) (pp. 1–6). IEEE.
+
+-   Kusumasari, T. F., Amethyst, S. R., Hasibuan, M. A., & Nurtrisha, W. A. (2020). Cardinality single column analysis for data profiling using an open source platform. In 2020 6th International Conference on Science and Technology (ICST) (pp. 1–5). IEEE.
+
+-   Prasetyo, Y. A., Lubis, M., Hasibuan, M. A., & Fauzi, R. (2020). Integrated virtual communities into user group management system (UGMS) for smart cities. Journal of Physics: Conference Series, 1566(1), 012117.
+
+-   Fitri, N. M. G., Andreswari, R., & Hasibuan, M. A. (2020). Android-based fiqh consultation application development. In Digital Economy for Customer Benefit and Business Fairness (pp. 1–7).
+
+-   Noor, S. A., Kusumasari, T. F., & Hasibuan, M. A. (2020). Data cleansing with PDI for improving data quality.
+
+-   Effendy, M. R., Kusumasari, T. F., & Hasibuan, M. A. (2020). Analysis and design of data quality monitoring application using open source tools: A case study at a government agency.
+
+## 2019
+
+-   Aninditya, A., Hasibuan, M. A., & Sutoyo, E. (2019). Text mining approach using TF-IDF and Naive Bayes for classification of exam questions based on cognitive level of Bloom’s taxonomy. In 2019 IEEE International Conference on Internet of Things and Intelligence System (IoTaIS). IEEE.
+
+-   Effendy, M. R., Kusumasari, T. F., & Hasibuan, M. A. (2019). Star schema implementation for monitoring in data quality management tool (a case study at a government agency). In 2019 4th International Conference on Informatics and Computing (ICIC) (pp. 1–6). IEEE.
+
+-   Fitriansah, I. A., Andreswari, R., & Hasibuan, M. A. (2019). Business process analysis of academic information system application using process mining (case study: Final project module). In 2019 5th International Conference on New Media Studies (CONMEDIA) (pp. 189–194). IEEE.
+
+-   Subagya, K. A., Pratami, D., & Hasibuan, M. A. (2019). Pengembangan konten e-learning menggunakan design sprint pada mata kuliah manajemen proyek (Topik: Project introduction). JISI: Jurnal Integrasi Sistem Industri, 6(2), 107–116.
+
+-   Virra, K., Andreswari, R., & Hasibuan, M. A. (2019). Sentiment analysis of social media users using Naïve Bayes, Decision Tree, Random Forest algorithm: A case study of draft law on the elimination of sexual violence (RUU PKS). In 2019 International Conference on Sustainable Engineering and Creative Industries.
+
+-   Latifah, S. N., Andreswari, R., & Hasibuan, M. A. (2019). Prediction analysis of student specialization suitability using artificial neural network algorithm. In 2019 International Conference on Sustainable Engineering and Creative Industries.
+
+-   Hidayat, A. T., Gumilang, S. F. S., & Hasibuan, M. A. (2019). Pengembangan aplikasi Android “dikampus” untuk manajemen warung dan pesanan menggunakan metode iterative incremental (studi kasus layanan pesan antar makanan untuk wilayah kampus). eProceedings of Engineering, 6(2).
+
+-   Wirasandi, A., Gumilang, S. F. S., & Hasibuan, M. A. (2019). Integrasi Line Bot layanan pesan antar makanan “dikampus” menggunakan Line Front-end Framework (LIFF) dengan metode iterative incremental. eProceedings of Engineering, 6(2).
+
+-   Irsan, B. A., Andreswari, R., & Hasibuan, M. A. (2019). Analisis dan perancangan dashboard sistem pendukung keputusan untuk memprediksi bidang peminatan (Studi kasus: Program Studi S1 Sistem Informasi Universitas Telkom). eProceedings of Engineering, 6(2).
+
+-   Prasetyo, Y. A., Lubis, M., & Hasibuan, M. A. (2019). User group management and smart society: Readiness assessment of UU Adminduk (National Administration). Journal of Physics: Conference Series, 1235(1), 012019.

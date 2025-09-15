@@ -1,0 +1,8 @@
+---
+title: "research"
+listing:
+  contents: research
+  sort: "date desc"
+  type: default
+  categories: true
+---
