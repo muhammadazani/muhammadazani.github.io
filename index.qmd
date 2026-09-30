@@ -39,7 +39,7 @@ Beyond academia, I enjoy building personal productivity systems that integrate I
 
 ## Education
 
-**PhD in Computer Science** (2025) · University of Western Australia (UWA), Perth\
+**PhD in Computer Science**  · University of Western Australia (UWA), Perth\
 Focus: Learning Analytics, Self-Regulated Learning, Event Abstraction, Process Mining
 
 **Master of Information Systems** (2011) · Universitas Indonesia

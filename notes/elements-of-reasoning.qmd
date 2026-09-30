@@ -1,14 +1,25 @@
 ---
 title: "Elements of reasoning"
 date: 2023-02-06
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-There are at least 8 basic elements for reasoning:
-- purpose
-- Question/problems/issues
-- point of view
-- assumptions
-- theories/models/concepts
-- data/information
-- implications/consequences
-- conclussions/ inferences
+- There are at least 8 basic elements for reasoning:
+
+  1.  purpose
+
+  2.  Question/problems/issues
+
+  3.  point of view
+
+  4.  assumptions
+
+  5.  theories/models/concepts
+
+  6.  data/information
+
+  7.  implications/consequences
+
+  8.  conclusions/ inferences
