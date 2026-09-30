@@ -31,3 +31,31 @@ $primary: #2a6f97;
 .course-list { margin-bottom: 0.5rem; }
 .quarto-listing .listing-no-matching, .quarto-listing .pagination { display: none; }
 .card-body > h4:first-child, .card-body > .anchored:first-child { margin-top: 0; }
+
+// About page
+.quarto-about-trestles .lead { font-size: 1.2rem; font-weight: 400; line-height: 1.6; margin-bottom: 1.25rem; }
+.about-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.5rem 0 2.25rem; }
+.about-actions p { display: contents; }
+.about-actions .btn { padding: 0.35rem 1rem; }
+.interest-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.75rem; margin: 1rem 0 1.5rem; }
+.interest-card {
+  display: flex; align-items: center; gap: 0.75rem; padding: 0.85rem 1rem;
+  border: 1px solid rgba($primary, 0.25); border-radius: 10px; background: rgba($primary, 0.05);
+}
+.interest-card p { margin: 0; display: flex; align-items: center; gap: 0.75rem; font-size: 0.95rem; line-height: 1.35; }
+.interest-card .bi { font-size: 1.4rem; color: $primary; flex: 0 0 auto; }
+.interest-card strong { font-weight: 600; }
+.edu-list { border-left: 2px solid rgba($primary, 0.35); margin: 1rem 0 1.5rem 0.4rem; padding-left: 1.25rem; }
+.edu-item { position: relative; margin-bottom: 1.1rem; }
+.edu-item::before {
+  content: ""; position: absolute; left: calc(-1.25rem - 6px); top: 0.35rem;
+  width: 10px; height: 10px; border-radius: 50%; background: $primary;
+}
+.edu-item p { margin: 0; }
+.edu-year { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: $primary; }
+.edu-detail { font-size: 0.9rem; opacity: 0.75; }
+body.quarto-dark {
+  .interest-card .bi, .edu-year { color: #7cc0e6; }
+  .edu-item::before { background: #7cc0e6; }
+  .about-actions .btn-outline-primary { color: #7cc0e6; border-color: #7cc0e6; }
+}

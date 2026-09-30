@@ -1,51 +1,106 @@
 ---
 title: "Muhammad Azani Hasibuan"
-subtitle: "Lecturer in Information Systems · PhD candidate in Computer Science"
+subtitle: "Lecturer in Information Systems · PhD Candidate in Computer Science"
+pagetitle: "Muhammad Azani Hasibuan"
 toc: false
+title-block-banner: false
 about:
   template: trestles
   image: images/profile.png
+  image-shape: rounded
+  image-width: 16em
   links:
     - icon: github
       text: GitHub
       href: https://github.com/muhammadazani
     # TODO: uncomment and fill in the links you want to show
-    # - icon: linkedin
-    #   text: LinkedIn
-    #   href: https://www.linkedin.com/in/your-profile
     # - icon: mortarboard
     #   text: Google Scholar
     #   href: https://scholar.google.com/citations?user=YOUR_ID
+    # - icon: linkedin
+    #   text: LinkedIn
+    #   href: https://www.linkedin.com/in/your-profile
     # - icon: envelope
     #   text: Email
     #   href: mailto:you@example.com
 ---
 
-Hi, I'm Azani, a lecturer in Information Systems and a PhD candidate in Computer Science, with a passion for learning analytics, educational technology, and intelligent systems that empower learners.
+::: {.lead}
+I study how the digital traces students leave behind can be turned into insight that helps them learn. My work sits at the intersection of **learning analytics**, **self-regulated learning** and **process mining**.
+:::
 
-Over the past few years, I have dedicated myself to exploring how data can enhance education. My current research focuses on developing a framework to transform low-level student activity logs into meaningful behavioral insights, helping educators better understand and support self-regulated learning in digital environments. I combine expertise in process mining, machine learning, and behavioral analytics to bridge the gap between raw educational data and impactful learning decisions.
+I am a lecturer in Information Systems and a PhD candidate in Computer Science at the University of Western Australia. My doctoral research develops a framework that transforms low-level student activity logs into meaningful, theory-informed learning actions, so that educators can see and support self-regulated learning in online and collaborative environments. To do this, I combine process mining, machine learning and behavioural analytics with learning-science theory.
 
-As a lecturer, I love designing student-centered learning experiences using real-world case studies, mastery-based learning models, and active learning strategies. I've taught courses in Object-Oriented Programming, Databases, and Information Systems Strategy, and I always aim to make abstract concepts more approachable and applicable.
+In the classroom, I design student-centred courses built on real-world case studies, mastery-based learning and active learning. I have taught Object-Oriented Programming, Databases and Information Systems Strategy, and my goal is always to make abstract concepts concrete and applicable.
 
-Beyond academia, I enjoy building personal productivity systems that integrate Islamic values with modern frameworks like OKR and the 12-Week Year. I also have hands-on experience with cloud computing (Azure, AWS), data visualization, and educational software development.
+::: {.about-actions}
+[Research](research.qmd){.btn .btn-primary}
+[Publications](publications.qmd){.btn .btn-outline-primary}
+[CV](cv.qmd){.btn .btn-outline-primary}
+:::
 
 ## Research interests
 
-- Learning Analytics & Educational Data Mining
-- Self-Regulated Learning (SRL) & Behavior Modeling
-- Event Abstraction & Process Mining
-- AI-based Feedback & Digital Nudging in Education
-- Productivity Systems for Lifelong Learning
+::: {.interest-grid}
+::: {.interest-card}
+[]{.bi .bi-graph-up}
+**Learning analytics & educational data mining**
+:::
+
+::: {.interest-card}
+[]{.bi .bi-person-check}
+**Self-regulated learning & behaviour modelling**
+:::
+
+::: {.interest-card}
+[]{.bi .bi-diagram-3}
+**Event abstraction & process mining**
+:::
+
+::: {.interest-card}
+[]{.bi .bi-chat-square-text}
+**AI-based feedback & digital nudging**
+:::
+:::
 
 ## Education
 
-**PhD in Computer Science**  · University of Western Australia (UWA), Perth\
-Focus: Learning Analytics, Self-Regulated Learning, Event Abstraction, Process Mining
+::: {.edu-list}
+::: {.edu-item}
+[Current]{.edu-year}
 
-**Master of Information Systems** (2011) · Universitas Indonesia
+**PhD in Computer Science**<br>
+University of Western Australia, Perth<br>
+[Learning analytics · Self-regulated learning · Event abstraction · Process mining]{.edu-detail}
+:::
 
-**Bachelor of Informatics Engineering** (2008) · Universitas Indonesia
+::: {.edu-item}
+[2011]{.edu-year}
+
+**Master of Information Systems**<br>
+Universitas Indonesia
+:::
+
+::: {.edu-item}
+[2008]{.edu-year}
+
+**Bachelor of Informatics Engineering**<br>
+Universitas Indonesia
+:::
+:::
+
+## Selected publications
+
+- Hasibuan, M. A., Reynolds, M., Male, S., & Hassan, G. M. (2023). Role of theory in analysing the dynamic of self-regulated learning process based on students' event logs data: A scoping review. *ASCILITE 2023: People, Partnerships and Pedagogies*, 126--136.
+- Lubis, M., Hasibuan, M. A., & Andreswari, R. (2022). Satisfaction measurement in the blended learning system of the university: The Literacy Mediated-Discourses (LM-D) framework. *Sustainability*, 14(19), 12929. <https://doi.org/10.3390/su141912929>
+- Hasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F. (2021). Assessing a measurement model of self-regulated learning in an online collaborative learning environment. *REES AAEE 2021 Conference*.
+
+[See all publications →](publications.qmd)
+
+## Beyond research
+
+I enjoy building personal productivity systems that combine Islamic values with frameworks such as OKRs and the 12-Week Year, and I write about learning, thinking and writing in my [notes](notes.qmd). I also have hands-on experience with cloud computing (Azure, AWS), data visualisation and educational software development.
 
 ## Get in touch
 
-Whether you're interested in learning analytics, education technology, productivity systems, or just want to say hi, feel free to reach out through the links on this page.
+I am always happy to talk about learning analytics, educational technology or research collaboration. Feel free to reach out through the links on this page.
