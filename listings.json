@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/teaching.html",
+    "items": []
+  },
+  {
     "listing": "/notes.html",
     "items": [
       "/notes/syntax-trap.html",

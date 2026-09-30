@@ -37,6 +37,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -48,9 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fb2933dac5de6b4100d03b6a21ca82b4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3c2a117db449558ff3810e39dd600c45.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fb2933dac5de6b4100d03b6a21ca82b4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-656ffdb42b4ff53b2a4058524092e406.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-183a7563f2e438f274ac041d9957178c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-656ffdb42b4ff53b2a4058524092e406.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,8 +80,94 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-courses .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-number','listing-university','listing-description','listing-url','listing-color','listing-order',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-number","listing-university","listing-description","listing-url","listing-color","listing-order"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-courses'] = new List('listing-courses', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-other .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-color','listing-order',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-color","listing-order"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-other'] = new List('listing-other', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Teaching – Muhammad Azani Hasibuan">
 <meta property="og:description" content="Lecturer in Information Systems and PhD candidate in Computer Science: learning analytics, educational technology and self-regulated learning.">
@@ -305,7 +393,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -314,13 +402,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#course-websites" id="toc-course-websites" class="nav-link active" data-scroll-target="#course-websites">Course websites</a></li>
-  <li><a href="#courses" id="toc-courses" class="nav-link" data-scroll-target="#courses">Courses</a></li>
+  <li><a href="#other-courses" id="toc-other-courses" class="nav-link" data-scroll-target="#other-courses">Other courses</a></li>
   <li><a href="#writing-on-teaching" id="toc-writing-on-teaching" class="nav-link" data-scroll-target="#writing-on-teaching">Writing on teaching</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -330,7 +418,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -345,26 +433,111 @@ ul.task-list li input[type="checkbox"] {
 <p>I design student-centered learning experiences using real-world case studies, mastery-based learning models and active learning strategies, and I always aim to make abstract concepts more approachable and applicable.</p>
 <section id="course-websites" class="level2">
 <h2 class="anchored" data-anchor-id="course-websites">Course websites</h2>
-<ul>
-<li><a href="https://muhammadazani.github.io/BBK1AAB4/"><strong>BBK1AAB4 Algoritma &amp; Pemrograman</strong></a> — S1 Sistem Informasi, Telkom University</li>
-</ul>
+<div id="listing-courses" class="quarto-listing quarto-listing-container-custom">
+<div class="course-list">
+
+  <div class="course-entry">
+    <div class="course-logo">
+      
+      <a href="https://muhammadazani.github.io/BBK1AAB4/"><div class="course-tile" style="background:#2a6f97">BBK1AAB4</div></a>
+    </div>
+    <div class="course-body">
+      <p class="course-title">
+        <a href="https://muhammadazani.github.io/BBK1AAB4/">Algoritma &amp; Pemrograman</a>
+      </p>
+      
+      <p class="course-details">BBK1AAB4 | Telkom University · S1 Sistem Informasi</p>
+      <p class="course-description">Learn to think like a programmer: break problems into clear steps, then write correct, readable and tested Python programs.</p>
+      
+      <ul class="course-semesters"><li><a href="https://muhammadazani.github.io/BBK1AAB4/"><i class="bi bi-box-arrow-up-right"></i> Course website</a></li></ul>
+      
+    </div>
+  </div>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
-<section id="courses" class="level2">
-<h2 class="anchored" data-anchor-id="courses">Courses</h2>
-<!-- TODO: add course codes, semesters and links to course materials. -->
-<ul>
-<li>Object-Oriented Programming</li>
-<li>Databases</li>
-<li>Information Systems Strategy</li>
-</ul>
+<section id="other-courses" class="level2">
+<h2 class="anchored" data-anchor-id="other-courses">Other courses</h2>
+<div id="listing-other" class="quarto-listing quarto-listing-container-custom">
+<div class="course-list">
+
+  <div class="course-entry">
+    <div class="course-logo">
+      
+      <div class="course-tile" style="background:#6a4c93">OP</div>
+    </div>
+    <div class="course-body">
+      <p class="course-title">
+        Object-Oriented Programming
+      </p>
+      
+      
+      <p class="course-description">Classes, objects, encapsulation, inheritance and polymorphism, practised through real-world case studies.</p>
+      
+    </div>
+  </div>
+
+  <div class="course-entry">
+    <div class="course-logo">
+      
+      <div class="course-tile" style="background:#1b998b">D</div>
+    </div>
+    <div class="course-body">
+      <p class="course-title">
+        Databases
+      </p>
+      
+      
+      <p class="course-description">Relational modelling, SQL and database design for information systems.</p>
+      
+    </div>
+  </div>
+
+  <div class="course-entry">
+    <div class="course-logo">
+      
+      <div class="course-tile" style="background:#c05621">ISS</div>
+    </div>
+    <div class="course-body">
+      <p class="course-title">
+        Information Systems Strategy
+      </p>
+      
+      
+      <p class="course-description">Aligning information systems with organisational goals and strategy.</p>
+      
+    </div>
+  </div>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="writing-on-teaching" class="level2">
 <h2 class="anchored" data-anchor-id="writing-on-teaching">Writing on teaching</h2>
-<ul>
-<li><a href="./notes/syntax-trap.html">The Syntax Trap: Re-evaluating Programming Pedagogy in Higher Education</a></li>
-<li><a href="./notes/learning-analytics-age-of-ai.html">Learning Analytics in the Age of AI: Reflections from a Computing Educator</a></li>
-<li>Academic Policy Framework for Ethical AI Use in Higher Education</li>
-</ul>
+<div class="grid">
+<div class="card g-col-12 g-col-md-4">
+<section id="the-syntax-trap" class="level4 card-body">
+<h4 class="anchored" data-anchor-id="the-syntax-trap"><a href="./notes/syntax-trap.html">The Syntax Trap</a></h4>
+<p>Re-evaluating programming pedagogy in higher education: why computational thinking should come before syntax.</p>
+</section>
+</div>
+<div class="card g-col-12 g-col-md-4">
+<section id="learning-analytics-in-the-age-of-ai" class="level4 card-body">
+<h4 class="anchored" data-anchor-id="learning-analytics-in-the-age-of-ai"><a href="./notes/learning-analytics-age-of-ai.html">Learning Analytics in the Age of AI</a></h4>
+<p>Reflections from a computing educator on what learning data and AI can, and should, do for teaching.</p>
+</section>
+</div>
+<div class="card g-col-12 g-col-md-4">
+<section id="ethical-ai-use-in-higher-education" class="level4 card-body">
+<h4 class="anchored" data-anchor-id="ethical-ai-use-in-higher-education">Ethical AI Use in Higher Education</h4>
+<p>An academic policy framework for using generative AI responsibly, with Telkom University as the case.</p>
+</section>
+</div>
+</div>
+
 
 
 </section>
