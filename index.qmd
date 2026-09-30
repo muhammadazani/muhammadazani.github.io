@@ -35,7 +35,6 @@ In the classroom, I design student-centred courses built on real-world case stud
 
 ::: {.about-actions}
 [Research](research.qmd){.btn .btn-primary}
-[Publications](research.qmd#research-themes-and-publications){.btn .btn-outline-primary}
 [CV](cv.qmd){.btn .btn-outline-primary}
 :::
 

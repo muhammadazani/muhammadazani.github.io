@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Muhammad Azani Hasibuan, M.T.I., PMP · Lecturer in Information Systems · PhD Candidate in Computer Science"
+subtitle: "Muhammad Azani Hasibuan, M.T.I. · Lecturer in Information Systems · PhD Candidate in Computer Science"
 toc: true
 toc-location: right
 toc-title: "Sections"
@@ -9,7 +9,7 @@ format:
     format-links: false
   typst:
     title: "Muhammad Azani Hasibuan"
-    subtitle: "M.T.I., PMP · Lecturer in Information Systems · PhD Candidate in Computer Science"
+    subtitle: "M.T.I. · Lecturer in Information Systems · PhD Candidate in Computer Science"
     toc: false
     papersize: a4
     margin:
@@ -230,17 +230,16 @@ Twenty-four publications since 2013, in venues including *Sustainability*, *Jour
 ::: {.cv-skill-group}
 **IS/IT management**
 
-[Project management (PMP)]{.cv-tag} [IT governance (COBIT, ITIL)]{.cv-tag} [Business process management]{.cv-tag} [Enterprise resource planning]{.cv-tag} [Scrum & agile]{.cv-tag}
+[Project management]{.cv-tag} [IT governance (COBIT, ITIL)]{.cv-tag} [Business process management]{.cv-tag} [Enterprise resource planning]{.cv-tag} [Scrum & agile]{.cv-tag}
 :::
 :::
 
-## Certifications & development
+## Language & professional development
 
 ::: {.cv-entry}
-[Certification]{.cv-date}
+[Language]{.cv-date}
 
 ::: {.cv-body}
-**Project Management Professional (PMP)**, Project Management Institute\
 **IELTS** overall band 7.0
 :::
 :::
