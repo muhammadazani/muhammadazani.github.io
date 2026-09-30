@@ -1,6 +1,123 @@
 ---
 title: "Writing habit is the key"
+subtitle: "Why thirty minutes a day beats waiting for a free week"
 date: 2022-07-07
+date-modified: 2026-10-01
+author:
+  - name: Muhammad Azani Hasibuan
+    roles: [writing]
+    corresponding: true
+keywords: [academic writing, productivity, habit, Boice]
+categories: [writing, productivity, essay]
+abstract: |
+  Many academics believe that serious writing requires large, uninterrupted blocks of time. The evidence says otherwise. Drawing on Robert Boice's experiments with faculty writers and later re-analyses, this essay argues that a small, scheduled, daily writing habit produces more pages and more ideas than waiting for inspiration or binge-writing during breaks. A short Python analysis visualises the reported effect sizes and projects what thirty minutes a day adds up to over a year.
+key-points:
+  - Writers who wrote on a fixed daily schedule produced roughly 16× more pages than writers who abstained, and about 3.5× more than those who wrote "when inspired".
+  - Scheduled writing also produced new ideas more often, not less.
+  - Thirty minutes a day, five days a week, is enough to draft several journal articles a year.
+bibliography: writing-habit.bib
+citation: true
+number-sections: true
+jupyter: python3
+execute:
+  echo: false
+  warning: false
 ---
 
-Study after study shows that you don't need much time to write effectively (Boice 1982, 1992; Krashen 2002). In fact, writers who write a little almost every day produce more manuscripts than those who write for weeks or months without writing at all. Writing just thirty minutes a day can make you one of the great writers who publishes several journal articles a year
+## Introduction
+
+Ask a group of academics why they have not finished the paper they started last year and the answer is almost always the same: *I don't have time*. Teaching, supervision, meetings and administration fill the week, so writing is postponed to the semester break, the weekend, or that mythical free month that never arrives. The assumption behind this answer is that good writing needs long, uninterrupted blocks of time.
+
+Study after study shows that the assumption is wrong. You do not need much time to write effectively [@boice1982; @boice1992; @krashen2002]. Writers who write a little almost every day produce more manuscripts than those who wait weeks or months between sessions. Writing just thirty minutes a day can make you one of those people who quietly publish several journal articles a year.
+
+## What the evidence shows
+
+The clearest demonstration comes from psychologist Robert Boice, who spent years studying how university faculty actually write. In one experiment, he randomly assigned struggling academic writers to three conditions [@boice1983]. The first group, *abstinence*, was asked not to write except in emergencies. The second, *spontaneous*, scheduled writing sessions but wrote only when they felt inspired. The third, *contingency management*, scheduled daily sessions and was required to write in each one, with a mild penalty if they skipped.
+
+The differences were striking (@fig-boice). The contingency group wrote about 3.2 pages per day, compared with 0.9 pages for the spontaneous group and 0.2 pages for the abstinent group: sixteen times more output than not writing, and three and a half times more than waiting for the muse [@silvia2007]. Just as important, the forced writers did not become mechanical. They reported a new creative idea roughly every day, while the spontaneous writers reported one every two days and the abstinent writers one every five days. Krashen's [-@krashen2002] re-analysis of the same data confirmed the pattern and suggested that the gains came from regularity rather than from sheer volume.
+
+```{python}
+#| label: fig-boice
+#| fig-cap: "Output and idea generation under three writing conditions, as reported by Boice (1983) and summarised by Silvia (2007)."
+#| fig-subcap:
+#|   - "Mean pages written per day"
+#|   - "Median days between new creative ideas (lower is better)"
+#| layout-ncol: 2
+
+import matplotlib.pyplot as plt
+
+conditions = ["Abstinence", "Spontaneous", "Scheduled\n(daily)"]
+pages_per_day = [0.2, 0.9, 3.2]
+days_between_ideas = [5, 2, 1]
+colors = ["#b0b7c3", "#7a8699", "#2f6fdb"]
+
+plt.rcParams.update({"font.size": 12, "axes.spines.top": False, "axes.spines.right": False})
+
+fig, ax = plt.subplots(figsize=(5, 4))
+bars = ax.bar(conditions, pages_per_day, color=colors)
+ax.bar_label(bars, fmt="%.1f", padding=3)
+ax.set_ylabel("Pages per day")
+ax.set_ylim(0, 3.8)
+plt.tight_layout()
+plt.show()
+
+fig, ax = plt.subplots(figsize=(5, 4))
+bars = ax.bar(conditions, days_between_ideas, color=colors)
+ax.bar_label(bars, fmt="%d", padding=3)
+ax.set_ylabel("Days between new ideas")
+ax.set_ylim(0, 6)
+plt.tight_layout()
+plt.show()
+```
+
+Boice's later work with new faculty told the same story [@boice1992]. The "quick starters" who thrived in their first years were not the ones with the lightest teaching loads. They were the ones who wrote in brief, regular sessions, often no more than an hour, and who stopped before they were exhausted. Binge writers, by contrast, reported more stress, more procrastination and, over time, fewer publications.
+
+## Why small and regular works
+
+Several mechanisms explain the effect. First, a daily session keeps the project *warm*. When you return to a draft the next day, the argument is still in your head, so you spend your minutes writing rather than re-reading and re-orienting. After a two-month gap, the first week is lost to remembering what you meant.
+
+Second, regular writing lowers the emotional stakes of any single session. If you write only once a month, that session has to be brilliant, and the pressure feeds perfectionism and avoidance. If you write every day, a weak session is just one of many, and it is easy to try again tomorrow.
+
+Third, writing is thinking. Ideas do not arrive fully formed and wait to be typed; they emerge while we draft, revise and connect notes. This is why Boice's scheduled writers generated *more* ideas, not fewer. Inspiration tends to follow the work.
+
+## What thirty minutes a day adds up to
+
+Small numbers compound. Suppose you write for thirty minutes, five days a week, and produce a modest 250 words per session. @fig-projection shows the cumulative result over a working year of 48 weeks.
+
+```{python}
+#| label: fig-projection
+#| fig-cap: "Illustrative projection: cumulative draft words from 30 minutes a day (250 words per session, 5 sessions per week, 48 working weeks). Dashed lines mark the length of a typical 8,000-word journal article."
+
+import numpy as np
+
+words_per_session = 250
+sessions_per_week = 5
+weeks = np.arange(0, 49)
+cumulative = weeks * words_per_session * sessions_per_week
+article_length = 8000
+
+fig, ax = plt.subplots(figsize=(8, 4))
+ax.plot(weeks, cumulative, color="#2f6fdb", linewidth=2.5)
+ax.fill_between(weeks, cumulative, color="#2f6fdb", alpha=0.08)
+for n in range(1, int(cumulative[-1] // article_length) + 1):
+    ax.axhline(n * article_length, color="#7a8699", linestyle="--", linewidth=0.8)
+    ax.text(1, n * article_length + 700, f"Article {n}", color="#7a8699", fontsize=10)
+ax.set_xlabel("Week of the year")
+ax.set_ylabel("Cumulative words drafted")
+ax.set_xlim(0, 48)
+ax.set_ylim(0, cumulative[-1] * 1.08)
+ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{int(v):,}"))
+plt.tight_layout()
+plt.show()
+```
+
+By the end of the year you would have drafted 60,000 words, enough raw material for seven full-length articles. Even if half of those words are cut in revision, the output still exceeds what most binge writers manage. The projection is deliberately conservative; it assumes no weekends, no writing retreats and no particularly good days.
+
+## Conclusion
+
+The lesson is simple but easy to ignore: productive writing is less about talent or free time than about habit. Schedule a short session, treat it like a class you have to teach, and protect it. Start with thirty minutes. Write even when you do not feel like it, and stop when the time is up. The pages, and the ideas, will accumulate faster than you expect.
+
+## References {.unnumbered}
+
+::: {#refs}
+:::
