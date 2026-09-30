@@ -89,3 +89,6 @@ body.quarto-dark .cv-date { color: #7cc0e6; }
 @media print {
   #quarto-header, #quarto-margin-sidebar, .nav-footer, .cv-download { display: none !important; }
 }
+.cv-body table { font-size: 0.9rem; margin: 0.5rem 0 0.6rem; }
+.cv-body table td:last-child { white-space: nowrap; opacity: 0.8; }
+@media (max-width: 575px) { .cv-body table td:last-child { white-space: normal; } }

@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Muhammad Azani Hasibuan · Lecturer in Information Systems · PhD Candidate in Computer Science"
+subtitle: "Muhammad Azani Hasibuan, M.T.I., PMP · Lecturer in Information Systems · PhD Candidate in Computer Science"
 toc: true
 toc-location: right
 toc-title: "Sections"
@@ -10,106 +10,132 @@ toc-title: "Sections"
 <!-- [Download CV (PDF)](files/cv.pdf){.btn .btn-primary .cv-download} -->
 
 ::: {.lead}
-Lecturer and researcher in Information Systems with more than fifteen years of combined experience in higher education and IT consulting. My research applies learning analytics, process mining and machine learning to understand and support self-regulated learning. Before joining academia full-time, I designed business processes, IT governance and enterprise systems for government and industry clients in Indonesia.
+Lecturer in Information Systems at Telkom University and PhD candidate at the University of Western Australia. I combine more than fifteen years of experience in university teaching, learning technology leadership and IT consulting. My research applies learning analytics, data mining and process mining to understand and support students' self-regulated learning in online and collaborative environments.
 :::
+
+[[]{.bi .bi-linkedin} LinkedIn](https://www.linkedin.com/in/muhammadazani/){.btn .btn-sm .btn-outline-primary .no-external}
+[[]{.bi .bi-github} GitHub](https://github.com/muhammadazani){.btn .btn-sm .btn-outline-primary .no-external}
+
+**Research interests:** Learning analytics · Data mining & business intelligence · Online and collaborative learning · Human–computer interaction · Self-regulated learning · Process mining
 
 ## Education
 
 ::: {.cv-entry}
-[Current]{.cv-date}
+[2020--present]{.cv-date}
 
 ::: {.cv-body}
-**PhD in Computer Science**\
-University of Western Australia, Perth
+**PhD in Computer Science (Computer Science Education)**, in progress\
+The University of Western Australia, Perth · Department of Computer Science and Software Engineering
 
 [Thesis: A systematic framework for context- and domain-driven event abstraction in multi-modal data within online collaborative learning environments.]{.cv-note}
 :::
 :::
 
 ::: {.cv-entry}
-[2011]{.cv-date}
+[2009--2011]{.cv-date}
 
 ::: {.cv-body}
 **Master of Information Systems**\
-Universitas Indonesia, Depok
+Universitas Indonesia, Faculty of Computer Science · GPA 3.61/4.00
 :::
 :::
 
 ::: {.cv-entry}
-[2008]{.cv-date}
+[2003--2008]{.cv-date}
 
 ::: {.cv-body}
 **Bachelor of Informatics Engineering**\
-Universitas Indonesia, Depok
+Universitas Indonesia, Faculty of Computer Science
 :::
 :::
 
-## Academic appointments
-
-<!-- TODO: add the year you joined Telkom University. -->
+## Academic employment
 
 ::: {.cv-entry}
-[Present]{.cv-date}
+[2014--present]{.cv-date}
 
 ::: {.cv-body}
-**Lecturer, Information Systems**\
+**Faculty Member, Department of Information Systems**\
 Telkom University, Bandung
 
-Teaching and supervising undergraduate students in Information Systems; research in learning analytics, process mining, text mining and data quality management.
-
-[Courses: Algorithms & Programming · Object-Oriented Programming · Databases · Information Systems Strategy]{.cv-note}
-:::
-:::
-
-<!-- TODO: add the year you left Jakarta State Polytechnic. -->
-
-::: {.cv-entry}
-[From 2013]{.cv-date}
-
-::: {.cv-body}
-**Lecturer**\
-Politeknik Negeri Jakarta (Jakarta State Polytechnic)
-
-[Courses: Enterprise Resource Planning · Knowledge Management · Web Multimedia (HTML, CSS & JavaScript)]{.cv-note}
+Teaching programming, databases, data mining, business intelligence and project management to undergraduate Information Systems students, and supervising undergraduate research projects.
 :::
 :::
 
 ::: {.cv-entry}
-[2011--2012]{.cv-date}
+[2018--2020]{.cv-date}
 
 ::: {.cv-body}
-**Part-time Lecturer**\
-STMIK Inti Indonesia (Inti College Indonesia)
+**Head of Learning Technology, Center for Teaching & Learning Excellence (CTLE)**\
+Telkom University, Bandung
 
-[Courses: Enterprise Resource Planning · Principles of E-Business · Web Multimedia]{.cv-note}
+- Led the university-wide adoption of blended learning across all faculties.
+- Helped faculty members design and implement blended-learning courses.
+- Managed the development of more than 500 online courses for all schools.
+- Evaluated the implementation of blended learning and e-learning.
 :::
 :::
 
 ::: {.cv-entry}
-[2011]{.cv-date}
+[2011--2013]{.cv-date}
 
 ::: {.cv-body}
-**Guest Lecturer**\
-Sekolah Tinggi Manajemen Telkom, Bandung
+**Earlier teaching**\
+Lecturer, Politeknik Negeri Jakarta (2013) · Part-time Lecturer, STMIK Inti Indonesia (2011--2012) · Guest Lecturer, Sekolah Tinggi Manajemen Telkom (2011)
 
-[Topics: Business process management, mapping, re-engineering and innovation]{.cv-note}
+[Courses: Enterprise resource planning · Knowledge management · Principles of e-business · Web multimedia · Business process management]{.cv-note}
+:::
+:::
+
+## Teaching
+
+::: {.cv-entry}
+[2020]{.cv-date}
+
+::: {.cv-body}
+**The University of Western Australia**\
+Lab facilitator, Relational Database Management Systems
+:::
+:::
+
+::: {.cv-entry}
+[2014--2019]{.cv-date}
+
+::: {.cv-body}
+**Telkom University, undergraduate Information Systems**
+
+| Course | Semesters |
+|:-------|:----------|
+| Introduction to Computer Algorithms (Java) | 2014-2, 2015-2 |
+| Database Systems | 2014-2, 2015-2 |
+| Data Structures and Algorithms (Java) | 2015-1, 2016-1, 2017-1 |
+| Human–Computer Interaction | 2015-1 |
+| Project Management for Information Systems | 2016-1, 2017-1, 2018-1, 2019-1 |
+| Mobile Application Development (Android) | 2016-2, 2017-2 |
+| Capstone: Software Engineering Project | 2016-2, 2017-2, 2018-2, 2019-2 |
+| Data Warehouse & Business Intelligence (Tableau) | 2018-1, 2019-1 |
+| Data Mining (Python) | 2018-2, 2019-2 |
+
+: {.cv-table .table-sm}
+
+[Current courses are listed on the [Teaching](teaching.qmd) page.]{.cv-note}
 :::
 :::
 
 ## Industry experience
 
 ::: {.cv-entry}
-[2010--2013]{.cv-date}
+[2009--2013]{.cv-date}
 
 ::: {.cv-body}
 **Senior IT Consultant & Solution Architect**\
 PT Totalindo Rekayasa Telematika, Jakarta
 
-Designed business processes, technology infrastructure and IT governance strategies for public- and private-sector clients. Key projects:
+Designed and delivered business-process, technology-infrastructure and IT-governance strategies for public- and private-sector clients. Key projects:
 
-- **Ministry of Home Affairs, e-KTP national ID programme (2011--2012):** designed the helpdesk business processes and led the agile customisation, rollout and agent training of the helpdesk management system supporting the programme.
-- **PUSLIA, West Java Regional Revenue Office (2012--2013):** designed IT service standard operating procedures and implemented an open-source ticketing system, including user training.
-- **Perum Bulog (2011--2012):** developed the IT/IS blueprint and roadmap with all division heads, then led the ERP initiation: requirements, technical specification, cost and schedule estimates, and terms of reference.
+- **Ministry of Home Affairs, e-KTP national ID programme (2011--2012):** designed the helpdesk business processes and led the agile customisation, rollout and agent training of the helpdesk management system.
+- **PUSLIA, West Java Regional Revenue Office (2012--2013):** designed IT service standard operating procedures and implemented an open-source ticketing system.
+- **Perum Bulog (2011--2012):** developed the IT/IS blueprint and roadmap, then led the ERP initiation: requirements, technical specification, cost and schedule estimates, and terms of reference.
 - **Baitul Maal Hidayatullah (2010--2011):** led the implementation of an open-source ERP system.
 :::
 :::
@@ -118,78 +144,89 @@ Designed business processes, technology infrastructure and IT governance strateg
 [2008--2009]{.cv-date}
 
 ::: {.cv-body}
-**Junior Consultant, Data Warehouse & Business Intelligence**\
+**Data Engineer**\
 PT Solusi247, Jakarta
 
-Built data warehouse and business intelligence solutions for Indonesian telecommunications companies, including Indosat (partner relationship management reporting in PL/SQL; BTS asset data pipeline), NTS Axis (star-schema data warehouse with IBM Indonesia) and Bakrie Telecom (ETL monitoring).
+Built data warehouse and business intelligence solutions for Indonesian telecommunications companies, including Indosat, NTS Axis (with IBM Indonesia) and Bakrie Telecom.
 :::
 :::
 
-## Research
+## Research experience
 
-Learning analytics & educational data mining · Self-regulated learning · Event abstraction & process mining · AI-based feedback & digital nudging · Text mining & sentiment analysis · Data quality management
+::: {.cv-entry}
+[2016--2018]{.cv-date}
 
-Twenty publications since 2019, in venues including *Sustainability*, IEEE conferences and ASCILITE. Selected recent work:
+::: {.cv-body}
+**Enterprise Data Management Lab, Telkom University**
+
+- Analysed how GRIT, self-efficacy and gamification relate to student performance in blended learning (2017--2018).
+- Applied Apriori association rules to web-usage logs and GRIT scores to identify factors that determine student outcomes.
+- Built a Pentaho ETL pipeline for two million rows of student data, leading to the paper *Soft Set Approach for Clustering Graduated Dataset* (Springer, 2017).
+:::
+:::
+
+## Publications
+
+Twenty-four publications since 2013, in venues including *Sustainability*, *Journal of Computers*, Springer and IEEE conferences, and ASCILITE. Selected work:
 
 - Hasibuan, M. A., Reynolds, M., Male, S., & Hassan, G. M. (2023). Role of theory in analysing the dynamic of self-regulated learning process based on students' event logs data: A scoping review. *ASCILITE 2023: People, Partnerships and Pedagogies*, 126--136.
 - Hasibuan, M. A., Andreswari, R., Lubis, M., Perdana, F., & Fakhrurroja, H. (2023). Classification algorithm for predicting the graduation level: Case study of e-learning in Telkom University. In *Intelligent Sustainable Systems* (Vol. 1). Springer.
 - Lubis, M., Hasibuan, M. A., & Andreswari, R. (2022). Satisfaction measurement in the blended learning system of the university: The Literacy Mediated-Discourses (LM-D) framework. *Sustainability*, 14(19), 12929.
 - Hasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F. (2021). Assessing a measurement model of self-regulated learning in an online collaborative learning environment. *REES AAEE 2021 Conference*.
+- Putri, D. Y., Andreswari, R., & Hasibuan, M. A. (2018). Analysis of students graduation target based on academic data record using C4.5 algorithm. Case study: Information Systems students of Telkom University. *6th International Conference on Cyber and IT Service Management (CITSM)*, 1--6. IEEE.
+- Dwiandriani, F., Kusumasari, T. F., & Hasibuan, M. A. (2017). Fingerprint clustering algorithm for data profiling using Pentaho Data Integration. *2nd International Conference on Information Technology, Information Systems and Electrical Engineering (ICITISEE)*, 359--363. IEEE.
+- Saedudin, R. R., Kasim, S. B., Mahdin, H., & Hasibuan, M. A. (2017). Soft set approach for clustering graduated dataset. In *Recent Advances on Soft Computing and Data Mining* (pp. 631--637). Springer.
+- Hidayanto, A. N., Hasibuan, M. A., Handayani, P. W., & Sucahyo, Y. G. (2013). Framework for measuring ERP implementation readiness in small and medium enterprise (SME): A case study in software developer company. *Journal of Computers*, 8(7), 1777--1782.
 
 [Full publication list →](publications.qmd)
 
-## Areas of expertise
+## Skills
 
 ::: {.cv-skills}
 ::: {.cv-skill-group}
+**Programming & data**
+
+[Python (pandas, NumPy, scikit-learn)]{.cv-tag} [R]{.cv-tag} [Java]{.cv-tag} [SQL / SQLite]{.cv-tag} [Oracle PL/SQL]{.cv-tag}
+:::
+
+::: {.cv-skill-group}
+**Analytics & BI platforms**
+
+[Tableau]{.cv-tag} [Pentaho Data Integration]{.cv-tag} [IBM Cognos]{.cv-tag} [IBM DataStage]{.cv-tag}
+:::
+
+::: {.cv-skill-group}
 **Research methods**
 
-[Learning analytics]{.cv-tag} [Process mining]{.cv-tag} [Machine learning]{.cv-tag} [Behavioural analytics]{.cv-tag} [Text mining]{.cv-tag}
+[Learning analytics]{.cv-tag} [Data mining]{.cv-tag} [Process mining]{.cv-tag} [Machine learning]{.cv-tag} [Text mining]{.cv-tag}
 :::
 
 ::: {.cv-skill-group}
 **IS/IT management**
 
-[IS/IT strategic planning]{.cv-tag} [IT governance]{.cv-tag} [COBIT]{.cv-tag} [ITIL]{.cv-tag} [Business process management]{.cv-tag} [Enterprise resource planning]{.cv-tag} [Knowledge management]{.cv-tag}
-:::
-
-::: {.cv-skill-group}
-**Data & systems**
-
-[Data warehousing & BI]{.cv-tag} [Oracle / PL/SQL]{.cv-tag} [Service-oriented architecture]{.cv-tag} [Cloud (Azure, AWS)]{.cv-tag} [Data visualisation]{.cv-tag}
-:::
-
-::: {.cv-skill-group}
-**Software engineering**
-
-[Python]{.cv-tag} [Java]{.cv-tag} [PHP]{.cv-tag} [Ruby on Rails]{.cv-tag} [Scrum & agile]{.cv-tag} [IT project management]{.cv-tag}
+[Project management (PMP)]{.cv-tag} [IT governance (COBIT, ITIL)]{.cv-tag} [Business process management]{.cv-tag} [Enterprise resource planning]{.cv-tag} [Scrum & agile]{.cv-tag}
 :::
 :::
 
-## Professional development
+## Certifications & development
 
 ::: {.cv-entry}
-[2012]{.cv-date}
+[Certification]{.cv-date}
 
 ::: {.cv-body}
-Professional Scrum Foundation, Maranatha Christian University, Bandung\
-Enterprise Architecture with MEGA Suite, Institut Teknologi Telkom, Bandung\
-ISO 9001:2008, PT Totalindo Rekayasa Telematika, Jakarta
+**Project Management Professional (PMP)**, Project Management Institute\
+**IELTS** overall band 7.0
 :::
 :::
 
 ::: {.cv-entry}
-[2008]{.cv-date}
+[2007--2012]{.cv-date}
 
 ::: {.cv-body}
-Business Intelligence with IBM Cognos, PT Solusi247, Jakarta
-:::
-:::
-
-::: {.cv-entry}
-[2007]{.cv-date}
-
-::: {.cv-body}
-Probabilistic Robotics short course, Faculty of Computer Science, Universitas Indonesia
+Professional Scrum Foundation, Maranatha Christian University (2012)\
+Enterprise Architecture with MEGA Suite, Institut Teknologi Telkom (2012)\
+ISO 9001:2008, PT Totalindo Rekayasa Telematika (2012)\
+Business Intelligence with IBM Cognos, PT Solusi247 (2008)\
+Probabilistic Robotics short course, Universitas Indonesia (2007)
 :::
 :::
