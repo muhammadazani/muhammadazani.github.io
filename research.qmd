@@ -1,27 +1,157 @@
 ---
 title: "Research"
+subtitle: "Learning analytics · Self-regulated learning · Process mining · Educational data mining"
+toc: true
+toc-location: right
+toc-title: "On this page"
+listing:
+  - id: featured
+    contents: research/papers.yml
+    template: _templates/papers.ejs
+    include:
+      featured: true
+    sort: "year desc"
+  - id: papers-srl
+    contents: research/papers.yml
+    template: _templates/papers.ejs
+    include:
+      theme: srl
+    sort: "year desc"
+  - id: papers-edm
+    contents: research/papers.yml
+    template: _templates/papers.ejs
+    include:
+      theme: edm
+    sort: "year desc"
+  - id: papers-text
+    contents: research/papers.yml
+    template: _templates/papers.ejs
+    include:
+      theme: text
+    sort: "year desc"
+  - id: papers-dq
+    contents: research/papers.yml
+    template: _templates/papers.ejs
+    include:
+      theme: dq
+    sort: "year desc"
+  - id: papers-is
+    contents: research/papers.yml
+    template: _templates/papers.ejs
+    include:
+      theme: is
+    sort: "year desc"
 ---
 
-My research explores how data can enhance education, with a focus on learning analytics, self-regulated learning and process mining.
+::: {.lead}
+I study how the digital traces students leave in online learning environments can be turned into meaningful, theory-informed evidence about *how* they learn, so that educators can see and support self-regulated learning as it happens.
+:::
+
+::: {.research-stats}
+::: {.stat}
+[24]{.stat-number}
+[publications]{.stat-label}
+:::
+
+::: {.stat}
+[2013–]{.stat-number}
+[publishing since]{.stat-label}
+:::
+
+::: {.stat}
+[5]{.stat-number}
+[research themes]{.stat-label}
+:::
+
+::: {.stat}
+[UWA]{.stat-number}
+[PhD, Computer Science]{.stat-label}
+:::
+:::
 
 ## Current project
 
-### A Systematic Framework for Context and Domain-Driven Event Abstraction in Multi-modal Data within Online Collaborative Learning Environments
+::: {.project-card}
+[PhD research · The University of Western Australia · 2020–present]{.project-meta}
 
-*PhD dissertation, University of Western Australia*
+### A systematic framework for context- and domain-driven event abstraction in multi-modal data within online collaborative learning environments
 
-**Goal:** to measure and improve students' self-regulation strategies by transforming raw learning events into high-level, interpretable learning actions, validated through expert judgment and process analysis.
+Learning platforms record every click, submission and forum post, but these low-level events say little on their own about whether a student is planning, monitoring or reflecting. My doctoral research develops a framework that abstracts raw, multi-modal event logs into high-level **learning actions** grounded in self-regulated learning (SRL) theory and the course context. The resulting action sequences are analysed with process mining to reveal how students regulate their learning over time, and are validated through expert judgement.
 
-Related publications:
+::: {.pipeline}
+::: {.step}
+**Raw event logs**\
+LMS, forums, code repositories
+:::
+::: {.step .step-key}
+**Event abstraction**\
+context and domain rules
+:::
+::: {.step}
+**Learning actions**\
+mapped to SRL phases
+:::
+::: {.step}
+**Process mining**\
+sequences and patterns
+:::
+::: {.step}
+**Insight for educators**\
+feedback and nudges
+:::
+:::
 
-- Hasibuan, M. A., Reynolds, M., Male, S., & Hassan, G. M. (2023). Role of theory in analysing the dynamic of self-regulated learning process based on students' event logs data: A scoping review. *ASCILITE 2023: People, Partnerships and Pedagogies*, 126--136.
-- Hasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F. (2021). Assessing a measurement model of self-regulated learning in an online collaborative learning environment. *REES AAEE 2021 Conference: Engineering Education Research Capability*.
+**Research questions**
 
-See all [publications](publications.qmd).
+1. How can low-level learning events be abstracted into learning actions that are meaningful from an SRL perspective?
+2. How can course context and domain knowledge guide that abstraction across different learning environments?
+3. What do the resulting process models reveal about how students regulate their learning in collaborative online settings?
 
-## Themes
+**Publications from this project**
 
-- **Learning analytics & educational data mining:** predicting study outcomes and specialization fit from academic data.
-- **Process mining:** analysing academic business processes and student event logs.
-- **Text mining & sentiment analysis:** classifying exam questions by Bloom's taxonomy level and analysing public opinion.
-- **Data quality management:** data profiling, cleansing and monitoring with open-source tools.
+:::{#featured}
+:::
+:::
+
+## Research themes and publications
+
+Each paper links to its source through its DOI or publisher page; the **Scholar** link finds free versions and citing work.
+
+### Self-regulated learning & learning design {#theme-srl}
+
+How students plan, monitor and reflect on their learning, how to measure it, and how course design in blended and online settings supports it.
+
+:::{#papers-srl}
+:::
+
+### Educational data mining & process mining {#theme-edm}
+
+Predicting study outcomes, graduation and specialisation fit from academic records, and analysing academic processes from event logs.
+
+:::{#papers-edm}
+:::
+
+### Text mining & sentiment analysis {#theme-text}
+
+Classifying exam questions by cognitive level and analysing public opinion in reviews and social media.
+
+:::{#papers-text}
+:::
+
+### Data quality management {#theme-dq}
+
+Data profiling, cleansing and monitoring with open-source tools, applied in government agencies.
+
+:::{#papers-dq}
+:::
+
+### Information systems & digital society {#theme-is}
+
+Enterprise systems readiness, smart-society platforms and mobile applications for campus and community services.
+
+:::{#papers-is}
+:::
+
+## Collaboration
+
+I welcome collaboration on learning analytics, self-regulated learning and process mining in education, and I supervise undergraduate research in these areas at Telkom University. See my [CV](cv.qmd) for background, or get in touch through the links on the [About](index.qmd) page.

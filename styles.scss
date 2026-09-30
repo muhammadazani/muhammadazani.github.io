@@ -92,3 +92,51 @@ body.quarto-dark .cv-date { color: #7cc0e6; }
 .cv-body table { font-size: 0.9rem; margin: 0.5rem 0 0.6rem; }
 .cv-body table td:last-child { white-space: nowrap; opacity: 0.8; }
 @media (max-width: 575px) { .cv-body table td:last-child { white-space: normal; } }
+
+// Research page
+.research-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.75rem; margin: 1.25rem 0 2rem; }
+.research-stats .stat { padding: 0.9rem 1rem; border-radius: 10px; background: rgba($primary, 0.06); border: 1px solid rgba($primary, 0.18); }
+.research-stats .stat p { margin: 0; display: flex; flex-direction: column; }
+.stat-number { font-size: 1.6rem; font-weight: 700; line-height: 1.2; color: $primary; }
+.stat-label { font-size: 0.85rem; opacity: 0.75; }
+.project-card { border: 1px solid rgba($primary, 0.25); border-left: 4px solid $primary; border-radius: 10px; padding: 1.25rem 1.5rem; margin: 1rem 0 2rem; }
+.project-card h3 { margin-top: 0.3rem; font-size: 1.25rem; line-height: 1.35; }
+.project-meta { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: $primary; }
+.project-card .cell-output-display, .project-card figure { margin: 1rem 0; }
+.paper-list { list-style: none; padding: 0; margin: 0.75rem 0 2rem; }
+.paper { display: grid; grid-template-columns: 3.5rem 1fr; gap: 0 1rem; padding: 0.85rem 0; border-bottom: 1px solid rgba(128, 128, 128, 0.18); }
+.paper:last-child { border-bottom: none; }
+.paper-year { font-weight: 700; font-size: 0.9rem; color: $primary; padding-top: 0.1rem; }
+.paper-body p { margin: 0 0 0.2rem; }
+.paper-title { font-weight: 600; line-height: 1.4; }
+.paper-title a { text-decoration: none; }
+.paper-title a:hover { text-decoration: underline; }
+.paper-authors, .paper-venue { font-size: 0.9rem; }
+.paper-authors { opacity: 0.85; }
+.paper-venue { opacity: 0.75; }
+.paper-links { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.4rem !important; font-size: 0.8rem; }
+.paper-type { padding: 0.1rem 0.55rem; border-radius: 999px; background: rgba(128, 128, 128, 0.12); }
+.paper-link { padding: 0.1rem 0.55rem; border-radius: 999px; border: 1px solid rgba($primary, 0.35); text-decoration: none; }
+.paper-link:hover { background: rgba($primary, 0.08); }
+.paper-link.external::after, .paper-title a.external::after { display: none; }
+@media (max-width: 575px) {
+  .paper { grid-template-columns: 1fr; }
+  .paper-year { padding-top: 0; }
+  .project-card { padding: 1rem; }
+}
+body.quarto-dark {
+  .stat-number, .project-meta, .paper-year { color: #7cc0e6; }
+  .project-card { border-left-color: #7cc0e6; }
+}
+.pipeline { display: flex; flex-wrap: wrap; gap: 0.5rem 1.4rem; margin: 1.25rem 0 1.5rem; }
+.pipeline .step {
+  position: relative; flex: 1 1 140px; padding: 0.6rem 0.75rem; border-radius: 8px;
+  border: 1px solid rgba($primary, 0.3); background: rgba($primary, 0.05); font-size: 0.85rem; line-height: 1.35;
+}
+.pipeline .step p { margin: 0; }
+.pipeline .step:not(:last-child)::after {
+  content: "\2192"; position: absolute; right: -1.15rem; top: 50%; transform: translateY(-50%);
+  color: $primary; font-weight: 700;
+}
+.pipeline .step-key { background: $primary; color: #fff; border-color: $primary; }
+body.quarto-dark .pipeline .step-key { background: #2a6f97; }

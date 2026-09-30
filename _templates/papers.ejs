@@ -1,0 +1,22 @@
+```{=html}
+<ol class="paper-list">
+<% for (const p of items) {
+     const link = p.doi ? `https://doi.org/${p.doi}` : p.url;
+     const authors = (p.authors || '').replace(/Hasibuan, M\. A\./g, '<strong>Hasibuan, M. A.</strong>'); %>
+  <li class="paper">
+    <div class="paper-year"><%= p.year %></div>
+    <div class="paper-body">
+      <p class="paper-title"><% if (link) { %><a href="<%= link %>"><%= p.title %></a><% } else { %><%= p.title %><% } %></p>
+      <p class="paper-authors"><%= authors %></p>
+      <p class="paper-venue"><em><%= p.venue %></em></p>
+      <p class="paper-links">
+        <% if (p.type) { %><span class="paper-type"><%= p.type %></span><% } %>
+        <% if (p.doi) { %><a class="paper-link" href="https://doi.org/<%= p.doi %>"><i class="bi bi-link-45deg"></i> DOI</a><% } %>
+        <% if (!p.doi && p.url) { %><a class="paper-link" href="<%= p.url %>"><i class="bi bi-box-arrow-up-right"></i> <%= p.url.includes('scholar.google') ? 'Find article' : 'Article' %></a><% } %>
+        <a class="paper-link" href="https://scholar.google.com/scholar?q=<%= encodeURIComponent(p.title) %>"><i class="bi bi-mortarboard"></i> Scholar</a>
+      </p>
+    </div>
+  </li>
+<% } %>
+</ol>
+```

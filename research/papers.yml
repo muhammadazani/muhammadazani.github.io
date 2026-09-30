@@ -1,0 +1,202 @@
+# One entry per paper, rendered on the Research page by _templates/papers.ejs.
+# Fields:
+#   title, authors, venue, year
+#   theme: srl | edm | text | dq | is  (which theme section it appears in)
+#   type: Journal | Conference | Book chapter
+#   doi: DOI without the https://doi.org/ prefix, or url: link to the article page
+#   featured: true to also list it under "Current project"
+
+- title: "Role of theory in analysing the dynamic of self-regulated learning process based on students' event logs data: A scoping review"
+  authors: "Hasibuan, M. A., Reynolds, M., Male, S., & Hassan, G. M."
+  venue: "ASCILITE 2023: People, Partnerships and Pedagogies, 126–136"
+  year: 2023
+  type: Conference
+  theme: srl
+  featured: true
+  doi: 10.14742/apubs.2023.588
+
+- title: "Assessing a measurement model of self-regulated learning in an online collaborative learning environment"
+  authors: "Hasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F."
+  venue: "9th Research in Engineering Education Symposium & 32nd AAEE Conference (REES AAEE 2021)"
+  year: 2021
+  type: Conference
+  theme: srl
+  featured: true
+  doi: 10.52202/066488-0086
+
+- title: "Satisfaction measurement in the blended learning system of the university: The Literacy Mediated-Discourses (LM-D) framework"
+  authors: "Lubis, M., Hasibuan, M. A., & Andreswari, R."
+  venue: "Sustainability, 14(19), 12929"
+  year: 2022
+  type: Journal
+  theme: srl
+  doi: 10.3390/su141912929
+
+- title: "Pengembangan konten e-learning menggunakan design sprint pada mata kuliah manajemen proyek (Topik: Project introduction)"
+  authors: "Subagya, K. A., Pratami, D., & Hasibuan, M. A."
+  venue: "JISI: Jurnal Integrasi Sistem Industri, 6(2), 107–116"
+  year: 2019
+  type: Journal
+  theme: srl
+  doi: 10.24853/jisi.6.2.107-116
+
+- title: "Classification algorithm for predicting the graduation level: Case study of e-learning in Telkom University"
+  authors: "Hasibuan, M. A., Andreswari, R., Lubis, M., Perdana, F., & Fakhrurroja, H."
+  venue: "Intelligent Sustainable Systems, Lecture Notes in Networks and Systems. Springer"
+  year: 2023
+  type: Book chapter
+  theme: edm
+  doi: 10.1007/978-981-19-7660-5_28
+
+- title: "Business process analysis of academic information system application using process mining (case study: Final project module)"
+  authors: "Fitriansah, I. A., Andreswari, R., & Hasibuan, M. A."
+  venue: "5th International Conference on New Media Studies (CONMEDIA), 189–194. IEEE"
+  year: 2019
+  type: Conference
+  theme: edm
+  doi: 10.1109/conmedia46929.2019.8981839
+
+- title: "Prediction analysis of student specialization suitability using artificial neural network algorithm"
+  authors: "Latifah, S. N., Andreswari, R., & Hasibuan, M. A."
+  venue: "International Conference on Sustainable Engineering and Creative Computing (ICSECC). IEEE"
+  year: 2019
+  type: Conference
+  theme: edm
+  doi: 10.1109/icsecc.2019.8907173
+
+- title: "Analisis dan perancangan dashboard sistem pendukung keputusan untuk memprediksi bidang peminatan (Studi kasus: Program Studi S1 Sistem Informasi Universitas Telkom)"
+  authors: "Irsan, B. A., Andreswari, R., & Hasibuan, M. A."
+  venue: "eProceedings of Engineering, 6(2)"
+  year: 2019
+  type: Conference
+  theme: edm
+  url: https://openlibrarypublications.telkomuniversity.ac.id/index.php/engineering/article/view/10617
+
+- title: "Analysis of students graduation target based on academic data record using C4.5 algorithm. Case study: Information Systems students of Telkom University"
+  authors: "Putri, D. Y., Andreswari, R., & Hasibuan, M. A."
+  venue: "6th International Conference on Cyber and IT Service Management (CITSM), 1–6. IEEE"
+  year: 2018
+  type: Conference
+  theme: edm
+  doi: 10.1109/citsm.2018.8674366
+
+- title: "Soft set approach for clustering graduated dataset"
+  authors: "Saedudin, R. R., Kasim, S. B., Mahdin, H., & Hasibuan, M. A."
+  venue: "Recent Advances on Soft Computing and Data Mining, Advances in Intelligent Systems and Computing, 631–637. Springer"
+  year: 2017
+  type: Book chapter
+  theme: edm
+  doi: 10.1007/978-3-319-51281-5_63
+
+- title: "Sentiment analysis website of online hotel booking application reviews using the Naive Bayes algorithm"
+  authors: "Azzahra, Z. F., Andreswari, R., & Hasibuan, M. A."
+  venue: "6th International Conference on Science and Technology (ICST), 1–6. IEEE"
+  year: 2020
+  type: Conference
+  theme: text
+  doi: 10.1109/icst50505.2020.9732790
+
+- title: "Text mining approach using TF-IDF and Naive Bayes for classification of exam questions based on cognitive level of Bloom's taxonomy"
+  authors: "Aninditya, A., Hasibuan, M. A., & Sutoyo, E."
+  venue: "IEEE International Conference on Internet of Things and Intelligence System (IoTaIS)"
+  year: 2019
+  type: Conference
+  theme: text
+  doi: 10.1109/iotais47347.2019.8980428
+
+- title: "Sentiment analysis of social media users using Naïve Bayes, Decision Tree, Random Forest algorithm: A case study of draft law on the elimination of sexual violence (RUU PKS)"
+  authors: "Virra, K., Andreswari, R., & Hasibuan, M. A."
+  venue: "International Conference on Sustainable Engineering and Creative Computing (ICSECC). IEEE"
+  year: 2019
+  type: Conference
+  theme: text
+  doi: 10.1109/icsecc.2019.8907228
+
+- title: "Cardinality single column analysis for data profiling using an open source platform"
+  authors: "Kusumasari, T. F., Amethyst, S. R., Hasibuan, M. A., & Nurtrisha, W. A."
+  venue: "6th International Conference on Science and Technology (ICST), 1–5. IEEE"
+  year: 2020
+  type: Conference
+  theme: dq
+  doi: 10.1109/icst50505.2020.9732836
+
+- title: "Data cleansing with PDI for improving data quality"
+  authors: "Noor, S. A., Kusumasari, T. F., & Hasibuan, M. A."
+  venue: "International Conference on Creative Economics, Tourism and Information Management (ICCETIM). SciTePress"
+  year: 2020
+  type: Conference
+  theme: dq
+  doi: 10.5220/0009868102560261
+
+- title: "Analysis and design of data quality monitoring application using open source tools: A case study at a government agency"
+  authors: "Effendy, M. R., Kusumasari, T. F., & Hasibuan, M. A."
+  venue: "International Conference on Creative Economics, Tourism and Information Management (ICCETIM). SciTePress"
+  year: 2020
+  type: Conference
+  theme: dq
+  doi: 10.5220/0009867402140219
+
+- title: "Star schema implementation for monitoring in data quality management tool (a case study at a government agency)"
+  authors: "Effendy, M. R., Kusumasari, T. F., & Hasibuan, M. A."
+  venue: "4th International Conference on Informatics and Computing (ICIC), 1–6. IEEE"
+  year: 2019
+  type: Conference
+  theme: dq
+  doi: 10.1109/icic47613.2019.8985695
+
+- title: "Fingerprint clustering algorithm for data profiling using Pentaho Data Integration"
+  authors: "Dwiandriani, F., Kusumasari, T. F., & Hasibuan, M. A."
+  venue: "2nd International Conference on Information Technology, Information Systems and Electrical Engineering (ICITISEE), 359–363. IEEE"
+  year: 2017
+  type: Conference
+  theme: dq
+  doi: 10.1109/icitisee.2017.8285528
+
+- title: "Integrated virtual communities into user group management system (UGMS) for smart cities"
+  authors: "Prasetyo, Y. A., Lubis, M., Hasibuan, M. A., & Fauzi, R."
+  venue: "Journal of Physics: Conference Series, 1566(1), 012117"
+  year: 2020
+  type: Journal
+  theme: is
+  doi: 10.1088/1742-6596/1566/1/012117
+
+- title: "Android-based fiqh consultation application development"
+  authors: "Fitri, N. M. G., Andreswari, R., & Hasibuan, M. A."
+  venue: "Digital Economy for Customer Benefit and Business Fairness, 1–7. CRC Press"
+  year: 2020
+  type: Book chapter
+  theme: is
+  doi: 10.1201/9781003036173-1
+
+- title: "User group management and smart society: Readiness assessment of UU Adminduk (National Administration)"
+  authors: "Prasetyo, Y. A., Lubis, M., & Hasibuan, M. A."
+  venue: "Journal of Physics: Conference Series, 1235(1), 012019"
+  year: 2019
+  type: Journal
+  theme: is
+  doi: 10.1088/1742-6596/1235/1/012019
+
+- title: "Integrasi Line Bot layanan pesan antar makanan \"dikampus\" menggunakan Line Front-end Framework (LIFF) dengan metode iterative incremental"
+  authors: "Wirasandi, A., Gumilang, S. F. S., & Hasibuan, M. A."
+  venue: "eProceedings of Engineering, 6(2)"
+  year: 2019
+  type: Conference
+  theme: is
+  url: https://openlibrarypublications.telkomuniversity.ac.id/index.php/engineering/article/view/10758
+
+- title: "Pengembangan aplikasi Android \"dikampus\" untuk manajemen warung dan pesanan menggunakan metode iterative incremental"
+  authors: "Hidayat, A. T., Gumilang, S. F. S., & Hasibuan, M. A."
+  venue: "eProceedings of Engineering, 6(2)"
+  year: 2019
+  type: Conference
+  theme: is
+  # TODO: replace with the article's eProceedings URL.
+  url: https://scholar.google.com/scholar?q=%22Pengembangan+aplikasi+Android+dikampus+untuk+manajemen+warung+dan+pesanan%22
+
+- title: "Framework for measuring ERP implementation readiness in small and medium enterprise (SME): A case study in software developer company"
+  authors: "Hidayanto, A. N., Hasibuan, M. A., Handayani, P. W., & Sucahyo, Y. G."
+  venue: "Journal of Computers, 8(7), 1777–1782"
+  year: 2013
+  type: Journal
+  theme: is
+  doi: 10.4304/jcp.8.7.1777-1782
