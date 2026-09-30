@@ -1,45 +1,31 @@
 [
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "PhD in Computer Science, University of Western Australia (UWA), Perth — 2025\nFocus: Learning Analytics, Self-Regulated Learning, Event Abstraction, Process Mining\nMaster of Information Systems, Universitas Indonesia — 2011\nBachelor of Informatics Engineering, Universitas Indonesia — 2008"
+    "text": "My research explores how data can enhance education, with a focus on learning analytics, self-regulated learning and process mining."
   },
   {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
+    "objectID": "research.html#current-project",
+    "href": "research.html#current-project",
+    "title": "Research",
+    "section": "Current project",
+    "text": "Current project\n\nA Systematic Framework for Context and Domain-Driven Event Abstraction in Multi-modal Data within Online Collaborative Learning Environments\nPhD dissertation, University of Western Australia\nGoal: to measure and improve students’ self-regulation strategies by transforming raw learning events into high-level, interpretable learning actions, validated through expert judgment and process analysis.\nRelated publications:\n\nHasibuan, M. A., Reynolds, M., Male, S., & Hassan, G. M. (2023). Role of theory in analysing the dynamic of self-regulated learning process based on students’ event logs data: A scoping review. ASCILITE 2023: People, Partnerships and Pedagogies, 126–136.\nHasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F. (2021). Assessing a measurement model of self-regulated learning in an online collaborative learning environment. REES AAEE 2021 Conference: Engineering Education Research Capability.\n\nSee all publications."
+  },
+  {
+    "objectID": "research.html#themes",
+    "href": "research.html#themes",
+    "title": "Research",
+    "section": "Themes",
+    "text": "Themes\n\nLearning analytics & educational data mining: predicting study outcomes and specialization fit from academic data.\nProcess mining: analysing academic business processes and student event logs.\nText mining & sentiment analysis: classifying exam questions by Bloom’s taxonomy level and analysing public opinion.\nData quality management: data profiling, cleansing and monitoring with open-source tools."
+  },
+  {
+    "objectID": "notes/syntax-trap.html",
+    "href": "notes/syntax-trap.html",
+    "title": "The Syntax Trap: Re-evaluating Programming Pedagogy in Higher Education",
     "section": "",
-    "text": "PhD in Computer Science, University of Western Australia (UWA), Perth — 2025\nFocus: Learning Analytics, Self-Regulated Learning, Event Abstraction, Process Mining\nMaster of Information Systems, Universitas Indonesia — 2011\nBachelor of Informatics Engineering, Universitas Indonesia — 2008"
-  },
-  {
-    "objectID": "cv.html#appointments",
-    "href": "cv.html#appointments",
-    "title": "Curriculum Vitae",
-    "section": "Appointments",
-    "text": "Appointments\n\n\nLecturer, Information Systems"
-  },
-  {
-    "objectID": "cv.html#teaching",
-    "href": "cv.html#teaching",
-    "title": "Curriculum Vitae",
-    "section": "Teaching",
-    "text": "Teaching\nObject-Oriented Programming · Databases · Information Systems Strategy"
-  },
-  {
-    "objectID": "cv.html#skills",
-    "href": "cv.html#skills",
-    "title": "Curriculum Vitae",
-    "section": "Skills",
-    "text": "Skills\nProcess mining · Machine learning · Behavioral analytics · Cloud computing (Azure, AWS) · Data visualization · Educational software development"
-  },
-  {
-    "objectID": "cv.html#publications",
-    "href": "cv.html#publications",
-    "title": "Curriculum Vitae",
-    "section": "Publications",
-    "text": "Publications\nSee the full list on the Publications page."
+    "text": "The pervasive challenge of programming education in higher institutions, despite its critical role in equipping future innovators, remains a significant concern. Having dedicated over a decade to teaching programming, my observations and experiences as a Computer Science Education PhD student compel me to critique the prevailing pedagogical approach: an overemphasis on programming language syntax at the expense of cultivating computational thinking. This deeply ingrained flaw in our curriculum frequently leads to a disheartening paradox: students who are fluent in syntax yet struggle profoundly with solving genuine computational problems.\nThe current paradigm, unfortunately, often treats programming as a linguistic exercise rather than a problem-solving discipline. Syllabi are frequently structured around an exhaustive tour of language constructs – variables, data types, control flow, functions, objects, and so forth. While undeniably foundational, this atomistic approach dissects the “how” of coding without adequately addressing the “why” or, crucially, the “what next.” Students diligently memorize keywords, understand operator precedence, and even master complex library functions. They can flawlessly write code that compiles and runs, yet when confronted with a novel problem requiring a decomposition into smaller, manageable parts, pattern recognition, abstraction, or algorithmic design, they often hit an insurmountable wall. Their mental toolkit is replete with hammers and screwdrivers, but they lack the blueprint or the architect’s vision to construct a building.\nComputational thinking, in essence, is the cognitive process involved in formulating problems and their solutions in a way that is amenable to execution by a computer. It encompasses decomposition, breaking down complex problems into smaller, more manageable ones; pattern recognition, identifying similarities among and within problems; abstraction, focusing on the important information while ignoring irrelevant details; and algorithmic thinking, developing step-by-step solutions. These are the intellectual muscles that empower a programmer to translate a real-world challenge into an efficient and elegant computational solution. However, current teaching methodologies often sideline these crucial cognitive skills, implicitly assuming they will magically emerge from mere exposure to syntax.\nThis pedagogical oversight manifests in several critical ways. Students become reliant on rote memorization and pattern matching to previously seen examples, rather than developing the ability to analyze and synthesize. When faced with an unfamiliar problem, they lack the conceptual frameworks to approach it systematically. Debugging, a vital aspect of programming, becomes an exercise in trial and error rather than logical deduction, as they struggle to trace the flow of execution or reason about the underlying logic. Furthermore, this syntax-heavy approach often stifles creativity and intrinsic motivation. Programming transforms from an exciting endeavor of creation and problem-solving into a tedious task of adhering to rigid rules, leading to disengagement and a higher attrition rate in advanced courses.\nThe consequences of this imbalance are far-reaching. Graduates, despite holding degrees in Computer Science, may struggle in industry roles that demand adaptive problem-solving, innovative design, and the ability to work with ill-defined problems. They might possess the technical vocabulary but lack the fluency to converse in the language of solutions. This gap between academic training and industry demands creates a significant hurdle for both individuals and the broader technological landscape.\nTo rectify this imbalance, a fundamental shift in our educational philosophy is imperative. We must re-center our programming curricula around computational thinking, integrating it explicitly and implicitly throughout all levels of instruction. This means moving beyond merely demonstrating syntax and instead prioritizing activities that foster decomposition, abstraction, and algorithmic design. Early courses should introduce problem-solving strategies, perhaps through unplugged activities or visual programming environments, before diving headfirst into complex syntactical structures. Projects should be designed not just to test syntax mastery but to challenge students to apply computational thinking principles to solve real-world problems, even if simplified. Emphasis should be placed on code readability, logical correctness, and efficiency, rather than just functional output. Debugging should be taught as a systematic process of hypothesis testing and logical reasoning.\nIn conclusion, while programming language syntax is the vehicle, computational thinking is the engine that drives true problem-solving in computer science. Our current educational approach, with its undue focus on the former, is inadvertently producing a generation of skilled typists rather than adept problem solvers. It is time for a paradigm shift, one that prioritizes the cultivation of robust computational thinking skills alongside syntactical proficiency, ensuring that our graduates are not merely fluent in the language of computers, but are truly capable of harnessing their power to innovate and address the complex challenges of the 21st century."
   },
   {
     "objectID": "notes/taking-notes-includes-the-process-of-looking-ideas.html",
@@ -49,13 +35,6 @@
     "text": "Ideas is the statement about a subject or topic.\nWhen reading first, try to identify the subject/ topic of the paragraph, then identify the predicate or something says about the subject."
   },
   {
-    "objectID": "notes/efficiency-requires-consitency-of-action.html",
-    "href": "notes/efficiency-requires-consitency-of-action.html",
-    "title": "Efficiency requires consitency of action",
-    "section": "",
-    "text": "It is important to note that consistency is crucial for the success of a task, as it ensures that the desired outcome is achieved in a reliable and repeatable manner. Without consistency, even the most well-crafted initiative for improvement will fall short of its potential. In other words, for an action to be truly efficient, it must not only be performed with a high degree of skill, but also with a consistent level of adherence to established protocols and procedures."
-  },
-  {
     "objectID": "notes/critical-thinking-matters.html",
     "href": "notes/critical-thinking-matters.html",
     "title": "Critical thinking matters",
@@ -63,60 +42,18 @@
     "text": "Critical thinking matters, because\n\nYou will not have a belief if you accept it passively\n\nIf you do not have the belief then the action that follow it is not yours\n\nYour belief is yours, if you examine it critically\nCritical thinking helps us defense to error\nCritical thinking provides tools to self-discovery"
   },
   {
-    "objectID": "notes/elements-of-reasoning.html",
-    "href": "notes/elements-of-reasoning.html",
-    "title": "Elements of reasoning",
+    "objectID": "notes/information-overload-is-not-a-new-phenomenom.html",
+    "href": "notes/information-overload-is-not-a-new-phenomenom.html",
+    "title": "Information overload is not a new phenomenom",
     "section": "",
-    "text": "There are at least 8 basic elements for reasoning:\n\npurpose\nQuestion/problems/issues\npoint of view\nassumptions\ntheories/models/concepts\ndata/information\nimplications/consequences\nconclusions/ inferences"
+    "text": "Information overload is a real and present problem for many people. The constant bombardment of new information from technology and the ever-increasing speed of life can be overwhelming. This overload can lead to decreased productivity, decreased quality of work, and even depression. There are a few things that can be done to combat information overload. One is to be more selective about the sources of information that are allowed into one’s life. Another is to take breaks from technology and give the mind time to rest. Finally, it is important to learn how to effectively filter and process information. The first step to combating information overload is to be more selective about the sources of information that are allowed into one’s life. It is important to be intentional about what information is let in. Turn off notifications for email, social media, and news apps. Choose one or two sources for news and information that are trustworthy and stick with them. Be more selective about who you follow on social media and what you allow into your feed. The second step to combating information overload is to take breaks from technology and give the mind time to rest. Go for a walk, read a book, or take a break from screens altogether. Resist the urge to check email, social media, or the news every few minutes. Give yourself permission to disconnect from the constant flow of information. The third step to combating information overload is to learn how to effectively filter and process information. When presented with a deluge of information, it can be helpful to have some sort of system for sifting through it all. One method is to prioritize information based on urgency and importance. Another method is to chunk information into manageable pieces. By learning how to effectively filter and process information, we can lessen the negative impact of information overload in our lives."
   },
   {
-    "objectID": "notes/writing-habit-is-the-key.html",
-    "href": "notes/writing-habit-is-the-key.html",
-    "title": "Writing habit is the key",
+    "objectID": "notes/efficiency-requires-consitency-of-action.html",
+    "href": "notes/efficiency-requires-consitency-of-action.html",
+    "title": "Efficiency requires consitency of action",
     "section": "",
-    "text": "Ask a group of academics why they have not finished the paper they started last year and the answer is almost always the same: I don’t have time. Teaching, supervision, meetings and administration fill the week, so writing is postponed to the semester break, the weekend, or that mythical free month that never arrives. The assumption behind this answer is that good writing needs long, uninterrupted blocks of time.\nStudy after study shows that the assumption is wrong. You do not need much time to write effectively (Boice 1982, 1992; Krashen 2002). Writers who write a little almost every day produce more manuscripts than those who wait weeks or months between sessions. Writing just thirty minutes a day can make you one of those people who quietly publish several journal articles a year."
-  },
-  {
-    "objectID": "notes/writing-habit-is-the-key.html#introduction",
-    "href": "notes/writing-habit-is-the-key.html#introduction",
-    "title": "Writing habit is the key",
-    "section": "",
-    "text": "Ask a group of academics why they have not finished the paper they started last year and the answer is almost always the same: I don’t have time. Teaching, supervision, meetings and administration fill the week, so writing is postponed to the semester break, the weekend, or that mythical free month that never arrives. The assumption behind this answer is that good writing needs long, uninterrupted blocks of time.\nStudy after study shows that the assumption is wrong. You do not need much time to write effectively (Boice 1982, 1992; Krashen 2002). Writers who write a little almost every day produce more manuscripts than those who wait weeks or months between sessions. Writing just thirty minutes a day can make you one of those people who quietly publish several journal articles a year."
-  },
-  {
-    "objectID": "notes/writing-habit-is-the-key.html#what-the-evidence-shows",
-    "href": "notes/writing-habit-is-the-key.html#what-the-evidence-shows",
-    "title": "Writing habit is the key",
-    "section": "2 What the evidence shows",
-    "text": "2 What the evidence shows\nThe clearest demonstration comes from psychologist Robert Boice, who spent years studying how university faculty actually write. In one experiment, he randomly assigned struggling academic writers to three conditions (Boice 1983). The first group, abstinence, was asked not to write except in emergencies. The second, spontaneous, scheduled writing sessions but wrote only when they felt inspired. The third, contingency management, scheduled daily sessions and was required to write in each one, with a mild penalty if they skipped.\nThe differences were striking (Figure 1). The contingency group wrote about 3.2 pages per day, compared with 0.9 pages for the spontaneous group and 0.2 pages for the abstinent group: sixteen times more output than not writing, and three and a half times more than waiting for the muse (Silvia 2007). Just as important, the forced writers did not become mechanical. They reported a new creative idea roughly every day, while the spontaneous writers reported one every two days and the abstinent writers one every five days. Krashen’s (2002) re-analysis of the same data confirmed the pattern and suggested that the gains came from regularity rather than from sheer volume.\n\n\n\n\n\n\n\n\n\n\n\n(a) Mean pages written per day\n\n\n\n\n\n\n\n\n\n\n\n(b) Median days between new creative ideas (lower is better)\n\n\n\n\n\n\n\nFigure 1: Output and idea generation under three writing conditions, as reported by Boice (1983) and summarised by Silvia (2007).\n\n\n\nBoice’s later work with new faculty told the same story (Boice 1992). The “quick starters” who thrived in their first years were not the ones with the lightest teaching loads. They were the ones who wrote in brief, regular sessions, often no more than an hour, and who stopped before they were exhausted. Binge writers, by contrast, reported more stress, more procrastination and, over time, fewer publications."
-  },
-  {
-    "objectID": "notes/writing-habit-is-the-key.html#why-small-and-regular-works",
-    "href": "notes/writing-habit-is-the-key.html#why-small-and-regular-works",
-    "title": "Writing habit is the key",
-    "section": "3 Why small and regular works",
-    "text": "3 Why small and regular works\nSeveral mechanisms explain the effect. First, a daily session keeps the project warm. When you return to a draft the next day, the argument is still in your head, so you spend your minutes writing rather than re-reading and re-orienting. After a two-month gap, the first week is lost to remembering what you meant.\nSecond, regular writing lowers the emotional stakes of any single session. If you write only once a month, that session has to be brilliant, and the pressure feeds perfectionism and avoidance. If you write every day, a weak session is just one of many, and it is easy to try again tomorrow.\nThird, writing is thinking. Ideas do not arrive fully formed and wait to be typed; they emerge while we draft, revise and connect notes. This is why Boice’s scheduled writers generated more ideas, not fewer. Inspiration tends to follow the work."
-  },
-  {
-    "objectID": "notes/writing-habit-is-the-key.html#what-thirty-minutes-a-day-adds-up-to",
-    "href": "notes/writing-habit-is-the-key.html#what-thirty-minutes-a-day-adds-up-to",
-    "title": "Writing habit is the key",
-    "section": "4 What thirty minutes a day adds up to",
-    "text": "4 What thirty minutes a day adds up to\nSmall numbers compound. Suppose you write for thirty minutes, five days a week, and produce a modest 250 words per session. Figure 2 shows the cumulative result over a working year of 48 weeks.\n\n\n\n\n\n\n\n\nFigure 2: Illustrative projection: cumulative draft words from 30 minutes a day (250 words per session, 5 sessions per week, 48 working weeks). Dashed lines mark the length of a typical 8,000-word journal article.\n\n\n\n\n\nBy the end of the year you would have drafted 60,000 words, enough raw material for seven full-length articles. Even if half of those words are cut in revision, the output still exceeds what most binge writers manage. The projection is deliberately conservative; it assumes no weekends, no writing retreats and no particularly good days."
-  },
-  {
-    "objectID": "notes/writing-habit-is-the-key.html#conclusion",
-    "href": "notes/writing-habit-is-the-key.html#conclusion",
-    "title": "Writing habit is the key",
-    "section": "5 Conclusion",
-    "text": "5 Conclusion\nThe lesson is simple but easy to ignore: productive writing is less about talent or free time than about habit. Schedule a short session, treat it like a class you have to teach, and protect it. Start with thirty minutes. Write even when you do not feel like it, and stop when the time is up. The pages, and the ideas, will accumulate faster than you expect."
-  },
-  {
-    "objectID": "notes/writing-habit-is-the-key.html#references",
-    "href": "notes/writing-habit-is-the-key.html#references",
-    "title": "Writing habit is the key",
-    "section": "References",
-    "text": "References\n\n\nBoice, Robert. 1982. “Increasing the Writing Productivity of \"Blocked\" Academicians.” Behaviour Research and Therapy 20 (3): 197–207. https://doi.org/10.1016/0005-7967(82)90138-X.\n\n\nBoice, Robert. 1983. “Contingency Management in Writing and the Appearance of Creative Ideas: Implications for the Treatment of Writing Blocks.” Behaviour Research and Therapy 21 (5): 537–43. https://doi.org/10.1016/0005-7967(83)90045-8.\n\n\nBoice, Robert. 1992. The New Faculty Member: Supporting and Fostering Professional Development. Jossey-Bass.\n\n\nKrashen, Stephen. 2002. “Optimal Levels of Writing Management: A Re-Analysis of Boice (1983).” Education 122 (3): 605–8.\n\n\nSilvia, Paul J. 2007. How to Write a Lot: A Practical Guide to Productive Academic Writing. American Psychological Association."
+    "text": "It is important to note that consistency is crucial for the success of a task, as it ensures that the desired outcome is achieved in a reliable and repeatable manner. Without consistency, even the most well-crafted initiative for improvement will fall short of its potential. In other words, for an action to be truly efficient, it must not only be performed with a high degree of skill, but also with a consistent level of adherence to established protocols and procedures."
   },
   {
     "objectID": "publications.html",
@@ -161,25 +98,46 @@
     "text": "2019\n\nAninditya, A., Hasibuan, M. A., & Sutoyo, E. (2019). Text mining approach using TF-IDF and Naive Bayes for classification of exam questions based on cognitive level of Bloom’s taxonomy. In 2019 IEEE International Conference on Internet of Things and Intelligence System (IoTaIS). IEEE.\nEffendy, M. R., Kusumasari, T. F., & Hasibuan, M. A. (2019). Star schema implementation for monitoring in data quality management tool (a case study at a government agency). In 2019 4th International Conference on Informatics and Computing (ICIC) (pp. 1–6). IEEE.\nFitriansah, I. A., Andreswari, R., & Hasibuan, M. A. (2019). Business process analysis of academic information system application using process mining (case study: Final project module). In 2019 5th International Conference on New Media Studies (CONMEDIA) (pp. 189–194). IEEE.\nSubagya, K. A., Pratami, D., & Hasibuan, M. A. (2019). Pengembangan konten e-learning menggunakan design sprint pada mata kuliah manajemen proyek (Topik: Project introduction). JISI: Jurnal Integrasi Sistem Industri, 6(2), 107–116.\nVirra, K., Andreswari, R., & Hasibuan, M. A. (2019). Sentiment analysis of social media users using Naïve Bayes, Decision Tree, Random Forest algorithm: A case study of draft law on the elimination of sexual violence (RUU PKS). In 2019 International Conference on Sustainable Engineering and Creative Industries.\nLatifah, S. N., Andreswari, R., & Hasibuan, M. A. (2019). Prediction analysis of student specialization suitability using artificial neural network algorithm. In 2019 International Conference on Sustainable Engineering and Creative Industries.\nHidayat, A. T., Gumilang, S. F. S., & Hasibuan, M. A. (2019). Pengembangan aplikasi Android “dikampus” untuk manajemen warung dan pesanan menggunakan metode iterative incremental (studi kasus layanan pesan antar makanan untuk wilayah kampus). eProceedings of Engineering, 6(2).\nWirasandi, A., Gumilang, S. F. S., & Hasibuan, M. A. (2019). Integrasi Line Bot layanan pesan antar makanan “dikampus” menggunakan Line Front-end Framework (LIFF) dengan metode iterative incremental. eProceedings of Engineering, 6(2).\nIrsan, B. A., Andreswari, R., & Hasibuan, M. A. (2019). Analisis dan perancangan dashboard sistem pendukung keputusan untuk memprediksi bidang peminatan (Studi kasus: Program Studi S1 Sistem Informasi Universitas Telkom). eProceedings of Engineering, 6(2).\nPrasetyo, Y. A., Lubis, M., & Hasibuan, M. A. (2019). User group management and smart society: Readiness assessment of UU Adminduk (National Administration). Journal of Physics: Conference Series, 1235(1), 012019."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Muhammad Azani Hasibuan",
     "section": "",
-    "text": "My research explores how data can enhance education, with a focus on learning analytics, self-regulated learning and process mining."
+    "text": "I study how the digital traces students leave behind can be turned into insight that helps them learn. My work sits at the intersection of learning analytics, self-regulated learning and process mining.\nI am a lecturer in Information Systems and a PhD candidate in Computer Science at the University of Western Australia. My doctoral research develops a framework that transforms low-level student activity logs into meaningful, theory-informed learning actions, so that educators can see and support self-regulated learning in online and collaborative environments. To do this, I combine process mining, machine learning and behavioural analytics with learning-science theory.\nIn the classroom, I design student-centred courses built on real-world case studies, mastery-based learning and active learning. I have taught Object-Oriented Programming, Databases and Information Systems Strategy, and my goal is always to make abstract concepts concrete and applicable."
   },
   {
-    "objectID": "research.html#current-project",
-    "href": "research.html#current-project",
-    "title": "Research",
-    "section": "Current project",
-    "text": "Current project\n\nA Systematic Framework for Context and Domain-Driven Event Abstraction in Multi-modal Data within Online Collaborative Learning Environments\nPhD dissertation, University of Western Australia\nGoal: to measure and improve students’ self-regulation strategies by transforming raw learning events into high-level, interpretable learning actions, validated through expert judgment and process analysis.\nRelated publications:\n\nHasibuan, M. A., Reynolds, M., Male, S., & Hassan, G. M. (2023). Role of theory in analysing the dynamic of self-regulated learning process based on students’ event logs data: A scoping review. ASCILITE 2023: People, Partnerships and Pedagogies, 126–136.\nHasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F. (2021). Assessing a measurement model of self-regulated learning in an online collaborative learning environment. REES AAEE 2021 Conference: Engineering Education Research Capability.\n\nSee all publications."
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Muhammad Azani Hasibuan",
+    "section": "Research interests",
+    "text": "Research interests\n\n\n Learning analytics & educational data mining\n\n\n Self-regulated learning & behaviour modelling\n\n\n Event abstraction & process mining\n\n\n AI-based feedback & digital nudging"
   },
   {
-    "objectID": "research.html#themes",
-    "href": "research.html#themes",
-    "title": "Research",
-    "section": "Themes",
-    "text": "Themes\n\nLearning analytics & educational data mining: predicting study outcomes and specialization fit from academic data.\nProcess mining: analysing academic business processes and student event logs.\nText mining & sentiment analysis: classifying exam questions by Bloom’s taxonomy level and analysing public opinion.\nData quality management: data profiling, cleansing and monitoring with open-source tools."
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Muhammad Azani Hasibuan",
+    "section": "Education",
+    "text": "Education\n\n\nCurrent\nPhD in Computer Science University of Western Australia, Perth Learning analytics · Self-regulated learning · Event abstraction · Process mining\n\n\n2011\nMaster of Information Systems Universitas Indonesia\n\n\n2008\nBachelor of Informatics Engineering Universitas Indonesia"
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Muhammad Azani Hasibuan",
+    "section": "Selected publications",
+    "text": "Selected publications\n\nHasibuan, M. A., Reynolds, M., Male, S., & Hassan, G. M. (2023). Role of theory in analysing the dynamic of self-regulated learning process based on students’ event logs data: A scoping review. ASCILITE 2023: People, Partnerships and Pedagogies, 126–136.\nLubis, M., Hasibuan, M. A., & Andreswari, R. (2022). Satisfaction measurement in the blended learning system of the university: The Literacy Mediated-Discourses (LM-D) framework. Sustainability, 14(19), 12929. https://doi.org/10.3390/su141912929\nHasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F. (2021). Assessing a measurement model of self-regulated learning in an online collaborative learning environment. REES AAEE 2021 Conference.\n\nSee all publications →"
+  },
+  {
+    "objectID": "index.html#beyond-research",
+    "href": "index.html#beyond-research",
+    "title": "Muhammad Azani Hasibuan",
+    "section": "Beyond research",
+    "text": "Beyond research\nI enjoy building personal productivity systems that combine Islamic values with frameworks such as OKRs and the 12-Week Year, and I write about learning, thinking and writing in my notes. I also have hands-on experience with cloud computing (Azure, AWS), data visualisation and educational software development."
+  },
+  {
+    "objectID": "index.html#get-in-touch",
+    "href": "index.html#get-in-touch",
+    "title": "Muhammad Azani Hasibuan",
+    "section": "Get in touch",
+    "text": "Get in touch\nI am always happy to talk about learning analytics, educational technology or research collaboration. Feel free to reach out through the links on this page."
   },
   {
     "objectID": "teaching.html",
@@ -210,6 +168,69 @@
     "text": "Writing on teaching\n\n\n\nThe Syntax Trap\nRe-evaluating programming pedagogy in higher education: why computational thinking should come before syntax.\n\n\n\n\nLearning Analytics in the Age of AI\nReflections from a computing educator on what learning data and AI can, and should, do for teaching.\n\n\n\n\nEthical AI Use in Higher Education\nAn academic policy framework for using generative AI responsibly, with Telkom University as the case."
   },
   {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Lecturer in Information Systems at Telkom University and PhD candidate at the University of Western Australia. I combine more than fifteen years of experience in university teaching, learning technology leadership and IT consulting. My research applies learning analytics, data mining and process mining to understand and support students’ self-regulated learning in online and collaborative environments.\nLinkedIn  GitHub\nResearch interests: Learning analytics · Data mining & business intelligence · Online and collaborative learning · Human–computer interaction · Self-regulated learning · Process mining"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n2020–present\n\nPhD in Computer Science (Computer Science Education), in progress\nThe University of Western Australia, Perth · Department of Computer Science and Software Engineering\nThesis: A systematic framework for context- and domain-driven event abstraction in multi-modal data within online collaborative learning environments.\n\n\n\n2009–2011\n\nMaster of Information Systems\nUniversitas Indonesia, Faculty of Computer Science · GPA 3.61/4.00\n\n\n\n2003–2008\n\nBachelor of Informatics Engineering\nUniversitas Indonesia, Faculty of Computer Science"
+  },
+  {
+    "objectID": "cv.html#academic-employment",
+    "href": "cv.html#academic-employment",
+    "title": "Curriculum Vitae",
+    "section": "Academic employment",
+    "text": "Academic employment\n\n2014–present\n\nFaculty Member, Department of Information Systems\nTelkom University, Bandung\nTeaching programming, databases, data mining, business intelligence and project management to undergraduate Information Systems students, and supervising undergraduate research projects.\n\n\n\n2018–2020\n\nHead of Learning Technology, Center for Teaching & Learning Excellence (CTLE)\nTelkom University, Bandung\n\nLed the university-wide adoption of blended learning across all faculties.\nHelped faculty members design and implement blended-learning courses.\nManaged the development of more than 500 online courses for all schools.\nEvaluated the implementation of blended learning and e-learning.\n\n\n\n\n2011–2013\n\nEarlier teaching\nLecturer, Politeknik Negeri Jakarta (2013) · Part-time Lecturer, STMIK Inti Indonesia (2011–2012) · Guest Lecturer, Sekolah Tinggi Manajemen Telkom (2011)\nCourses: Enterprise resource planning · Knowledge management · Principles of e-business · Web multimedia · Business process management"
+  },
+  {
+    "objectID": "cv.html#teaching",
+    "href": "cv.html#teaching",
+    "title": "Curriculum Vitae",
+    "section": "Teaching",
+    "text": "Teaching\n\n2020\n\nThe University of Western Australia\nLab facilitator, Relational Database Management Systems\n\n\n\n2014–2019\n\nTelkom University, undergraduate Information Systems\n\n\n\n\n\n\n\nCourse\nSemesters\n\n\n\n\nIntroduction to Computer Algorithms (Java)\n2014-2, 2015-2\n\n\nDatabase Systems\n2014-2, 2015-2\n\n\nData Structures and Algorithms (Java)\n2015-1, 2016-1, 2017-1\n\n\nHuman–Computer Interaction\n2015-1\n\n\nProject Management for Information Systems\n2016-1, 2017-1, 2018-1, 2019-1\n\n\nMobile Application Development (Android)\n2016-2, 2017-2\n\n\nCapstone: Software Engineering Project\n2016-2, 2017-2, 2018-2, 2019-2\n\n\nData Warehouse & Business Intelligence (Tableau)\n2018-1, 2019-1\n\n\nData Mining (Python)\n2018-2, 2019-2\n\n\n\nCurrent courses are listed on the Teaching page."
+  },
+  {
+    "objectID": "cv.html#industry-experience",
+    "href": "cv.html#industry-experience",
+    "title": "Curriculum Vitae",
+    "section": "Industry experience",
+    "text": "Industry experience\n\n2009–2013\n\nSenior IT Consultant & Solution Architect\nPT Totalindo Rekayasa Telematika, Jakarta\nDesigned and delivered business-process, technology-infrastructure and IT-governance strategies for public- and private-sector clients. Key projects:\n\nMinistry of Home Affairs, e-KTP national ID programme (2011–2012): designed the helpdesk business processes and led the agile customisation, rollout and agent training of the helpdesk management system.\nPUSLIA, West Java Regional Revenue Office (2012–2013): designed IT service standard operating procedures and implemented an open-source ticketing system.\nPerum Bulog (2011–2012): developed the IT/IS blueprint and roadmap, then led the ERP initiation: requirements, technical specification, cost and schedule estimates, and terms of reference.\nBaitul Maal Hidayatullah (2010–2011): led the implementation of an open-source ERP system.\n\n\n\n\n2008–2009\n\nData Engineer\nPT Solusi247, Jakarta\nBuilt data warehouse and business intelligence solutions for Indonesian telecommunications companies, including Indosat, NTS Axis (with IBM Indonesia) and Bakrie Telecom."
+  },
+  {
+    "objectID": "cv.html#research-experience",
+    "href": "cv.html#research-experience",
+    "title": "Curriculum Vitae",
+    "section": "Research experience",
+    "text": "Research experience\n\n2016–2018\n\nEnterprise Data Management Lab, Telkom University\n\nAnalysed how GRIT, self-efficacy and gamification relate to student performance in blended learning (2017–2018).\nApplied Apriori association rules to web-usage logs and GRIT scores to identify factors that determine student outcomes.\nBuilt a Pentaho ETL pipeline for two million rows of student data, leading to the paper Soft Set Approach for Clustering Graduated Dataset (Springer, 2017)."
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\nTwenty-four publications since 2013, in venues including Sustainability, Journal of Computers, Springer and IEEE conferences, and ASCILITE. Selected work:\n\nHasibuan, M. A., Reynolds, M., Male, S., & Hassan, G. M. (2023). Role of theory in analysing the dynamic of self-regulated learning process based on students’ event logs data: A scoping review. ASCILITE 2023: People, Partnerships and Pedagogies, 126–136.\nHasibuan, M. A., Andreswari, R., Lubis, M., Perdana, F., & Fakhrurroja, H. (2023). Classification algorithm for predicting the graduation level: Case study of e-learning in Telkom University. In Intelligent Sustainable Systems (Vol. 1). Springer.\nLubis, M., Hasibuan, M. A., & Andreswari, R. (2022). Satisfaction measurement in the blended learning system of the university: The Literacy Mediated-Discourses (LM-D) framework. Sustainability, 14(19), 12929.\nHasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F. (2021). Assessing a measurement model of self-regulated learning in an online collaborative learning environment. REES AAEE 2021 Conference.\nPutri, D. Y., Andreswari, R., & Hasibuan, M. A. (2018). Analysis of students graduation target based on academic data record using C4.5 algorithm. Case study: Information Systems students of Telkom University. 6th International Conference on Cyber and IT Service Management (CITSM), 1–6. IEEE.\nDwiandriani, F., Kusumasari, T. F., & Hasibuan, M. A. (2017). Fingerprint clustering algorithm for data profiling using Pentaho Data Integration. 2nd International Conference on Information Technology, Information Systems and Electrical Engineering (ICITISEE), 359–363. IEEE.\nSaedudin, R. R., Kasim, S. B., Mahdin, H., & Hasibuan, M. A. (2017). Soft set approach for clustering graduated dataset. In Recent Advances on Soft Computing and Data Mining (pp. 631–637). Springer.\nHidayanto, A. N., Hasibuan, M. A., Handayani, P. W., & Sucahyo, Y. G. (2013). Framework for measuring ERP implementation readiness in small and medium enterprise (SME): A case study in software developer company. Journal of Computers, 8(7), 1777–1782.\n\nFull publication list →"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\n\n\nProgramming & data\nPython (pandas, NumPy, scikit-learn) R Java SQL / SQLite Oracle PL/SQL\n\n\nAnalytics & BI platforms\nTableau Pentaho Data Integration IBM Cognos IBM DataStage\n\n\nResearch methods\nLearning analytics Data mining Process mining Machine learning Text mining\n\n\nIS/IT management\nProject management (PMP) IT governance (COBIT, ITIL) Business process management Enterprise resource planning Scrum & agile"
+  },
+  {
+    "objectID": "cv.html#certifications-development",
+    "href": "cv.html#certifications-development",
+    "title": "Curriculum Vitae",
+    "section": "Certifications & development",
+    "text": "Certifications & development\n\nCertification\n\nProject Management Professional (PMP), Project Management Institute\nIELTS overall band 7.0\n\n\n\n2007–2012\n\nProfessional Scrum Foundation, Maranatha Christian University (2012)\nEnterprise Architecture with MEGA Suite, Institut Teknologi Telkom (2012)\nISO 9001:2008, PT Totalindo Rekayasa Telematika (2012)\nBusiness Intelligence with IBM Cognos, PT Solusi247 (2008)\nProbabilistic Robotics short course, Universitas Indonesia (2007)"
+  },
+  {
     "objectID": "notes.html",
     "href": "notes.html",
     "title": "Notes",
@@ -217,102 +238,11 @@
     "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\nReading Time\n\n\n\n\n\n\n\n\nJun 29, 2025\n\n\nThe Syntax Trap: Re-evaluating Programming Pedagogy in Higher Education\n\n\ncomputational thinking, teaching, essay\n\n\n4 min\n\n\n\n\n\n\nJun 28, 2025\n\n\nLearning Analytics in the Age of AI: Reflections from a Computing Educator\n\n\nlearning analytics, essay\n\n\n4 min\n\n\n\n\n\n\nSep 3, 2023\n\n\nIllusion of free time\n\n\n \n\n\n1 min\n\n\n\n\n\n\nFeb 6, 2023\n\n\nElements of reasoning\n\n\n \n\n\n1 min\n\n\n\n\n\n\nFeb 6, 2023\n\n\nCritical thinking\n\n\n \n\n\n2 min\n\n\n\n\n\n\nJan 10, 2023\n\n\nEfficiency requires consitency of action\n\n\n \n\n\n1 min\n\n\n\n\n\n\nJul 22, 2022\n\n\nTaking notes includes the process of looking ideas\n\n\n \n\n\n1 min\n\n\n\n\n\n\nJul 21, 2022\n\n\nThe aim of note-taking\n\n\n \n\n\n1 min\n\n\n\n\n\n\nJul 10, 2022\n\n\nNew layer in luhmann’s slip box\n\n\nnote-taking, writing, essay\n\n\n5 min\n\n\n\n\n\n\nJul 9, 2022\n\n\nInformation overload is not a new phenomenom\n\n\n \n\n\n2 min\n\n\n\n\n\n\nJul 7, 2022\n\n\nWriting habit is the key\n\n\nwriting, productivity, essay\n\n\n5 min\n\n\n\n\n\n\nJul 7, 2022\n\n\nCritical thinking matters\n\n\n \n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Muhammad Azani Hasibuan",
-    "section": "",
-    "text": "Hi, I’m Azani, a lecturer in Information Systems and a PhD candidate in Computer Science, with a passion for learning analytics, educational technology, and intelligent systems that empower learners.\nOver the past few years, I have dedicated myself to exploring how data can enhance education. My current research focuses on developing a framework to transform low-level student activity logs into meaningful behavioral insights, helping educators better understand and support self-regulated learning in digital environments. I combine expertise in process mining, machine learning, and behavioral analytics to bridge the gap between raw educational data and impactful learning decisions.\nAs a lecturer, I love designing student-centered learning experiences using real-world case studies, mastery-based learning models, and active learning strategies. I’ve taught courses in Object-Oriented Programming, Databases, and Information Systems Strategy, and I always aim to make abstract concepts more approachable and applicable.\nBeyond academia, I enjoy building personal productivity systems that integrate Islamic values with modern frameworks like OKR and the 12-Week Year. I also have hands-on experience with cloud computing (Azure, AWS), data visualization, and educational software development."
-  },
-  {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Muhammad Azani Hasibuan",
-    "section": "Research interests",
-    "text": "Research interests\n\nLearning Analytics & Educational Data Mining\nSelf-Regulated Learning (SRL) & Behavior Modeling\nEvent Abstraction & Process Mining\nAI-based Feedback & Digital Nudging in Education\nProductivity Systems for Lifelong Learning"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Muhammad Azani Hasibuan",
-    "section": "Education",
-    "text": "Education\nPhD in Computer Science · University of Western Australia (UWA), Perth\nFocus: Learning Analytics, Self-Regulated Learning, Event Abstraction, Process Mining\nMaster of Information Systems (2011) · Universitas Indonesia\nBachelor of Informatics Engineering (2008) · Universitas Indonesia"
-  },
-  {
-    "objectID": "index.html#get-in-touch",
-    "href": "index.html#get-in-touch",
-    "title": "Muhammad Azani Hasibuan",
-    "section": "Get in touch",
-    "text": "Get in touch\nWhether you’re interested in learning analytics, education technology, productivity systems, or just want to say hi, feel free to reach out through the links on this page."
-  },
-  {
-    "objectID": "notes/learning-analytics-age-of-ai.html",
-    "href": "notes/learning-analytics-age-of-ai.html",
-    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
-    "section": "",
-    "text": "When I first started teaching programming over a decade ago, my biggest concern was how to keep students engaged beyond the syntax. Why did some students thrive while others got lost after the second loop? How could I identify students struggling with core concepts before they failed their exams?\nFast forward to today — we’re living in an era where data from every keystroke, click, submission, and discussion thread is logged. Our classrooms, especially in computer science, are rich with digital traces of learning. The challenge now is not collecting data, but making sense of it. This is where Learning Analytics (LA) comes in — and in the age of Artificial Intelligence, it’s becoming a game changer."
-  },
-  {
-    "objectID": "notes/learning-analytics-age-of-ai.html#so-what-is-learning-analytics",
-    "href": "notes/learning-analytics-age-of-ai.html#so-what-is-learning-analytics",
-    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
-    "section": "🎯 So, What Is Learning Analytics?",
-    "text": "🎯 So, What Is Learning Analytics?\nIn simple terms, learning analytics is about measuring and analyzing student data to understand and improve learning. It’s not a new idea, but the capabilities have grown exponentially. Today, we can track not just whether a student submitted an assignment, but how they coded it, how long they spent on debugging, which resources they consulted, and whether they learned deeply or just barely enough to get by.\nIn my classes, especially those involving Java, GitHub, or Moodle-based labs, I can now access a full behavioral footprint. It’s like having a mirror that shows how my students actually learn — not just what they score."
-  },
-  {
-    "objectID": "notes/learning-analytics-age-of-ai.html#why-the-ai-era-changes-everything",
-    "href": "notes/learning-analytics-age-of-ai.html#why-the-ai-era-changes-everything",
-    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
-    "section": "🤖 Why the AI Era Changes Everything",
-    "text": "🤖 Why the AI Era Changes Everything\nThe hype around AI often centers on large language models (LLMs) like ChatGPT or tools like GitHub Copilot. But for educators, the real transformation is in how AI enables new layers of interpretation and prediction in learning analytics.\nHere’s what AI makes possible:\n\nPattern detection: Algorithms can identify students who are silently disengaging long before it becomes visible to a lecturer.\nPersonalized feedback: AI systems can provide individualized nudges based on how a student learns, not just what they got wrong.\nCognitive modeling: We’re getting closer to modeling students’ self-regulated learning — things like planning, monitoring, and reflecting — by interpreting multimodal data (LMS logs, GitHub commits, Slack messages, etc.).\n\nFor those of us in Computing Education, where the learning process is as important as the output (i.e., code), this is gold."
-  },
-  {
-    "objectID": "notes/learning-analytics-age-of-ai.html#the-higher-ed-reality-promise-and-pitfalls",
-    "href": "notes/learning-analytics-age-of-ai.html#the-higher-ed-reality-promise-and-pitfalls",
-    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
-    "section": "🎓 The Higher Ed Reality: Promise and Pitfalls",
-    "text": "🎓 The Higher Ed Reality: Promise and Pitfalls\nLet’s be honest: most universities are still catching up. Sure, we have LMS dashboards and performance reports, but they’re mostly descriptive. Very few institutions use LA proactively — to intervene, to mentor, to redesign.\nI’ve seen three common pitfalls:\n\nData without pedagogy: Just because we can measure doesn’t mean we’re asking the right questions.\nSurveillance over support: Students are more likely to accept analytics if it helps them grow, not just monitor them.\nLack of faculty training: Many educators are still wary or unaware of what LA (and AI) can offer.\n\nWe need a cultural shift where learning analytics becomes part of the instructional design, not just an admin add-on."
-  },
-  {
-    "objectID": "notes/learning-analytics-age-of-ai.html#case-in-point-my-current-research",
-    "href": "notes/learning-analytics-age-of-ai.html#case-in-point-my-current-research",
-    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
-    "section": "🧠 Case in Point: My Current Research",
-    "text": "🧠 Case in Point: My Current Research\nMy own PhD journey is centered around this question: Can we transform raw log data into meaningful indicators of student learning behavior? I’m working on a framework that abstracts low-level events — like assignment-view, quiz-start, code-push — into high-level learning actions using domain knowledge and context (e.g., early planning, deadline-driven cramming, iterative coding).\nOne of the most exciting directions? Using supervised learning and expert validation to map these behaviors to dimensions of self-regulated learning. The end goal is to give students a mirror — not to shame them, but to guide them."
-  },
-  {
-    "objectID": "notes/learning-analytics-age-of-ai.html#what-can-we-do-as-educators",
-    "href": "notes/learning-analytics-age-of-ai.html#what-can-we-do-as-educators",
-    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
-    "section": "🌱 What Can We Do as Educators?",
-    "text": "🌱 What Can We Do as Educators?\nIf you’re a fellow CS educator, here are a few humble suggestions:\n\nStart small: Use your LMS logs to identify common drop-off points. When do students stop engaging?\nVisualize: Plot timelines of activity — are students coding steadily or all in the last 24 hours?\nReflect: Share anonymized patterns with your students. Ask: What kind of learner are you becoming?\nCollaborate: Work with learning scientists or data analysts at your institution. You don’t have to do it alone."
-  },
-  {
-    "objectID": "notes/learning-analytics-age-of-ai.html#final-thoughts",
-    "href": "notes/learning-analytics-age-of-ai.html#final-thoughts",
-    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
-    "section": "✨ Final Thoughts",
-    "text": "✨ Final Thoughts\nLearning Analytics in the AI era isn’t about replacing educators. It’s about augmenting our ability to care, support, and design better learning experiences. As computing educators, we are uniquely positioned — not only to teach about AI but to use it to transform how our students learn to learn.\nIn the end, the best analytics system is not the one that predicts grades. It’s the one that helps a struggling student find their way back into the joy of learning.\nLet’s build that future — mindfully, ethically, and with our students at the center."
-  },
-  {
     "objectID": "notes/illusion-of-free-time.html",
     "href": "notes/illusion-of-free-time.html",
     "title": "Illusion of free time",
     "section": "",
     "text": "Close your eyes, and see how many times in your life when you had a lot of free time and you planned to do things that would make you better. For example, finishing some book you bought and never opened, writing a book, writing a paper, creating a website, etc.\nThese big projects seem promising at first. Then you start comparing what book you should read first, or what topic you should write about, or what technology you should use in your web project. And as time goes by, you spend most of your time on these kinds of activities. When the free time is running out, you realise that you haven’t started the actual task.\nThen you realise, there is not enough time to do what you had planned. Then you get angry at yourself. This cycle may happen from time to time in your life. This phenomenon is called the “illusion and curse of leisure”."
-  },
-  {
-    "objectID": "notes/critical-thinking.html",
-    "href": "notes/critical-thinking.html",
-    "title": "Critical thinking",
-    "section": "",
-    "text": "Critical Thinking process will produce a writing that:\n\nStrong reasoning\nStrong Idea\nCommunicative\nInsightful\nCompelling\nConvincing\n\nFactors that make thinking or writing reasonable\n\nYour thinking\n\nElement of reasoning\n\nPurpose\nQuestions\nImplications and consequences\n\n\nQuality of your thinking\n\nStandards of critical thinking\n\n\nThe component of a paper\n\nPlanning\n\ntopic -&gt; general subject to be discussed\nthesis statement -&gt; Claim about the topic\nmain point -&gt; supports to the thesis statement (reasons, evidences)\nstructure/outline\n\nResearching\n\nReading & Taking notes\n\nWriting\n\nIntro\nBody\nConclussion\ngiving credit\n\nRevising\n\nKinds of writing\n\nArgumentative/Persuasive writing\nExpository writing -&gt; present the author understanding about something\nAnalytical writing -&gt; detailed expository\nDescriptive -&gt; describe experience or a scene as how it looks/ feels\nNarative -&gt; tell a story\n\nWriting for clarity\n\nSEE-I method\n\nState\nElaborate -&gt; elaboration, explanation about what have been stated\nExemplify -&gt; give example\nIllustrate -&gt; give analogy /methapor\n\nBenefit of SEE-I\n\nClarifies and fills the page of the paper\n\nfill the pages by developing the body with meaningfull information\n\nStaircasing the important concept contained in thesis statements or main point\n\nWhen to use SEE-I\n\nexplain thesis statement\nexplain ideas or concept\nexplain the second point of the theses\n\nFramework for critical writing\n\ntopic\nAnalysing the topic using the elements of reasoning\nThe plan for the paper (thesis, main points, structure, outline)\nWriting the paper using SEE-I\nAddressing the other side of an issue\nMaking the paper better: Critical thinking standards & Socratic questioning\nMaking it flow"
-  },
-  {
-    "objectID": "notes/the-aim-of-note-taking.html",
-    "href": "notes/the-aim-of-note-taking.html",
-    "title": "The aim of note-taking",
-    "section": "",
-    "text": "The purpose of taking note is to help us thinking in a visible way. In reading, it helps us to test our understanding about the text. This self-testing itself is a type of reflective activity. Hence the note-taking in reading is a visible reflective thinking.\nOur notes should contain the key and significant idea."
   },
   {
     "objectID": "notes/new-layer-in-luhmann-s-slip-box.html",
@@ -364,17 +294,122 @@
     "text": "References\n\n\nAhrens, Sönke. 2017. How to Take Smart Notes. CreateSpace.\n\n\nGoutor, Jacques. 1980. The Card-File System of Note-Taking. Guidance Centre, University of Toronto. https://archive.org/search.php?query=creator%3A%22Goutor%2C+Jacques%22.\n\n\nLuhmann, Niklas. 1981. “Kommunikation Mit Zettelkästen: Ein Erfahrungsbericht.” In Öffentliche Meinung Und Sozialer Wandel, edited by Horst Baier, Hans Mathias Kepplinger, and Kurt Reumann. Westdeutscher Verlag.\n\n\nSchmidt, Johannes F. K. 2016. “Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine.” In Forgetting Machines: Knowledge Management Evolution in Early Modern Europe, edited by Alberto Cevolini. Brill."
   },
   {
-    "objectID": "notes/syntax-trap.html",
-    "href": "notes/syntax-trap.html",
-    "title": "The Syntax Trap: Re-evaluating Programming Pedagogy in Higher Education",
+    "objectID": "notes/writing-habit-is-the-key.html",
+    "href": "notes/writing-habit-is-the-key.html",
+    "title": "Writing habit is the key",
     "section": "",
-    "text": "The pervasive challenge of programming education in higher institutions, despite its critical role in equipping future innovators, remains a significant concern. Having dedicated over a decade to teaching programming, my observations and experiences as a Computer Science Education PhD student compel me to critique the prevailing pedagogical approach: an overemphasis on programming language syntax at the expense of cultivating computational thinking. This deeply ingrained flaw in our curriculum frequently leads to a disheartening paradox: students who are fluent in syntax yet struggle profoundly with solving genuine computational problems.\nThe current paradigm, unfortunately, often treats programming as a linguistic exercise rather than a problem-solving discipline. Syllabi are frequently structured around an exhaustive tour of language constructs – variables, data types, control flow, functions, objects, and so forth. While undeniably foundational, this atomistic approach dissects the “how” of coding without adequately addressing the “why” or, crucially, the “what next.” Students diligently memorize keywords, understand operator precedence, and even master complex library functions. They can flawlessly write code that compiles and runs, yet when confronted with a novel problem requiring a decomposition into smaller, manageable parts, pattern recognition, abstraction, or algorithmic design, they often hit an insurmountable wall. Their mental toolkit is replete with hammers and screwdrivers, but they lack the blueprint or the architect’s vision to construct a building.\nComputational thinking, in essence, is the cognitive process involved in formulating problems and their solutions in a way that is amenable to execution by a computer. It encompasses decomposition, breaking down complex problems into smaller, more manageable ones; pattern recognition, identifying similarities among and within problems; abstraction, focusing on the important information while ignoring irrelevant details; and algorithmic thinking, developing step-by-step solutions. These are the intellectual muscles that empower a programmer to translate a real-world challenge into an efficient and elegant computational solution. However, current teaching methodologies often sideline these crucial cognitive skills, implicitly assuming they will magically emerge from mere exposure to syntax.\nThis pedagogical oversight manifests in several critical ways. Students become reliant on rote memorization and pattern matching to previously seen examples, rather than developing the ability to analyze and synthesize. When faced with an unfamiliar problem, they lack the conceptual frameworks to approach it systematically. Debugging, a vital aspect of programming, becomes an exercise in trial and error rather than logical deduction, as they struggle to trace the flow of execution or reason about the underlying logic. Furthermore, this syntax-heavy approach often stifles creativity and intrinsic motivation. Programming transforms from an exciting endeavor of creation and problem-solving into a tedious task of adhering to rigid rules, leading to disengagement and a higher attrition rate in advanced courses.\nThe consequences of this imbalance are far-reaching. Graduates, despite holding degrees in Computer Science, may struggle in industry roles that demand adaptive problem-solving, innovative design, and the ability to work with ill-defined problems. They might possess the technical vocabulary but lack the fluency to converse in the language of solutions. This gap between academic training and industry demands creates a significant hurdle for both individuals and the broader technological landscape.\nTo rectify this imbalance, a fundamental shift in our educational philosophy is imperative. We must re-center our programming curricula around computational thinking, integrating it explicitly and implicitly throughout all levels of instruction. This means moving beyond merely demonstrating syntax and instead prioritizing activities that foster decomposition, abstraction, and algorithmic design. Early courses should introduce problem-solving strategies, perhaps through unplugged activities or visual programming environments, before diving headfirst into complex syntactical structures. Projects should be designed not just to test syntax mastery but to challenge students to apply computational thinking principles to solve real-world problems, even if simplified. Emphasis should be placed on code readability, logical correctness, and efficiency, rather than just functional output. Debugging should be taught as a systematic process of hypothesis testing and logical reasoning.\nIn conclusion, while programming language syntax is the vehicle, computational thinking is the engine that drives true problem-solving in computer science. Our current educational approach, with its undue focus on the former, is inadvertently producing a generation of skilled typists rather than adept problem solvers. It is time for a paradigm shift, one that prioritizes the cultivation of robust computational thinking skills alongside syntactical proficiency, ensuring that our graduates are not merely fluent in the language of computers, but are truly capable of harnessing their power to innovate and address the complex challenges of the 21st century."
+    "text": "Ask a group of academics why they have not finished the paper they started last year and the answer is almost always the same: I don’t have time. Teaching, supervision, meetings and administration fill the week, so writing is postponed to the semester break, the weekend, or that mythical free month that never arrives. The assumption behind this answer is that good writing needs long, uninterrupted blocks of time.\nStudy after study shows that the assumption is wrong. You do not need much time to write effectively (Boice 1982, 1992; Krashen 2002). Writers who write a little almost every day produce more manuscripts than those who wait weeks or months between sessions. Writing just thirty minutes a day can make you one of those people who quietly publish several journal articles a year."
   },
   {
-    "objectID": "notes/information-overload-is-not-a-new-phenomenom.html",
-    "href": "notes/information-overload-is-not-a-new-phenomenom.html",
-    "title": "Information overload is not a new phenomenom",
+    "objectID": "notes/writing-habit-is-the-key.html#introduction",
+    "href": "notes/writing-habit-is-the-key.html#introduction",
+    "title": "Writing habit is the key",
     "section": "",
-    "text": "Information overload is a real and present problem for many people. The constant bombardment of new information from technology and the ever-increasing speed of life can be overwhelming. This overload can lead to decreased productivity, decreased quality of work, and even depression. There are a few things that can be done to combat information overload. One is to be more selective about the sources of information that are allowed into one’s life. Another is to take breaks from technology and give the mind time to rest. Finally, it is important to learn how to effectively filter and process information. The first step to combating information overload is to be more selective about the sources of information that are allowed into one’s life. It is important to be intentional about what information is let in. Turn off notifications for email, social media, and news apps. Choose one or two sources for news and information that are trustworthy and stick with them. Be more selective about who you follow on social media and what you allow into your feed. The second step to combating information overload is to take breaks from technology and give the mind time to rest. Go for a walk, read a book, or take a break from screens altogether. Resist the urge to check email, social media, or the news every few minutes. Give yourself permission to disconnect from the constant flow of information. The third step to combating information overload is to learn how to effectively filter and process information. When presented with a deluge of information, it can be helpful to have some sort of system for sifting through it all. One method is to prioritize information based on urgency and importance. Another method is to chunk information into manageable pieces. By learning how to effectively filter and process information, we can lessen the negative impact of information overload in our lives."
+    "text": "Ask a group of academics why they have not finished the paper they started last year and the answer is almost always the same: I don’t have time. Teaching, supervision, meetings and administration fill the week, so writing is postponed to the semester break, the weekend, or that mythical free month that never arrives. The assumption behind this answer is that good writing needs long, uninterrupted blocks of time.\nStudy after study shows that the assumption is wrong. You do not need much time to write effectively (Boice 1982, 1992; Krashen 2002). Writers who write a little almost every day produce more manuscripts than those who wait weeks or months between sessions. Writing just thirty minutes a day can make you one of those people who quietly publish several journal articles a year."
+  },
+  {
+    "objectID": "notes/writing-habit-is-the-key.html#what-the-evidence-shows",
+    "href": "notes/writing-habit-is-the-key.html#what-the-evidence-shows",
+    "title": "Writing habit is the key",
+    "section": "2 What the evidence shows",
+    "text": "2 What the evidence shows\nThe clearest demonstration comes from psychologist Robert Boice, who spent years studying how university faculty actually write. In one experiment, he randomly assigned struggling academic writers to three conditions (Boice 1983). The first group, abstinence, was asked not to write except in emergencies. The second, spontaneous, scheduled writing sessions but wrote only when they felt inspired. The third, contingency management, scheduled daily sessions and was required to write in each one, with a mild penalty if they skipped.\nThe differences were striking (Figure 1). The contingency group wrote about 3.2 pages per day, compared with 0.9 pages for the spontaneous group and 0.2 pages for the abstinent group: sixteen times more output than not writing, and three and a half times more than waiting for the muse (Silvia 2007). Just as important, the forced writers did not become mechanical. They reported a new creative idea roughly every day, while the spontaneous writers reported one every two days and the abstinent writers one every five days. Krashen’s (2002) re-analysis of the same data confirmed the pattern and suggested that the gains came from regularity rather than from sheer volume.\n\n\n\n\n\n\n\n\n\n\n\n(a) Mean pages written per day\n\n\n\n\n\n\n\n\n\n\n\n(b) Median days between new creative ideas (lower is better)\n\n\n\n\n\n\n\nFigure 1: Output and idea generation under three writing conditions, as reported by Boice (1983) and summarised by Silvia (2007).\n\n\n\nBoice’s later work with new faculty told the same story (Boice 1992). The “quick starters” who thrived in their first years were not the ones with the lightest teaching loads. They were the ones who wrote in brief, regular sessions, often no more than an hour, and who stopped before they were exhausted. Binge writers, by contrast, reported more stress, more procrastination and, over time, fewer publications."
+  },
+  {
+    "objectID": "notes/writing-habit-is-the-key.html#why-small-and-regular-works",
+    "href": "notes/writing-habit-is-the-key.html#why-small-and-regular-works",
+    "title": "Writing habit is the key",
+    "section": "3 Why small and regular works",
+    "text": "3 Why small and regular works\nSeveral mechanisms explain the effect. First, a daily session keeps the project warm. When you return to a draft the next day, the argument is still in your head, so you spend your minutes writing rather than re-reading and re-orienting. After a two-month gap, the first week is lost to remembering what you meant.\nSecond, regular writing lowers the emotional stakes of any single session. If you write only once a month, that session has to be brilliant, and the pressure feeds perfectionism and avoidance. If you write every day, a weak session is just one of many, and it is easy to try again tomorrow.\nThird, writing is thinking. Ideas do not arrive fully formed and wait to be typed; they emerge while we draft, revise and connect notes. This is why Boice’s scheduled writers generated more ideas, not fewer. Inspiration tends to follow the work."
+  },
+  {
+    "objectID": "notes/writing-habit-is-the-key.html#what-thirty-minutes-a-day-adds-up-to",
+    "href": "notes/writing-habit-is-the-key.html#what-thirty-minutes-a-day-adds-up-to",
+    "title": "Writing habit is the key",
+    "section": "4 What thirty minutes a day adds up to",
+    "text": "4 What thirty minutes a day adds up to\nSmall numbers compound. Suppose you write for thirty minutes, five days a week, and produce a modest 250 words per session. Figure 2 shows the cumulative result over a working year of 48 weeks.\n\n\n\n\n\n\n\n\nFigure 2: Illustrative projection: cumulative draft words from 30 minutes a day (250 words per session, 5 sessions per week, 48 working weeks). Dashed lines mark the length of a typical 8,000-word journal article.\n\n\n\n\n\nBy the end of the year you would have drafted 60,000 words, enough raw material for seven full-length articles. Even if half of those words are cut in revision, the output still exceeds what most binge writers manage. The projection is deliberately conservative; it assumes no weekends, no writing retreats and no particularly good days."
+  },
+  {
+    "objectID": "notes/writing-habit-is-the-key.html#conclusion",
+    "href": "notes/writing-habit-is-the-key.html#conclusion",
+    "title": "Writing habit is the key",
+    "section": "5 Conclusion",
+    "text": "5 Conclusion\nThe lesson is simple but easy to ignore: productive writing is less about talent or free time than about habit. Schedule a short session, treat it like a class you have to teach, and protect it. Start with thirty minutes. Write even when you do not feel like it, and stop when the time is up. The pages, and the ideas, will accumulate faster than you expect."
+  },
+  {
+    "objectID": "notes/writing-habit-is-the-key.html#references",
+    "href": "notes/writing-habit-is-the-key.html#references",
+    "title": "Writing habit is the key",
+    "section": "References",
+    "text": "References\n\n\nBoice, Robert. 1982. “Increasing the Writing Productivity of \"Blocked\" Academicians.” Behaviour Research and Therapy 20 (3): 197–207. https://doi.org/10.1016/0005-7967(82)90138-X.\n\n\nBoice, Robert. 1983. “Contingency Management in Writing and the Appearance of Creative Ideas: Implications for the Treatment of Writing Blocks.” Behaviour Research and Therapy 21 (5): 537–43. https://doi.org/10.1016/0005-7967(83)90045-8.\n\n\nBoice, Robert. 1992. The New Faculty Member: Supporting and Fostering Professional Development. Jossey-Bass.\n\n\nKrashen, Stephen. 2002. “Optimal Levels of Writing Management: A Re-Analysis of Boice (1983).” Education 122 (3): 605–8.\n\n\nSilvia, Paul J. 2007. How to Write a Lot: A Practical Guide to Productive Academic Writing. American Psychological Association."
+  },
+  {
+    "objectID": "notes/learning-analytics-age-of-ai.html",
+    "href": "notes/learning-analytics-age-of-ai.html",
+    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
+    "section": "",
+    "text": "When I first started teaching programming over a decade ago, my biggest concern was how to keep students engaged beyond the syntax. Why did some students thrive while others got lost after the second loop? How could I identify students struggling with core concepts before they failed their exams?\nFast forward to today — we’re living in an era where data from every keystroke, click, submission, and discussion thread is logged. Our classrooms, especially in computer science, are rich with digital traces of learning. The challenge now is not collecting data, but making sense of it. This is where Learning Analytics (LA) comes in — and in the age of Artificial Intelligence, it’s becoming a game changer."
+  },
+  {
+    "objectID": "notes/learning-analytics-age-of-ai.html#so-what-is-learning-analytics",
+    "href": "notes/learning-analytics-age-of-ai.html#so-what-is-learning-analytics",
+    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
+    "section": "🎯 So, What Is Learning Analytics?",
+    "text": "🎯 So, What Is Learning Analytics?\nIn simple terms, learning analytics is about measuring and analyzing student data to understand and improve learning. It’s not a new idea, but the capabilities have grown exponentially. Today, we can track not just whether a student submitted an assignment, but how they coded it, how long they spent on debugging, which resources they consulted, and whether they learned deeply or just barely enough to get by.\nIn my classes, especially those involving Java, GitHub, or Moodle-based labs, I can now access a full behavioral footprint. It’s like having a mirror that shows how my students actually learn — not just what they score."
+  },
+  {
+    "objectID": "notes/learning-analytics-age-of-ai.html#why-the-ai-era-changes-everything",
+    "href": "notes/learning-analytics-age-of-ai.html#why-the-ai-era-changes-everything",
+    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
+    "section": "🤖 Why the AI Era Changes Everything",
+    "text": "🤖 Why the AI Era Changes Everything\nThe hype around AI often centers on large language models (LLMs) like ChatGPT or tools like GitHub Copilot. But for educators, the real transformation is in how AI enables new layers of interpretation and prediction in learning analytics.\nHere’s what AI makes possible:\n\nPattern detection: Algorithms can identify students who are silently disengaging long before it becomes visible to a lecturer.\nPersonalized feedback: AI systems can provide individualized nudges based on how a student learns, not just what they got wrong.\nCognitive modeling: We’re getting closer to modeling students’ self-regulated learning — things like planning, monitoring, and reflecting — by interpreting multimodal data (LMS logs, GitHub commits, Slack messages, etc.).\n\nFor those of us in Computing Education, where the learning process is as important as the output (i.e., code), this is gold."
+  },
+  {
+    "objectID": "notes/learning-analytics-age-of-ai.html#the-higher-ed-reality-promise-and-pitfalls",
+    "href": "notes/learning-analytics-age-of-ai.html#the-higher-ed-reality-promise-and-pitfalls",
+    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
+    "section": "🎓 The Higher Ed Reality: Promise and Pitfalls",
+    "text": "🎓 The Higher Ed Reality: Promise and Pitfalls\nLet’s be honest: most universities are still catching up. Sure, we have LMS dashboards and performance reports, but they’re mostly descriptive. Very few institutions use LA proactively — to intervene, to mentor, to redesign.\nI’ve seen three common pitfalls:\n\nData without pedagogy: Just because we can measure doesn’t mean we’re asking the right questions.\nSurveillance over support: Students are more likely to accept analytics if it helps them grow, not just monitor them.\nLack of faculty training: Many educators are still wary or unaware of what LA (and AI) can offer.\n\nWe need a cultural shift where learning analytics becomes part of the instructional design, not just an admin add-on."
+  },
+  {
+    "objectID": "notes/learning-analytics-age-of-ai.html#case-in-point-my-current-research",
+    "href": "notes/learning-analytics-age-of-ai.html#case-in-point-my-current-research",
+    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
+    "section": "🧠 Case in Point: My Current Research",
+    "text": "🧠 Case in Point: My Current Research\nMy own PhD journey is centered around this question: Can we transform raw log data into meaningful indicators of student learning behavior? I’m working on a framework that abstracts low-level events — like assignment-view, quiz-start, code-push — into high-level learning actions using domain knowledge and context (e.g., early planning, deadline-driven cramming, iterative coding).\nOne of the most exciting directions? Using supervised learning and expert validation to map these behaviors to dimensions of self-regulated learning. The end goal is to give students a mirror — not to shame them, but to guide them."
+  },
+  {
+    "objectID": "notes/learning-analytics-age-of-ai.html#what-can-we-do-as-educators",
+    "href": "notes/learning-analytics-age-of-ai.html#what-can-we-do-as-educators",
+    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
+    "section": "🌱 What Can We Do as Educators?",
+    "text": "🌱 What Can We Do as Educators?\nIf you’re a fellow CS educator, here are a few humble suggestions:\n\nStart small: Use your LMS logs to identify common drop-off points. When do students stop engaging?\nVisualize: Plot timelines of activity — are students coding steadily or all in the last 24 hours?\nReflect: Share anonymized patterns with your students. Ask: What kind of learner are you becoming?\nCollaborate: Work with learning scientists or data analysts at your institution. You don’t have to do it alone."
+  },
+  {
+    "objectID": "notes/learning-analytics-age-of-ai.html#final-thoughts",
+    "href": "notes/learning-analytics-age-of-ai.html#final-thoughts",
+    "title": "Learning Analytics in the Age of AI: Reflections from a Computing Educator",
+    "section": "✨ Final Thoughts",
+    "text": "✨ Final Thoughts\nLearning Analytics in the AI era isn’t about replacing educators. It’s about augmenting our ability to care, support, and design better learning experiences. As computing educators, we are uniquely positioned — not only to teach about AI but to use it to transform how our students learn to learn.\nIn the end, the best analytics system is not the one that predicts grades. It’s the one that helps a struggling student find their way back into the joy of learning.\nLet’s build that future — mindfully, ethically, and with our students at the center."
+  },
+  {
+    "objectID": "notes/the-aim-of-note-taking.html",
+    "href": "notes/the-aim-of-note-taking.html",
+    "title": "The aim of note-taking",
+    "section": "",
+    "text": "The purpose of taking note is to help us thinking in a visible way. In reading, it helps us to test our understanding about the text. This self-testing itself is a type of reflective activity. Hence the note-taking in reading is a visible reflective thinking.\nOur notes should contain the key and significant idea."
+  },
+  {
+    "objectID": "notes/elements-of-reasoning.html",
+    "href": "notes/elements-of-reasoning.html",
+    "title": "Elements of reasoning",
+    "section": "",
+    "text": "There are at least 8 basic elements for reasoning:\n\npurpose\nQuestion/problems/issues\npoint of view\nassumptions\ntheories/models/concepts\ndata/information\nimplications/consequences\nconclusions/ inferences"
+  },
+  {
+    "objectID": "notes/critical-thinking.html",
+    "href": "notes/critical-thinking.html",
+    "title": "Critical thinking",
+    "section": "",
+    "text": "Critical Thinking process will produce a writing that:\n\nStrong reasoning\nStrong Idea\nCommunicative\nInsightful\nCompelling\nConvincing\n\nFactors that make thinking or writing reasonable\n\nYour thinking\n\nElement of reasoning\n\nPurpose\nQuestions\nImplications and consequences\n\n\nQuality of your thinking\n\nStandards of critical thinking\n\n\nThe component of a paper\n\nPlanning\n\ntopic -&gt; general subject to be discussed\nthesis statement -&gt; Claim about the topic\nmain point -&gt; supports to the thesis statement (reasons, evidences)\nstructure/outline\n\nResearching\n\nReading & Taking notes\n\nWriting\n\nIntro\nBody\nConclussion\ngiving credit\n\nRevising\n\nKinds of writing\n\nArgumentative/Persuasive writing\nExpository writing -&gt; present the author understanding about something\nAnalytical writing -&gt; detailed expository\nDescriptive -&gt; describe experience or a scene as how it looks/ feels\nNarative -&gt; tell a story\n\nWriting for clarity\n\nSEE-I method\n\nState\nElaborate -&gt; elaboration, explanation about what have been stated\nExemplify -&gt; give example\nIllustrate -&gt; give analogy /methapor\n\nBenefit of SEE-I\n\nClarifies and fills the page of the paper\n\nfill the pages by developing the body with meaningfull information\n\nStaircasing the important concept contained in thesis statements or main point\n\nWhen to use SEE-I\n\nexplain thesis statement\nexplain ideas or concept\nexplain the second point of the theses\n\nFramework for critical writing\n\ntopic\nAnalysing the topic using the elements of reasoning\nThe plan for the paper (thesis, main points, structure, outline)\nWriting the paper using SEE-I\nAddressing the other side of an issue\nMaking the paper better: Critical thinking standards & Socratic questioning\nMaking it flow"
   }
 ]
