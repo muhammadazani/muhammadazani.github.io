@@ -1,7 +1,0 @@
----
-title: "My Teaching"
-listing:
-  contents: teaching
-  categories: true
-  type: default
----

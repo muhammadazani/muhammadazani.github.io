@@ -1,21 +1,20 @@
 [
   {
-    "listing": "/research.html",
-    "items": []
-  },
-  {
-    "listing": "/teaching.html",
-    "items": []
-  },
-  {
     "listing": "/notes.html",
     "items": [
-      "/notes/learningAnalytics.html",
-      "/notes/sytnaxtTrap.html"
+      "/notes/ai-policy-higher-education.html",
+      "/notes/syntax-trap.html",
+      "/notes/learning-analytics-age-of-ai.html",
+      "/notes/illusion-of-free-time.html",
+      "/notes/elements-of-reasoning.html",
+      "/notes/critical-thinking.html",
+      "/notes/efficiency-requires-consitency-of-action.html",
+      "/notes/taking-notes-includes-the-process-of-looking-ideas.html",
+      "/notes/the-aim-of-note-taking.html",
+      "/notes/new-layer-in-luhmann-s-slip-box.html",
+      "/notes/information-overload-is-not-a-new-phenomenom.html",
+      "/notes/writing-habit-is-the-key.html",
+      "/notes/critical-thinking-matters.html"
     ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": []
   }
 ]
