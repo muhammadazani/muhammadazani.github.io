@@ -6,7 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Muhammad Azani Hasibuan">
 <meta name="dcterms.date" content="2022-07-10">
+<meta name="keywords" content="note-taking, Zettelkasten, Luhmann, knowledge management">
 
 <title>New layer in luhmann’s slip box – Muhammad Azani Hasibuan</title>
 <style>
@@ -27,7 +29,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -49,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-14a0918a9d335ee802f9e80204dd3225.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1faa5764eb964222466bbf155b1b0cb5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-14a0918a9d335ee802f9e80204dd3225.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-656ffdb42b4ff53b2a4058524092e406.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-183a7563f2e438f274ac041d9957178c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-656ffdb42b4ff53b2a4058524092e406.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,10 +101,13 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <meta property="og:title" content="New layer in luhmann’s slip box – Muhammad Azani Hasibuan">
-<meta property="og:description" content="Lecturer in Information Systems and PhD candidate in Computer Science: learning analytics, educational technology and self-regulated learning.">
+<meta property="og:description" content="Writing ideas on separate cards is an old scholarly practice. What Niklas Luhmann added was not the card but the connection: a numbering scheme and a habit of cross-referencing that turned a filing cabinet into a network of ideas. This essay contrasts the classic card-file method with Luhmann’s slip box and explains why the added layer of links matters for thinking and writing.">
 <meta property="og:site_name" content="Muhammad Azani Hasibuan">
 </head>
 
@@ -314,7 +338,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#the-classic-card-file-method" id="toc-the-classic-card-file-method" class="nav-link" data-scroll-target="#the-classic-card-file-method"><span class="header-section-number">2</span> The classic card-file method</a></li>
+  <li><a href="#luhmanns-new-layer-connection" id="toc-luhmanns-new-layer-connection" class="nav-link" data-scroll-target="#luhmanns-new-layer-connection"><span class="header-section-number">3</span> Luhmann’s new layer: connection</a></li>
+  <li><a href="#why-the-links-matter" id="toc-why-the-links-matter" class="nav-link" data-scroll-target="#why-the-links-matter"><span class="header-section-number">4</span> Why the links matter</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">5</span> Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -325,12 +354,24 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">New layer in luhmann’s slip box</h1>
-</div>
+<p class="subtitle lead">From storing cards to letting them talk to each other</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">note-taking</div>
+    <div class="quarto-category">writing</div>
+    <div class="quarto-category">essay</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Muhammad Azani Hasibuan </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -339,28 +380,177 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">October 1, 2026</p>
+    </div>
+  </div>
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Writing ideas on separate cards is an old scholarly practice. What Niklas Luhmann added was not the card but the connection: a numbering scheme and a habit of cross-referencing that turned a filing cabinet into a network of ideas. This essay contrasts the classic card-file method with Luhmann’s slip box and explains why the added layer of links matters for thinking and writing.</p>
+  </div>
+</div>
 
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>note-taking, Zettelkasten, Luhmann, knowledge management</p>
+  </div>
+</div>
 
 </header>
 
 
-<p>Card note-taking systems are not a new approach to note-taking from reading.</p>
-<p>Atomicity and flexibility are the main features offered by this approach. Especially when we want to arrange cards based on a certain theme and use it as a source in our writing.</p>
-<p>The Luhmann’s slip box system provides a new layer for this kind of note-taking approach. It offers a method for developing connections between cards. Instead of storing cards in silos or based on their code/label classes, Luhmann developed an approach to allow cards to communicate with each other.</p>
-<section id="references" class="level3">
-<h3 class="anchored" data-anchor-id="references">References</h3>
-<ul>
-<li><a href="https://archive.org/search.php?query=creator%3A%22Goutor%2C+Jacques%22">Goutor, Jacques. The card-file system of note-taking. Toronto : Guidance Centre, University of Toronto. 1980</a></li>
-<li><a href="https://luhmann.surge.sh/communicating-with-slip-boxes">Communicating with Slip Boxes by Niklas Luhmann (surge.sh)</a></li>
-</ul>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Card note-taking systems are not a new approach to note-taking from reading. Long before digital note apps, scholars copied quotations, facts and ideas onto index cards, one idea per card, and filed them in boxes. Guides such as Goutor’s <span class="citation" data-cites="goutor1980">(<a href="#ref-goutor1980" role="doc-biblioref">1980</a>)</span> <em>The Card-File System of Note-Taking</em> taught students to do exactly this when preparing essays and theses.</p>
+<p>Niklas Luhmann, the German sociologist, used cards too. Yet his <em>Zettelkasten</em>, or slip box, is remembered not because it contained cards but because of what he did <em>between</em> the cards. He added a new layer to the old method: a way for cards to communicate with each other <span class="citation" data-cites="luhmann1981">(<a href="#ref-luhmann1981" role="doc-biblioref">Luhmann 1981</a>)</span>.</p>
+</section>
+<section id="the-classic-card-file-method" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="the-classic-card-file-method"><span class="header-section-number">2</span> The classic card-file method</h2>
+<p>The card-file method rests on two strengths. The first is <strong>atomicity</strong>: each card holds a single idea, quotation or fact, so it can be understood on its own. The second is <strong>flexibility</strong>: because the cards are loose, they can be shuffled, grouped and regrouped. When writing, the scholar pulls out every card filed under a theme, spreads them on a desk, and arranges them into the order of an argument.</p>
+<p>The weakness lies in how the cards are stored. In the classic system each card receives a subject heading or code, and it lives in the drawer for that subject (<a href="#fig-classic" class="quarto-xref">Figure&nbsp;1</a>). A card about “feedback” sits under <em>Assessment</em>; a card about “motivation” sits under <em>Psychology</em>. The cards are atomic and flexible, but they are also isolated. Any connection between them exists only in the writer’s head, and only at the moment of writing.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-classic" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-classic-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-classic">flowchart TB
+  subgraph A["Assessment"]
+    a1["Card: feedback timing"]
+    a2["Card: rubrics"]
+  end
+  subgraph P["Psychology"]
+    p1["Card: motivation"]
+    p2["Card: self-efficacy"]
+  end
+  subgraph T["Technology"]
+    t1["Card: learning dashboards"]
+  end
+  classDef card fill:#ffffff,stroke:#7a8699,color:#1f2d3d
+  class a1,a2,p1,p2,t1 card
+  style A fill:#eef3fb,stroke:#9fb3d1,color:#1f2d3d
+  style P fill:#eef3fb,stroke:#9fb3d1,color:#1f2d3d
+  style T fill:#eef3fb,stroke:#9fb3d1,color:#1f2d3d
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-classic-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Classic card file: cards are stored in topical silos. Connections across silos are not recorded.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="luhmanns-new-layer-connection" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="luhmanns-new-layer-connection"><span class="header-section-number">3</span> Luhmann’s new layer: connection</h2>
+<p>Luhmann kept some 90,000 cards over four decades, and he credited the slip box as a partner in producing dozens of books and hundreds of articles <span class="citation" data-cites="schmidt2016">(<a href="#ref-schmidt2016" role="doc-biblioref">Schmidt 2016</a>)</span>. Two design choices made this possible.</p>
+<p>First, he gave every card a <strong>fixed, branching number</strong> instead of a subject code. A new card was placed directly behind the card it most closely continued. If card <code>21/3</code> already had a successor <code>21/4</code>, a new thought on <code>21/3</code> became <code>21/3a</code>, and a comment on that became <code>21/3a1</code>. The box could grow inward at any point, forever, without reorganisation. Position no longer meant “this belongs to topic X”; it meant “this continues that thought”.</p>
+<p>Second, and more importantly, he <strong>linked</strong> cards. Whenever he wrote a card, he noted the numbers of other related cards, however distant in the box. A card on feedback could point to one on motivation and another on dashboards, even though they had been written years apart. A small keyword index then provided a handful of entry points into these chains, rather than a complete catalogue (<a href="#fig-luhmann" class="quarto-xref">Figure&nbsp;2</a>).</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-luhmann" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-luhmann-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-luhmann">flowchart LR
+  K(["Keyword index: 'feedback'"]) --&gt; c1
+  c1["21/3&lt;br/&gt;feedback timing"] --&gt; c2["21/3a&lt;br/&gt;delayed feedback helps retention"]
+  c2 --&gt; c3["21/3a1&lt;br/&gt;but hurts novice motivation"]
+  c1 --&gt; c4["21/4&lt;br/&gt;feedback from peers"]
+  c3 -.-&gt; m1["57/12&lt;br/&gt;motivation and self-efficacy"]
+  c4 -.-&gt; d1["88/2c&lt;br/&gt;learning dashboards as feedback"]
+  d1 -.-&gt; m1
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-luhmann-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Luhmann’s slip box: branching numbers keep a line of thought together, while cross-references (dashed) connect ideas across distant parts of the box. A sparse keyword index offers entry points.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="why-the-links-matter" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="why-the-links-matter"><span class="header-section-number">4</span> Why the links matter</h2>
+<p>Links change what the box can do. In a silo system, you retrieve what you filed; you get back exactly what you expected. In a linked system, following a reference from one card leads to another you had forgotten, and from there to a third. Luhmann described the box as a <strong>communication partner</strong> because it could <em>surprise</em> him: it offered combinations of ideas that he had not planned <span class="citation" data-cites="luhmann1981">(<a href="#ref-luhmann1981" role="doc-biblioref">Luhmann 1981</a>)</span>.</p>
+<p>The links also move thinking earlier in the process. Deciding where a new card belongs and which cards it should point to forces you to ask how the idea relates to what you already know. That act is itself a form of reflection. Writing, then, becomes less about staring at a blank page and more about following and assembling chains of thought that already exist <span class="citation" data-cites="ahrens2017">(<a href="#ref-ahrens2017" role="doc-biblioref">Ahrens 2017</a>)</span>.</p>
+<p><a href="#fig-workflow" class="quarto-xref">Figure&nbsp;3</a> summarises the difference as a workflow: the classic method ends with filing, while Luhmann’s method adds a step of connecting, and that step feeds directly into writing.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-workflow" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-workflow">flowchart LR
+  R["Read"] --&gt; N["Write an atomic card"]
+  N --&gt; F["File by topic"]
+  F -. classic method .-&gt; W1["Collect cards by topic&lt;br/&gt;when writing"]
+  N --&gt; L["Place next to closest card&lt;br/&gt;and link related cards"]
+  L --&gt; I["Add keyword entry point"]
+  I --&gt; W2["Follow chains of links&lt;br/&gt;to build an argument"]
+  style L fill:#2f6fdb,color:#fff,stroke:#2f6fdb
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: From reading to writing: the connecting step is the layer Luhmann added.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="conclusion" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">5</span> Conclusion</h2>
+<p>The card, the drawer and the principle of one idea per note were already well established when Luhmann began. His contribution was a layer of connection on top of them. Instead of storing cards in silos or classifying them by code or label, he let each card refer to others and allowed the network, not the category, to carry meaning. For anyone taking notes today, whether on paper or in a digital tool, the lesson is the same: the value of a note depends less on where you file it than on what you connect it to.</p>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-ahrens2017" class="csl-entry" role="listitem">
+Ahrens, Sönke. 2017. <em>How to Take Smart Notes</em>. CreateSpace.
+</div>
+<div id="ref-goutor1980" class="csl-entry" role="listitem">
+Goutor, Jacques. 1980. <em>The Card-File System of Note-Taking</em>. Guidance Centre, University of Toronto. <a href="https://archive.org/search.php?query=creator%3A%22Goutor%2C+Jacques%22">https://archive.org/search.php?query=creator%3A%22Goutor%2C+Jacques%22</a>.
+</div>
+<div id="ref-luhmann1981" class="csl-entry" role="listitem">
+Luhmann, Niklas. 1981. <span>“Kommunikation Mit <span>Zettelkästen</span>: Ein Erfahrungsbericht.”</span> In <em>Öffentliche Meinung Und Sozialer Wandel</em>, edited by Horst Baier, Hans Mathias Kepplinger, and Kurt Reumann. Westdeutscher Verlag.
+</div>
+<div id="ref-schmidt2016" class="csl-entry" role="listitem">
+Schmidt, Johannes F. K. 2016. <span>“Niklas <span class="nocase">Luhmann’s</span> Card Index: Thinking Tool, Communication Partner, Publication Machine.”</span> In <em>Forgetting Machines: Knowledge Management Evolution in Early Modern Europe</em>, edited by Alberto Cevolini. Brill.
+</div>
+</div>
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{azani_hasibuan2022,
+  author = {Azani Hasibuan, Muhammad},
+  title = {New Layer in Luhmann’s Slip Box},
+  date = {2022-07-10},
+  url = {https://muhammadazani.github.io/notes/new-layer-in-luhmann-s-slip-box.html},
+  langid = {en},
+  abstract = {Writing ideas on separate cards is an old scholarly
+    practice. What Niklas Luhmann added was not the card but the
+    connection: a numbering scheme and a habit of cross-referencing that
+    turned a filing cabinet into a network of ideas. This essay
+    contrasts the classic card-file method with Luhmann’s slip box and
+    explains why the added layer of links matters for thinking and
+    writing.}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-azani_hasibuan2022" class="csl-entry quarto-appendix-citeas" role="listitem">
+Azani Hasibuan, Muhammad. 2022. <span>“New Layer in Luhmann’s Slip
+Box.”</span> July 10. <a href="https://muhammadazani.github.io/notes/new-layer-in-luhmann-s-slip-box.html">https://muhammadazani.github.io/notes/new-layer-in-luhmann-s-slip-box.html</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
