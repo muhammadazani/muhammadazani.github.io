@@ -1,0 +1,27 @@
+---
+title: "Research"
+---
+
+My research explores how data can enhance education, with a focus on learning analytics, self-regulated learning and process mining.
+
+## Current project
+
+### A Systematic Framework for Context and Domain-Driven Event Abstraction in Multi-modal Data within Online Collaborative Learning Environments
+
+*PhD dissertation, University of Western Australia*
+
+**Goal:** to measure and improve students' self-regulation strategies by transforming raw learning events into high-level, interpretable learning actions, validated through expert judgment and process analysis.
+
+Related publications:
+
+- Hasibuan, M. A., Reynolds, M., Male, S., & Hassan, G. M. (2023). Role of theory in analysing the dynamic of self-regulated learning process based on students' event logs data: A scoping review. *ASCILITE 2023: People, Partnerships and Pedagogies*, 126--136.
+- Hasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F. (2021). Assessing a measurement model of self-regulated learning in an online collaborative learning environment. *REES AAEE 2021 Conference: Engineering Education Research Capability*.
+
+See all [publications](publications.qmd).
+
+## Themes
+
+- **Learning analytics & educational data mining:** predicting study outcomes and specialization fit from academic data.
+- **Process mining:** analysing academic business processes and student event logs.
+- **Text mining & sentiment analysis:** classifying exam questions by Bloom's taxonomy level and analysing public opinion.
+- **Data quality management:** data profiling, cleansing and monitoring with open-source tools.

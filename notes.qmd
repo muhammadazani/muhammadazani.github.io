@@ -1,0 +1,13 @@
+---
+title: "Notes"
+subtitle: "Essays and working notes on learning, teaching, thinking and writing."
+listing:
+  contents: notes
+  type: table
+  fields: [date, title, categories, reading-time]
+  date-format: "MMM D, YYYY"
+  filter-ui: true
+  sort: "date desc"
+  feed: true
+title-block-banner: false
+---

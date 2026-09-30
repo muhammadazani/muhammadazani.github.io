@@ -1,0 +1,31 @@
+---
+title: "Curriculum Vitae"
+---
+
+<!-- TODO: put a PDF of your CV at files/cv.pdf and uncomment the next line. -->
+<!-- [Download CV (PDF)](files/cv.pdf){.btn .btn-outline-primary} -->
+
+## Education
+
+- **PhD in Computer Science**, University of Western Australia (UWA), Perth --- 2025\
+  Focus: Learning Analytics, Self-Regulated Learning, Event Abstraction, Process Mining
+- **Master of Information Systems**, Universitas Indonesia --- 2011
+- **Bachelor of Informatics Engineering**, Universitas Indonesia --- 2008
+
+## Appointments
+
+<!-- TODO: add institution and years. -->
+
+- **Lecturer**, Information Systems
+
+## Teaching
+
+Object-Oriented Programming · Databases · Information Systems Strategy
+
+## Skills
+
+Process mining · Machine learning · Behavioral analytics · Cloud computing (Azure, AWS) · Data visualization · Educational software development
+
+## Publications
+
+See the full list on the [Publications](publications.qmd) page.
