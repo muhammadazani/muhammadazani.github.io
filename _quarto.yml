@@ -16,8 +16,6 @@ website:
         text: About
       - href: research.qmd
         text: Research
-      - href: publications.qmd
-        text: Publications
       - href: teaching.qmd
         text: Teaching
       - href: notes.qmd

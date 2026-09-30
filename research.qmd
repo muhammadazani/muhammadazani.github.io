@@ -1,5 +1,7 @@
 ---
 title: "Research"
+aliases:
+  - publications.html
 subtitle: "Learning analytics · Self-regulated learning · Process mining · Educational data mining"
 toc: true
 toc-location: right

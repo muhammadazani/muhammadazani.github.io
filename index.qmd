@@ -35,7 +35,7 @@ In the classroom, I design student-centred courses built on real-world case stud
 
 ::: {.about-actions}
 [Research](research.qmd){.btn .btn-primary}
-[Publications](publications.qmd){.btn .btn-outline-primary}
+[Publications](research.qmd#research-themes-and-publications){.btn .btn-outline-primary}
 [CV](cv.qmd){.btn .btn-outline-primary}
 :::
 
@@ -95,7 +95,7 @@ Universitas Indonesia
 - Lubis, M., Hasibuan, M. A., & Andreswari, R. (2022). Satisfaction measurement in the blended learning system of the university: The Literacy Mediated-Discourses (LM-D) framework. *Sustainability*, 14(19), 12929. <https://doi.org/10.3390/su141912929>
 - Hasibuan, M. A., Reynolds, M., Male, S., Hassan, G. M., & Kusumasari, T. F. (2021). Assessing a measurement model of self-regulated learning in an online collaborative learning environment. *REES AAEE 2021 Conference*.
 
-[See all publications →](publications.qmd)
+[See all publications →](research.qmd#research-themes-and-publications)
 
 ## Beyond research
 

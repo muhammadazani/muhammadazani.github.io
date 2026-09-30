@@ -204,7 +204,7 @@ Twenty-four publications since 2013, in venues including *Sustainability*, *Jour
 - Saedudin, R. R., Kasim, S. B., Mahdin, H., & Hasibuan, M. A. (2017). Soft set approach for clustering graduated dataset. In *Recent Advances on Soft Computing and Data Mining* (pp. 631--637). Springer.
 - Hidayanto, A. N., Hasibuan, M. A., Handayani, P. W., & Sucahyo, Y. G. (2013). Framework for measuring ERP implementation readiness in small and medium enterprise (SME): A case study in software developer company. *Journal of Computers*, 8(7), 1777--1782.
 
-[Full publication list →](https://muhammadazani.github.io/publications.html)
+[Full publication list →](https://muhammadazani.github.io/research.html#research-themes-and-publications)
 
 ## Skills
 
