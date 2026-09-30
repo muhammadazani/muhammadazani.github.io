@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/teaching.html",
+    "listing": "/research.html",
     "items": []
   },
   {
@@ -19,5 +19,9 @@
       "/notes/writing-habit-is-the-key.html",
       "/notes/critical-thinking-matters.html"
     ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": []
   }
 ]
