@@ -1,23 +1,57 @@
 ---
 title: "Teaching"
+page-layout: full
+toc: true
+toc-location: right
+listing:
+  - id: courses
+    contents: teaching/courses.yml
+    sort: "order"
+    template: _templates/teaching.ejs
+  - id: other
+    contents: teaching/other.yml
+    sort: "order"
+    template: _templates/teaching.ejs
 ---
 
 I design student-centered learning experiences using real-world case studies, mastery-based learning models and active learning strategies, and I always aim to make abstract concepts more approachable and applicable.
 
 ## Course websites
 
-- [**BBK1AAB4 Algoritma & Pemrograman**](https://muhammadazani.github.io/BBK1AAB4/) --- S1 Sistem Informasi, Telkom University
+:::{#courses}
+:::
 
-## Courses
+## Other courses
 
-<!-- TODO: add course codes, semesters and links to course materials. -->
-
-- Object-Oriented Programming
-- Databases
-- Information Systems Strategy
+:::{#other}
+:::
 
 ## Writing on teaching
 
-- [The Syntax Trap: Re-evaluating Programming Pedagogy in Higher Education](notes/syntax-trap.qmd)
-- [Learning Analytics in the Age of AI: Reflections from a Computing Educator](notes/learning-analytics-age-of-ai.qmd)
-- [Academic Policy Framework for Ethical AI Use in Higher Education](notes/ai-policy-higher-education.qmd)
+::::::: {.grid}
+
+:::::: {.card .g-col-12 .g-col-md-4}
+::::: {.card-body}
+#### [The Syntax Trap](notes/syntax-trap.qmd)
+
+Re-evaluating programming pedagogy in higher education: why computational thinking should come before syntax.
+:::::
+::::::
+
+:::::: {.card .g-col-12 .g-col-md-4}
+::::: {.card-body}
+#### [Learning Analytics in the Age of AI](notes/learning-analytics-age-of-ai.qmd)
+
+Reflections from a computing educator on what learning data and AI can, and should, do for teaching.
+:::::
+::::::
+
+:::::: {.card .g-col-12 .g-col-md-4}
+::::: {.card-body}
+#### [Ethical AI Use in Higher Education](notes/ai-policy-higher-education.qmd)
+
+An academic policy framework for using generative AI responsibly, with Telkom University as the case.
+:::::
+::::::
+
+:::::::

@@ -1,0 +1,16 @@
+# One entry per course. Fields:
+#   title, number (course code), university, description, url (course website)
+#   color: tile colour when there is no logo; logo: optional image path (e.g. teaching/logos/alpro.png)
+#   semester: optional list of offerings, each with name and optional url
+#   order: position in the list (lower comes first)
+- title: "Algoritma & Pemrograman"
+  number: BBK1AAB4
+  university: Telkom University · S1 Sistem Informasi
+  description: "Learn to think like a programmer: break problems into clear steps, then write correct, readable and tested Python programs."
+  url: https://muhammadazani.github.io/BBK1AAB4/
+  color: "#2a6f97"
+  order: 1
+  # TODO: add the semesters you teach it, e.g.
+  # semester:
+  #   - name: Ganjil 2025/2026
+  #     url: https://muhammadazani.github.io/BBK1AAB4/

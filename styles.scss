@@ -7,3 +7,27 @@ $primary: #2a6f97;
 
 .navbar-title { font-weight: 700; }
 .quarto-about-trestles .about-entity .about-link { font-size: 0.9rem; }
+
+// Teaching page: course entries
+.course-list { display: flex; flex-direction: column; gap: 1.75rem; margin: 1rem 0 2rem; }
+.course-entry { display: flex; gap: 1.25rem; align-items: flex-start; }
+.course-logo { flex: 0 0 110px; }
+.course-logo img, .course-tile { width: 110px; height: 110px; border-radius: 10px; object-fit: cover; }
+.course-tile {
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  color: #fff; font-weight: 700; font-size: 0.95rem; padding: 0.4rem; letter-spacing: 0.02em; white-space: nowrap;
+}
+.course-body p { margin-bottom: 0.3rem; }
+.course-title { font-size: 1.2rem; font-weight: 600; }
+.course-title a { text-decoration: none; }
+.course-details { font-size: 0.9rem; opacity: 0.75; }
+.course-description { font-size: 0.95rem; }
+.course-semesters { list-style: none; padding: 0; margin: 0.4rem 0 0; display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.9rem; }
+@media (max-width: 575px) {
+  .course-logo { flex-basis: 72px; }
+  .course-logo img, .course-tile { width: 72px; height: 72px; font-size: 0.62rem; }
+}
+
+.course-list { margin-bottom: 0.5rem; }
+.quarto-listing .listing-no-matching, .quarto-listing .pagination { display: none; }
+.card-body > h4:first-child, .card-body > .anchored:first-child { margin-top: 0; }
