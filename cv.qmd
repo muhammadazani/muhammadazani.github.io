@@ -4,17 +4,43 @@ subtitle: "Muhammad Azani Hasibuan, M.T.I., PMP · Lecturer in Information Syste
 toc: true
 toc-location: right
 toc-title: "Sections"
+format:
+  html:
+    format-links: false
+  typst:
+    title: "Muhammad Azani Hasibuan"
+    subtitle: "M.T.I., PMP · Lecturer in Information Systems · PhD Candidate in Computer Science"
+    toc: false
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 1.8cm
+    fontsize: 10pt
+    output-file: cv.pdf
+    include-in-header:
+      text: |
+        #show table: set par(justify: false)
+        #show link: set text(fill: rgb("#2a6f97"))
+    filters:
+      - cv-typst.lua
 ---
 
-<!-- TODO: put an up-to-date PDF of your CV at files/cv.pdf and uncomment the next line. -->
-<!-- [Download CV (PDF)](files/cv.pdf){.btn .btn-primary .cv-download} -->
+::: {.content-visible when-format="html"}
+[[]{.bi .bi-file-earmark-pdf} Download PDF](cv.pdf){.btn .btn-primary .cv-download}
+:::
 
 ::: {.lead}
 Lecturer in Information Systems at Telkom University and PhD candidate at the University of Western Australia. I combine more than fifteen years of experience in university teaching, learning technology leadership and IT consulting. My research applies learning analytics, data mining and process mining to understand and support students' self-regulated learning in online and collaborative environments.
 :::
 
+::: {.content-visible when-format="html"}
 [[]{.bi .bi-linkedin} LinkedIn](https://www.linkedin.com/in/muhammadazani/){.btn .btn-sm .btn-outline-primary .no-external}
 [[]{.bi .bi-github} GitHub](https://github.com/muhammadazani){.btn .btn-sm .btn-outline-primary .no-external}
+:::
+
+::: {.content-visible when-format="typst"}
+**Web:** [muhammadazani.github.io](https://muhammadazani.github.io) · **LinkedIn:** [linkedin.com/in/muhammadazani](https://www.linkedin.com/in/muhammadazani/) · **GitHub:** [github.com/muhammadazani](https://github.com/muhammadazani)
+:::
 
 **Research interests:** Learning analytics · Data mining & business intelligence · Online and collaborative learning · Human–computer interaction · Self-regulated learning · Process mining
 
@@ -118,7 +144,7 @@ Lab facilitator, Relational Database Management Systems
 
 : {.cv-table .table-sm}
 
-[Current courses are listed on the [Teaching](teaching.qmd) page.]{.cv-note}
+[Current courses are listed on the [Teaching](https://muhammadazani.github.io/teaching.html) page.]{.cv-note}
 :::
 :::
 
@@ -178,7 +204,7 @@ Twenty-four publications since 2013, in venues including *Sustainability*, *Jour
 - Saedudin, R. R., Kasim, S. B., Mahdin, H., & Hasibuan, M. A. (2017). Soft set approach for clustering graduated dataset. In *Recent Advances on Soft Computing and Data Mining* (pp. 631--637). Springer.
 - Hidayanto, A. N., Hasibuan, M. A., Handayani, P. W., & Sucahyo, Y. G. (2013). Framework for measuring ERP implementation readiness in small and medium enterprise (SME): A case study in software developer company. *Journal of Computers*, 8(7), 1777--1782.
 
-[Full publication list →](publications.qmd)
+[Full publication list →](https://muhammadazani.github.io/publications.html)
 
 ## Skills
 
