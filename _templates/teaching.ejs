@@ -1,0 +1,33 @@
+```{=html}
+<div class="course-list">
+<% for (const course of items) {
+     const words = (course.number || course.title).split(/\s+/);
+     const tile = course.number ? course.number : words.map(w => w[0]).join('').slice(0, 3); %>
+  <div class="course-entry">
+    <div class="course-logo">
+      <% const inner = course.logo
+           ? `<img src="${course.logo}" alt="${course.title}">`
+           : `<div class="course-tile" style="background:${course.color || 'var(--bs-primary)'}">${tile}</div>`; %>
+      <% if (course.url) { %><a href="<%= course.url %>"><%= inner %></a><% } else { %><%= inner %><% } %>
+    </div>
+    <div class="course-body">
+      <p class="course-title">
+        <% if (course.url) { %><a href="<%= course.url %>"><%= course.title %></a><% } else { %><%= course.title %><% } %>
+      </p>
+      <% const details = [course.number, course.university].filter(Boolean); %>
+      <% if (details.length) { %><p class="course-details"><%= details.join(' | ') %></p><% } %>
+      <% if (course.description) { %><p class="course-description"><%= course.description %></p><% } %>
+      <% if (course.semester && course.semester.length) { %>
+      <ul class="course-semesters">
+        <% for (const s of course.semester) { %>
+        <li><% if (s.url) { %><a href="<%= s.url %>"><i class="bi bi-calendar3"></i> <%= s.name %></a><% } else { %><i class="bi bi-calendar3"></i> <%= s.name %><% } %></li>
+        <% } %>
+      </ul>
+      <% } else if (course.url) { %>
+      <ul class="course-semesters"><li><a href="<%= course.url %>"><i class="bi bi-box-arrow-up-right"></i> Course website</a></li></ul>
+      <% } %>
+    </div>
+  </div>
+<% } %>
+</div>
+```

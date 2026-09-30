@@ -1,0 +1,14 @@
+# Courses without their own website yet. Add number, university, description,
+# url and semester as they become available (same fields as courses.yml).
+- title: "Object-Oriented Programming"
+  description: "Classes, objects, encapsulation, inheritance and polymorphism, practised through real-world case studies."
+  color: "#6a4c93"
+  order: 1
+- title: "Databases"
+  description: "Relational modelling, SQL and database design for information systems."
+  color: "#1b998b"
+  order: 2
+- title: "Information Systems Strategy"
+  description: "Aligning information systems with organisational goals and strategy."
+  color: "#c05621"
+  order: 3

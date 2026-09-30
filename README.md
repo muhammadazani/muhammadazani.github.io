@@ -10,7 +10,7 @@ Academic homepage of Muhammad Azani Hasibuan, built with [Quarto](https://quarto
 | `index.qmd`           | About (home) page                                      |
 | `research.qmd`        | Research projects                                      |
 | `publications.qmd`    | Publications, grouped by year                          |
-| `teaching.qmd`        | Courses and writing on teaching                        |
+| `teaching.qmd`        | Course list (data in `teaching/*.yml`) and writing     |
 | `notes.qmd`, `notes/` | Essays and notes (one `.qmd` each; RSS at `notes.xml`) |
 | `cv.qmd`              | CV (put a PDF at `files/cv.pdf` and link it)           |
 | `styles.scss`         | Colour and font tweaks for the light and dark themes   |
