@@ -1,12 +1,51 @@
 ---
-title: "azanihs"
-jupyter: python3
+title: "Muhammad Azani Hasibuan"
+subtitle: "Lecturer in Information Systems · PhD candidate in Computer Science"
+toc: false
+about:
+  template: trestles
+  image: images/profile.png
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/muhammadazani
+    # TODO: uncomment and fill in the links you want to show
+    # - icon: linkedin
+    #   text: LinkedIn
+    #   href: https://www.linkedin.com/in/your-profile
+    # - icon: mortarboard
+    #   text: Google Scholar
+    #   href: https://scholar.google.com/citations?user=YOUR_ID
+    # - icon: envelope
+    #   text: Email
+    #   href: mailto:you@example.com
 ---
 
-This is a Quarto website.
+Hi, I'm Azani, a lecturer in Information Systems and a PhD candidate in Computer Science, with a passion for learning analytics, educational technology, and intelligent systems that empower learners.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Over the past few years, I have dedicated myself to exploring how data can enhance education. My current research focuses on developing a framework to transform low-level student activity logs into meaningful behavioral insights, helping educators better understand and support self-regulated learning in digital environments. I combine expertise in process mining, machine learning, and behavioral analytics to bridge the gap between raw educational data and impactful learning decisions.
 
-```{python}
-1 + 1
-```
+As a lecturer, I love designing student-centered learning experiences using real-world case studies, mastery-based learning models, and active learning strategies. I've taught courses in Object-Oriented Programming, Databases, and Information Systems Strategy, and I always aim to make abstract concepts more approachable and applicable.
+
+Beyond academia, I enjoy building personal productivity systems that integrate Islamic values with modern frameworks like OKR and the 12-Week Year. I also have hands-on experience with cloud computing (Azure, AWS), data visualization, and educational software development.
+
+## Research interests
+
+- Learning Analytics & Educational Data Mining
+- Self-Regulated Learning (SRL) & Behavior Modeling
+- Event Abstraction & Process Mining
+- AI-based Feedback & Digital Nudging in Education
+- Productivity Systems for Lifelong Learning
+
+## Education
+
+**PhD in Computer Science** (2025) · University of Western Australia (UWA), Perth\
+Focus: Learning Analytics, Self-Regulated Learning, Event Abstraction, Process Mining
+
+**Master of Information Systems** (2011) · Universitas Indonesia
+
+**Bachelor of Informatics Engineering** (2008) · Universitas Indonesia
+
+## Get in touch
+
+Whether you're interested in learning analytics, education technology, productivity systems, or just want to say hi, feel free to reach out through the links on this page.

@@ -1,0 +1,19 @@
+---
+title: "Teaching"
+---
+
+I design student-centered learning experiences using real-world case studies, mastery-based learning models and active learning strategies, and I always aim to make abstract concepts more approachable and applicable.
+
+## Courses
+
+<!-- TODO: add course codes, semesters and links to course materials. -->
+
+- Object-Oriented Programming
+- Databases
+- Information Systems Strategy
+
+## Writing on teaching
+
+- [The Syntax Trap: Re-evaluating Programming Pedagogy in Higher Education](notes/syntax-trap.qmd)
+- [Learning Analytics in the Age of AI: Reflections from a Computing Educator](notes/learning-analytics-age-of-ai.qmd)
+- [Academic Policy Framework for Ethical AI Use in Higher Education](notes/ai-policy-higher-education.qmd)

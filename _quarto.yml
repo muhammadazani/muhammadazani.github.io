@@ -1,19 +1,49 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "azanihs"
+  title: "Muhammad Azani Hasibuan"
+  site-url: https://muhammadazani.github.io
+  description: "Lecturer in Information Systems and PhD candidate in Computer Science: learning analytics, educational technology and self-regulated learning."
+  favicon: images/favicon.svg
+  open-graph: true
+  search: true
+  page-navigation: true
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: notes.qmd
+        text: Notes
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/muhammadazani
+        aria-label: GitHub
+      # TODO: add a LinkedIn or email icon, e.g.
+      # - icon: linkedin
+      #   href: https://www.linkedin.com/in/your-profile
+  page-footer:
+    left: "© 2026 Muhammad Azani Hasibuan · Content under CC BY-NC 4.0"
+    right: "Built with [Quarto](https://quarto.org)"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [darkly, styles.scss]
     toc: true
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
 
-editor: visual
-
+execute:
+  freeze: auto
