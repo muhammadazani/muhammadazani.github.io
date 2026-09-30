@@ -2,6 +2,7 @@
 title: "Academic Policy Framework for Ethical AI Use in Higher Education: Case in Telkom University"
 author: "Muhammad Azani Hasibuan"
 categories: [AI, policy, essay]
+draft: true
 ---
 
 ## **Introduction and Rationale**
