@@ -6,7 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Muhammad Azani Hasibuan">
 <meta name="dcterms.date" content="2022-07-07">
+<meta name="keywords" content="academic writing, productivity, habit, Boice">
 
 <title>Writing habit is the key – Muhammad Azani Hasibuan</title>
 <style>
@@ -27,7 +29,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -83,8 +104,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Writing habit is the key – Muhammad Azani Hasibuan">
-<meta property="og:description" content="Lecturer in Information Systems and PhD candidate in Computer Science: learning analytics, educational technology and self-regulated learning.">
+<meta property="og:description" content="Many academics believe that serious writing requires large, uninterrupted blocks of time. The evidence says otherwise. Drawing on Robert Boice’s experiments with faculty writers and later re-analyses, this essay argues that a small, scheduled, daily writing habit produces more pages and more ideas than waiting for inspiration or binge-writing during breaks. A short Python analysis visualises the reported effect sizes and projects what thirty minutes a day adds up to over a year.">
+<meta property="og:image" content="https://muhammadazani.github.io/notes/writing-habit-is-the-key_files/figure-html/fig-boice-output-1.png">
 <meta property="og:site_name" content="Muhammad Azani Hasibuan">
+<meta property="og:image:height" content="739">
+<meta property="og:image:width" content="930">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -309,8 +333,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#what-the-evidence-shows" id="toc-what-the-evidence-shows" class="nav-link" data-scroll-target="#what-the-evidence-shows"><span class="header-section-number">2</span> What the evidence shows</a></li>
+  <li><a href="#why-small-and-regular-works" id="toc-why-small-and-regular-works" class="nav-link" data-scroll-target="#why-small-and-regular-works"><span class="header-section-number">3</span> Why small and regular works</a></li>
+  <li><a href="#what-thirty-minutes-a-day-adds-up-to" id="toc-what-thirty-minutes-a-day-adds-up-to" class="nav-link" data-scroll-target="#what-thirty-minutes-a-day-adds-up-to"><span class="header-section-number">4</span> What thirty minutes a day adds up to</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">5</span> Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -319,12 +354,24 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Writing habit is the key</h1>
-</div>
+<p class="subtitle lead">Why thirty minutes a day beats waiting for a free week</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">writing</div>
+    <div class="quarto-category">productivity</div>
+    <div class="quarto-category">essay</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Muhammad Azani Hasibuan </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -333,19 +380,149 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">October 1, 2026</p>
+    </div>
+  </div>
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Many academics believe that serious writing requires large, uninterrupted blocks of time. The evidence says otherwise. Drawing on Robert Boice’s experiments with faculty writers and later re-analyses, this essay argues that a small, scheduled, daily writing habit produces more pages and more ideas than waiting for inspiration or binge-writing during breaks. A short Python analysis visualises the reported effect sizes and projects what thirty minutes a day adds up to over a year.</p>
+  </div>
+</div>
 
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>academic writing, productivity, habit, Boice</p>
+  </div>
+</div>
 
 </header>
 
 
-<p>Study after study shows that you don’t need much time to write effectively (Boice 1982, 1992; Krashen 2002). In fact, writers who write a little almost every day produce more manuscripts than those who write for weeks or months without writing at all. Writing just thirty minutes a day can make you one of the great writers who publishes several journal articles a year</p>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Ask a group of academics why they have not finished the paper they started last year and the answer is almost always the same: <em>I don’t have time</em>. Teaching, supervision, meetings and administration fill the week, so writing is postponed to the semester break, the weekend, or that mythical free month that never arrives. The assumption behind this answer is that good writing needs long, uninterrupted blocks of time.</p>
+<p>Study after study shows that the assumption is wrong. You do not need much time to write effectively <span class="citation" data-cites="boice1982 boice1992 krashen2002">(<a href="#ref-boice1982" role="doc-biblioref">Boice 1982</a>, <a href="#ref-boice1992" role="doc-biblioref">1992</a>; <a href="#ref-krashen2002" role="doc-biblioref">Krashen 2002</a>)</span>. Writers who write a little almost every day produce more manuscripts than those who wait weeks or months between sessions. Writing just thirty minutes a day can make you one of those people who quietly publish several journal articles a year.</p>
+</section>
+<section id="what-the-evidence-shows" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="what-the-evidence-shows"><span class="header-section-number">2</span> What the evidence shows</h2>
+<p>The clearest demonstration comes from psychologist Robert Boice, who spent years studying how university faculty actually write. In one experiment, he randomly assigned struggling academic writers to three conditions <span class="citation" data-cites="boice1983">(<a href="#ref-boice1983" role="doc-biblioref">Boice 1983</a>)</span>. The first group, <em>abstinence</em>, was asked not to write except in emergencies. The second, <em>spontaneous</em>, scheduled writing sessions but wrote only when they felt inspired. The third, <em>contingency management</em>, scheduled daily sessions and was required to write in each one, with a mild penalty if they skipped.</p>
+<p>The differences were striking (<a href="#fig-boice" class="quarto-xref">Figure&nbsp;1</a>). The contingency group wrote about 3.2 pages per day, compared with 0.9 pages for the spontaneous group and 0.2 pages for the abstinent group: sixteen times more output than not writing, and three and a half times more than waiting for the muse <span class="citation" data-cites="silvia2007">(<a href="#ref-silvia2007" role="doc-biblioref">Silvia 2007</a>)</span>. Just as important, the forced writers did not become mechanical. They reported a new creative idea roughly every day, while the spontaneous writers reported one every two days and the abstinent writers one every five days. Krashen’s <span class="citation" data-cites="krashen2002">(<a href="#ref-krashen2002" role="doc-biblioref">2002</a>)</span> re-analysis of the same data confirmed the pattern and suggested that the gains came from regularity rather than from sheer volume.</p>
+<div id="fig-boice" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-boice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-boice" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-boice-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-boice-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="writing-habit-is-the-key_files/figure-html/fig-boice-output-1.png" data-ref-parent="fig-boice" width="465" height="370" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-boice-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Mean pages written per day
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-boice" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-boice-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-boice-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="writing-habit-is-the-key_files/figure-html/fig-boice-output-2.png" data-ref-parent="fig-boice" width="465" height="370" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-boice-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Median days between new creative ideas (lower is better)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-boice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Output and idea generation under three writing conditions, as reported by Boice (1983) and summarised by Silvia (2007).
+</figcaption>
+</figure>
+</div>
+<p>Boice’s later work with new faculty told the same story <span class="citation" data-cites="boice1992">(<a href="#ref-boice1992" role="doc-biblioref">Boice 1992</a>)</span>. The “quick starters” who thrived in their first years were not the ones with the lightest teaching loads. They were the ones who wrote in brief, regular sessions, often no more than an hour, and who stopped before they were exhausted. Binge writers, by contrast, reported more stress, more procrastination and, over time, fewer publications.</p>
+</section>
+<section id="why-small-and-regular-works" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="why-small-and-regular-works"><span class="header-section-number">3</span> Why small and regular works</h2>
+<p>Several mechanisms explain the effect. First, a daily session keeps the project <em>warm</em>. When you return to a draft the next day, the argument is still in your head, so you spend your minutes writing rather than re-reading and re-orienting. After a two-month gap, the first week is lost to remembering what you meant.</p>
+<p>Second, regular writing lowers the emotional stakes of any single session. If you write only once a month, that session has to be brilliant, and the pressure feeds perfectionism and avoidance. If you write every day, a weak session is just one of many, and it is easy to try again tomorrow.</p>
+<p>Third, writing is thinking. Ideas do not arrive fully formed and wait to be typed; they emerge while we draft, revise and connect notes. This is why Boice’s scheduled writers generated <em>more</em> ideas, not fewer. Inspiration tends to follow the work.</p>
+</section>
+<section id="what-thirty-minutes-a-day-adds-up-to" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="what-thirty-minutes-a-day-adds-up-to"><span class="header-section-number">4</span> What thirty minutes a day adds up to</h2>
+<p>Small numbers compound. Suppose you write for thirty minutes, five days a week, and produce a modest 250 words per session. <a href="#fig-projection" class="quarto-xref">Figure&nbsp;2</a> shows the cumulative result over a working year of 48 weeks.</p>
+<div id="cell-fig-projection" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div id="fig-projection" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-projection-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="writing-habit-is-the-key_files/figure-html/fig-projection-output-1.png" width="753" height="370" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-projection-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Illustrative projection: cumulative draft words from 30 minutes a day (250 words per session, 5 sessions per week, 48 working weeks). Dashed lines mark the length of a typical 8,000-word journal article.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>By the end of the year you would have drafted 60,000 words, enough raw material for seven full-length articles. Even if half of those words are cut in revision, the output still exceeds what most binge writers manage. The projection is deliberately conservative; it assumes no weekends, no writing retreats and no particularly good days.</p>
+</section>
+<section id="conclusion" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">5</span> Conclusion</h2>
+<p>The lesson is simple but easy to ignore: productive writing is less about talent or free time than about habit. Schedule a short session, treat it like a class you have to teach, and protect it. Start with thirty minutes. Write even when you do not feel like it, and stop when the time is up. The pages, and the ideas, will accumulate faster than you expect.</p>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-boice1982" class="csl-entry" role="listitem">
+Boice, Robert. 1982. <span>“Increasing the Writing Productivity of "Blocked" Academicians.”</span> <em>Behaviour Research and Therapy</em> 20 (3): 197–207. <a href="https://doi.org/10.1016/0005-7967(82)90138-X">https://doi.org/10.1016/0005-7967(82)90138-X</a>.
+</div>
+<div id="ref-boice1983" class="csl-entry" role="listitem">
+Boice, Robert. 1983. <span>“Contingency Management in Writing and the Appearance of Creative Ideas: Implications for the Treatment of Writing Blocks.”</span> <em>Behaviour Research and Therapy</em> 21 (5): 537–43. <a href="https://doi.org/10.1016/0005-7967(83)90045-8">https://doi.org/10.1016/0005-7967(83)90045-8</a>.
+</div>
+<div id="ref-boice1992" class="csl-entry" role="listitem">
+Boice, Robert. 1992. <em>The New Faculty Member: Supporting and Fostering Professional Development</em>. Jossey-Bass.
+</div>
+<div id="ref-krashen2002" class="csl-entry" role="listitem">
+Krashen, Stephen. 2002. <span>“Optimal Levels of Writing Management: A Re-Analysis of <span>Boice</span> (1983).”</span> <em>Education</em> 122 (3): 605–8.
+</div>
+<div id="ref-silvia2007" class="csl-entry" role="listitem">
+Silvia, Paul J. 2007. <em>How to Write a Lot: A Practical Guide to Productive Academic Writing</em>. American Psychological Association.
+</div>
+</div>
 
 
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{azani_hasibuan2022,
+  author = {Azani Hasibuan, Muhammad},
+  title = {Writing Habit Is the Key},
+  date = {2022-07-07},
+  url = {https://muhammadazani.github.io/notes/writing-habit-is-the-key.html},
+  langid = {en},
+  abstract = {Many academics believe that serious writing requires
+    large, uninterrupted blocks of time. The evidence says otherwise.
+    Drawing on Robert Boice’s experiments with faculty writers and later
+    re-analyses, this essay argues that a small, scheduled, daily
+    writing habit produces more pages and more ideas than waiting for
+    inspiration or binge-writing during breaks. A short Python analysis
+    visualises the reported effect sizes and projects what thirty
+    minutes a day adds up to over a year.}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-azani_hasibuan2022" class="csl-entry quarto-appendix-citeas" role="listitem">
+Azani Hasibuan, Muhammad. 2022. <span>“Writing Habit Is the Key.”</span>
+July 7. <a href="https://muhammadazani.github.io/notes/writing-habit-is-the-key.html">https://muhammadazani.github.io/notes/writing-habit-is-the-key.html</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
