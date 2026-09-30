@@ -59,3 +59,33 @@ body.quarto-dark {
   .edu-item::before { background: #7cc0e6; }
   .about-actions .btn-outline-primary { color: #7cc0e6; border-color: #7cc0e6; }
 }
+
+// CV page
+.cv-download { margin-bottom: 1rem; }
+.cv-entry {
+  display: grid; grid-template-columns: 7.5rem 1fr; gap: 0 1.25rem;
+  padding: 0.9rem 0; border-bottom: 1px solid rgba(128, 128, 128, 0.18);
+}
+.cv-entry:last-of-type { border-bottom: none; }
+.cv-entry > p:first-child { margin: 0; }
+.cv-date { font-size: 0.85rem; font-weight: 600; color: $primary; white-space: nowrap; padding-top: 0.15rem; display: inline-block; }
+.cv-body p { margin-bottom: 0.4rem; }
+.cv-body p:last-child, .cv-body ul:last-child { margin-bottom: 0; }
+.cv-body ul { padding-left: 1.1rem; font-size: 0.95rem; }
+.cv-body li { margin-bottom: 0.35rem; }
+.cv-note { font-size: 0.9rem; opacity: 0.75; }
+.cv-skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin: 1rem 0 1.5rem; }
+.cv-skill-group p:first-child { margin-bottom: 0.5rem; }
+.cv-skill-group p:last-child { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.cv-tag {
+  display: inline-block; font-size: 0.82rem; padding: 0.2rem 0.6rem; border-radius: 999px;
+  background: rgba($primary, 0.08); border: 1px solid rgba($primary, 0.22);
+}
+@media (max-width: 575px) {
+  .cv-entry { grid-template-columns: 1fr; }
+  .cv-date { padding-top: 0; margin-bottom: 0.2rem; }
+}
+body.quarto-dark .cv-date { color: #7cc0e6; }
+@media print {
+  #quarto-header, #quarto-margin-sidebar, .nav-footer, .cv-download { display: none !important; }
+}
